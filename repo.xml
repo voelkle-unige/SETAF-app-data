@@ -1,0 +1,13 @@
+<meta xmlns="http://exist-db.org/xquery/repo">
+    <description>SETAF Data</description>
+    <author/>
+    <website/>
+    <status>alpha</status>
+    <license>GNU-LGPL</license>
+    <copyright>true</copyright>
+    <type>application</type>
+    <target>setaf-data</target>
+    <prepare>pre-install.xql</prepare>
+    <finish>post-install.xql</finish>
+    <permissions xmlns:repo="http://exist-db.org/xquery/repo" password="simple" user="setaf" group="tei" mode="rw-r--r--"/>
+</meta>

@@ -1,0 +1,1232 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <!-- Ajouter le titre sur le modèle suivant : Chansons nouvelles demonstrantz plusieurs erreurs et faulsetez. [Neuchâtel] : [Pierre de Vingle], [1534?]. -->
+            <title>Édition critique - TEST</title>
+            <!-- Ajouter le nom de toutes les personnes qui participent à l'encodage -->
+            <respStmt>
+               <resp>Direction of SETAF project.</resp>
+               <persName xml:id="DSC">
+                  <forename>Daniela</forename>
+                  <surname>Solfaroli Camillocci</surname>
+                  <ptr type="orcid" target="000000022601668X"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Supervision</resp>
+               <persName xml:id="GG">
+                  <forename>Geneviève</forename>
+                  <surname>Gross</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Modelling and document engineering support.</resp>
+               <persName xml:id="SG">
+                  <forename>Simon</forename>
+                  <surname>Gabay</surname>
+                  <ptr type="orcid" target="0000000190944475"/>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>Mise en ligne de l’édition via TEI Publisher et accompagnement à l’encodage.</resp>
+               <persName xml:id="EL">
+                  <forename>Elina</forename>
+                  <surname>Leblanc</surname>
+                  <ptr type="orcid" target="0009-0009-4556-8840"/>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <extent>
+            <measure unit="total_images" n="?"/>
+            <measure unit="processed_images" n="?"/>
+         </extent>
+         <publicationStmt>
+            <publisher>Projet SETAF</publisher>
+            <authority>Institut Histoire de la Réformation (IHR), université de Genève</authority>
+            <address>
+               <addrLine>22 boulevard des Philosophes</addrLine>
+               <addrLine>CH-1211 Genève</addrLine>
+            </address>
+            <availability status="restricted" n="CC-BY">
+               <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+               <p>Creative Commons Attribution 4.0 CC BY 4.0</p>
+            </availability>
+            <date when="2023-10-27"/> <!-- Quelle date pour la publication de l'édition numérique ? -->
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier xml:id="MHR_KLUT_8">
+                  <country>Suisse</country>
+                  <settlement>Genève</settlement>
+                  <institution>Musée historique de la Réformation (MHR)</institution>
+                  <idno type="shelfmark">MHR K LUT 8</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>
+                     <biblStruct>
+                        <monogr>
+                           <!-- AUTEUR -->
+                           <author>
+                              <persName>Anonyme</persName>
+                           </author>
+                           <!-- TITRE -->
+                           <title type="complete_title">Les faitz de Jésus Christ et du pape, par lesquelz chascun pourra facilement congnoistre la grande différence d'entre eulx, nouvellement reveuz, corrigez, et augmentez selon la verité de la saincte Escripture, et des droictz canons, par le lecteur du sainct Palais.</title> 
+                           <title type="short_title">Les faitz de Jésus Christ et du pape</title>
+                           <imprint>
+                              <!-- LIEU DE PUBLICATION ET IMPRIMEUR -->
+                              <pubPlace cert="medium" ref="geonames:2660646">Genève</pubPlace>
+                              <respStmt>
+                                 <resp>Imprimeur</resp>
+                                 <persName><forename>Jean</forename> <surname>Michel</surname></persName>
+                              </respStmt>
+                              <!-- DATE DE PUBLICATION -->
+                              <date cert="low">??</date>
+                           </imprint>
+                        </monogr>
+                     </biblStruct>
+                  </p>
+               </msContents>         
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <support>
+                           <dim>??</dim>
+                           <signatures>??</signatures>
+                        </support>
+                     </supportDesc>
+                  </objectDesc>
+               </physDesc>
+               <additional>
+                  <surrogates>
+                     <bibl>
+                        <ref target="https://doi.org/10.3931/e-rara-12688"/>
+                        <relatedItem type="original">
+                           <ref target="#MHR_KLUT_8">e-rara</ref>
+                        </relatedItem>
+                        <availability>
+                           <licence target="https://creativecommons.org/publicdomain/mark/1.0/deed.en"/>
+                           <p>Images : Public Domain Mark (e-rara)</p>
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"/>
+                           <p>Édition : CC BY</p>
+                        </availability>
+                     </bibl>
+                     <listBibl type="other_copies">
+                        <bibl>NB Österreichische Nationalbibliothek - 78.G.48</bibl>
+                        <bibl>Collegium Wilhelmitanum Bibliothèque - 16.4(10)</bibl>
+                        <bibl>UB Universitätsbibliothek - B644</bibl>
+                        <bibl>UB Universitätsbibliothek-ZB Bong V 25:5</bibl>
+                     </listBibl>
+                  </surrogates>
+                  <listBibl>
+                        <bibl>
+                           <ref target="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-1406">
+                              <orgName>GLN</orgName>
+                              <idno>1406</idno>
+                           </ref>
+                        </bibl>
+                        <bibl>
+                           <ref target="https://www.ustc.ac.uk/editions/9746">
+                              <orgName>USTC</orgName>
+                              <idno>9746</idno>
+                           </ref>
+                        </bibl>
+                  </listBibl>
+               </additional>
+            </msDesc>
+            <listWit>
+               <witness xml:id="LatW1521">
+                  <bibl>
+                     <title>Passional Christi und Antichristi</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Johann Rhau-Grunenberg</publisher>
+                     <pubPlace>Wittenberg</pubPlace>
+                     <date>1521</date>
+                     <idno>Halle, Universitäts- und Landesbibliothek Sachsen-Anhalt, Ib 4187 a (30)</idno>
+                     <dim>In-4°</dim>
+                     <textLang>Latin</textLang>
+                     <noteGrp type="sources">
+                        <note><ref target="https://opendata2.uni-halle.de/handle/1516514412012/3880"/></note>
+                        <note><ref ana="EditionNumerique_formatXML-TEI" source="BodleianLibrary_Douce C 313" target="https://editions.mml.ox.ac.uk/editions/passional-douce-c-313/"/></note>
+                     </noteGrp>
+                  </bibl>
+               </witness>
+               <witness xml:id="W1521">
+                  <bibl>
+                     <title>Passional Christi und Antichristi</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Johann Rhau-Grunenberg</publisher>
+                     <pubPlace>Wittenberg</pubPlace>
+                     <date>1521</date>
+                     <idno>Dresden, Sächsische Landesbibliothek - Staats- und Universitätsbibliothek Dresden (SLUB), Hist.eccl.E.319,2</idno>
+                     <dim>In-4°</dim>
+                     <textLang>Allemand</textLang>
+                     <noteGrp type="sources">
+                        <note><ref target="https://digital.slub-dresden.de/werkansicht/dlf/174230/1"/></note>
+                        <note><ref ana="EditionNumerique_formatXML-TEI" target="https://www.deutschestextarchiv.de/book/show/luther_passional_1521"/></note>
+                     </noteGrp>
+                  </bibl>
+               </witness>
+               <witness xml:id="P1521">
+                  <bibl>
+                     <title>Passional Christi und Antichristi</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Johann Prüss</publisher>
+                     <pubPlace>Strassburg</pubPlace>
+                     <date>1521</date>
+                     <idno>Zürich, Zentralbibliothek, 18.84: c,3</idno>
+                     <dim>In-4°</dim>
+                     <textLang>Allemand</textLang>
+                     <noteGrp type="sources">
+                        <note><ref target="https://www.e-rara.ch/zuz/content/zoom/5897367"/></note>
+                     </noteGrp>
+                  </bibl>
+               </witness>
+               <witness xml:id="K1521">
+                  <bibl>
+                     <title>Passional Christi vnd Antichristi</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Johann Knobloch</publisher>
+                     <pubPlace>Strassburg</pubPlace>
+                     <date>1521</date>
+                     <idno>Munich, Bayerische Staatsbibliothek, Res/4 H.eccl. 870,9</idno>
+                     <dim>In-4°</dim>
+                     <textLang>Allemand</textLang>
+                     <noteGrp type="sources">
+                        <note><ref target="https://www.digitale-sammlungen.de/en/view/bsb00088259?page=,1"/></note>
+                        <note><ref ana="EditionNumerique_formatXML-TEI" source="BodleianLibraryOxford_Tr.Luth.250a" target="https://editions.mml.ox.ac.uk/editions/passional/"/></note>
+                     </noteGrp>
+                  </bibl>
+               </witness>
+               <witness xml:id="E1521">
+                  <bibl>
+                     <title>Passional Christi vnd Antichristi</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Matthes Maler</publisher>
+                     <pubPlace>Erfurt</pubPlace>
+                     <date>1521</date>
+                     <idno>Zürich, Zentralbibliothek, 18.516,11</idno>
+                     <dim>In-4°</dim>
+                     <textLang>Allemand</textLang>
+                     <noteGrp type="sources">
+                        <note><ref target="https://www.e-rara.ch/zuz/doi/10.3931/e-rara-23547"/></note>
+                        <note><ref ana="EditionNumerique_formatXML-TEI" source="TaylorInstitutionLibrary_ARCH.8o.G.1521(19)" target="https://editions.mml.ox.ac.uk/editions/passional/"/></note>
+                     </noteGrp>
+                  </bibl>
+               </witness>
+               <witness xml:id="CRRPV19">
+                  <bibl>
+                     <title>Faictz de Jesus Christ et du Pape</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Pierre de Vingle</publisher>
+                     <pubPlace>Neuchâtel</pubPlace>
+                     <date>1534</date>
+                     <idno>Paris, Bibliothèque d'histoire du protestantisme français, A 1001</idno>
+                     <dim>In-2°</dim>
+                  </bibl>
+               </witness>
+               <witness xml:id="FranceCa1560">
+                  <bibl>
+                     <title>Les faitz de Iesus Christ et du Pape</title>
+                     <author>Luther Martin</author>
+                     <author>Philippe Melanchton</author>
+                     <publisher>Pierre de Vingle</publisher>
+                     <pubPlace>France</pubPlace>
+                     <date>[s.d.]</date>
+                     <idno>Manchester, John Rylands Library, R166109</idno>
+                     <dim>In-2°</dim>
+                  </bibl>
+               </witness>
+            </listWit>
+            <listBibl>
+               <bibl xml:id="Friedberg1959pars1">
+                  <title type="main">Corpus juris canonici</title>
+                  <title type="pars">Pors prior: Decretum Magistri Gratiani</title>
+                  <edition>Ed. Lipsiensis 2a post Aemilii Ludovici Richteri curas ad librorum manum scriptorum et editionis romanae fidem recognovit et adnotatione critica instruxit Aemilius Friedberg</edition>
+                  <publisher>Akademische Druck-U.Verlagsanstalt</publisher>
+                  <pubPlace>Graz</pubPlace>
+                  <date>1959</date>
+                  <note>Reprod. de l'édition de : Leipzig: B. Tauchnitz, 1879</note>
+               </bibl>
+               <bibl xml:id="Friedberg1959pars2">
+                  <title type="main">Corpus juris canonici</title>
+                  <title type="pars">Pors secunda: Decretalium collectiones</title>
+                  <edition>Ed. Lipsiensis 2a post Aemilii Ludovici Richteri curas ad librorum manum scriptorum et editionis romanae fidem recognovit et adnotatione critica instruxit Aemilius Friedberg</edition>
+                  <publisher>Akademische Druck-U.Verlagsanstalt</publisher>
+                  <pubPlace>Graz</pubPlace>
+                  <date>1959</date>
+                  <note>Reprod. de l'édition de : Leipzig: B. Tauchnitz, 1879</note>             
+               </bibl>
+               <bibl xml:id="Wareham2021">
+                  <title>The Passional of Christ and Antichrist and The Antithesis of the Life of Christ and Antichrist in Pictures</title>
+                  <author>Wareham Wanitzek, Edmund</author>
+                  <author>Bubenheimer, Ulrich</author>
+                  <author>Lähnemann, Henrike</author>
+                  <publisher>Taylor Institution Library</publisher>
+                  <series>Treasures of the Taylorian Series One: Reformation Pamphlets</series>
+                  <pubPlace>Oxford</pubPlace>
+                  <date>2021</date>             
+               </bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="isni" matchPattern="([0-9]+)" replacementPattern="https://isni.org/isni/$1">
+               <p>Pour ce projet, il a été décidé de faire référence à la base en ligne ISNI</p> 
+            </prefixDef>
+         </listPrefixDef>
+         <projectDesc>
+            <p>Ce corpus numérique s'inscrit dans le cadre du projet SETAF <ref target="https://www.unige.ch/setaf/"/>, dirigé par la Prof·e Daniela Solfaroli Camillocci (IHR) 
+                  et financé par le FNS : <ref target="https://data.snf.ch/grants/grant/205056"/>.</p>
+         </projectDesc>
+         <editorialDecl><!-- À compléter pour l'édition numérique des Faits de JCH -->
+            <correction>
+               <p>Cas de corrections à indiquer</p>
+            </correction>
+            <normalization>
+               <ab type="intermediary"/>
+               <p>Dissimilation i/j u/v</p>
+               <p>Résolution des abréviations</p>
+               <p>Segmentation des mots (cas particuliers à indiquer)</p>
+               <p>Le copiste du ms. V que nous suivons présente systématiquement ou presque des y
+                  avec des points suscrits, que nous avons choisi, comme la précédente éditrice, de
+                  ne pas rendre</p>
+               <p> Références
+                  <ptr target="http://theleme.enc.sorbonne.fr/cours/edition_epoque_moderne/edition_des_textes"/>
+                  <ptr target="https://www.btb.termiumplus.gc.ca"/>   
+               </p>   
+               <ab type="advanced" resp="GG"/>
+               <!-- Calvin, Oeuvres, Edition établie par Francis Higman et Bernard Roussell, Paris, Gallimard, 2009, p LXXXII.   -->
+               <p n="1"> Changement graphématique/Graphie et morphologie
+                  <lb/>Emploi de "y": l'emploi de "y" sera normalisé, comme en français contemporain
+                  <lb/>Graphies concernant les voyelles
+                  <lb/>Graphies concernant les consonnes. 
+                  Cette modernisation concerne les consonnes muettes internes "ct", "ulx", "ld" et les consonnes doubles.
+                  <lb/>Morphologie verbale
+                  À l'indicatif imparfait, la désinence étymologique -oie/oye est remplacée par -ais.
+                  <lb/>Variations purement morphographiques
+               </p>
+               <p n="2">Changement de casse
+                  <lb/>L'usage des majuscules et des minuscules est normalisée
+               </p>
+               <p n="3">Représentation des chiffres</p>
+               <p n="4">Lissage du vêtement graphique</p>
+               <p n="5">Les signes auxiliaires
+                  <lb/>a. Les accents.
+                  Tous les accents seront normalisés.
+                  <lb/>b. Le tréma
+                  Tous les trémas seront normalisés.
+                  <lb/>c. La cédille
+                  Toutes les cédilles soront normalisées
+                  <lb/>d. Le trait d'union
+                  Les mots sans trait d'union seront réunis par un trait d'union.
+               </p>
+               <p n="6">Séquences du texte
+                  <lb/>a. L'élision par l'apostrophe
+                  <lb/>b. Séquences séparées mais agglutinées en français contemporain
+                  <lb/>c. Séquences agglutinées mais séparées en français contemporain   
+               </p>
+               <p n="7">Les signes fonctionnels
+                  <lb/>a.Le pied-de-mouche
+                  <lb/>b. Le tiret d'hyphénisation
+               </p>
+            </normalization>
+            <punctuation>
+               <p>Les signes de ponctuation ne seront pas normalisés</p>
+            </punctuation>
+            <quotation>
+               <p>Les références à la Bible et au droit canon
+                  <lb/>a. Les abréviations des références bibliques sont résolues dans la régularisation avancée.
+                  <lb/>b. Les abréviations du droit canon (Décret de Gratien)<!-- ATTENTION CONTROLer avec méthode classique de citer le droit canon -->                  1. Le <hi rend="italic">Décret de Gratien</hi> est divisé en trois grandes parties. 
+                  1.1.La première partie est subdivisée en distictions puis en canon ou chapitre. 
+                  Une référence à cette partie sera indiquée comme suit: D.(n°XXX), c.(n°XX).
+                  1.2.La deuxième partie connaît trois subdivisions. 
+                  Elle est divisée en causes, qui sont subdivisées en questions, elles-mêmes divisées en canon.
+                  Une référence à cette partie sera indiquée comme suit: C.(n°XXX), q. (n°XX), c.(n°XXX).
+                  1.3.La troisième partie a pour titre le <hi rend="italic">de consecratione</hi>. Elle est divisée en distinctions, 
+                  qui sont divisés en canons ou en chapitres. Une référence à cette partie sera indiquée comme suit:
+                  D.(n°XX) <hi rend="italic">de cons.</hi>, c.(n°XX).
+                  1.4. La cause XXIII porte le titre de : <hi rend="italic">de poenitentia.</hi><!-- A CONTINUER ICI -->
+                  2. Les <hi rend="italic">Décrétales de Grégoire IX</hi> se composent de cinq livres divisés en titres et en chapitres.
+                  Elles sont identifiées par le sigle "X", signifiant eXtra Decretum, soit "hors du Décret". Une référence aux <hi rend="italic">&gt;Décrétales</hi>
+                  sera indiquée comme suit: X (n°XX), n°du livre (en chiffres romains), c.(n°XX)
+                  3. Le <hi rend="italic">Liber Sextus</hi>, du nom latin <hi rend="italic">Sextus Liber Decretalium</hi> est le recueil de décrétales entrepris et promulgué par Boniface VIII
+                  en 1298. Il fait suite aux <hi rend="italic">Décrétales de Grégoire IX</hi>. Ce sixième livre des Décrétales estdivisé en cinq livres, lui-même subdivisé en titres et en chapitres.
+                  Les références à ce livre seront notées ainsi: Sexte (n°XX), n°du livre (en chiffres romains), c.(n°XX).
+                  4. Les <hi rend="italic">Constitutions de Clément V</hi>, ou <hi rend="italic">Clémentines</hi> sont divisées en cinq livres. Ces cinq livres sont divisés en titres et chapitres.
+                  On notera les références de la manière suivante: Clem. n°du livre (en chiffres romains), n°du titre (en chiffres romains), n°du chapitre (en chiffres romains).
+                  5. Les <hi rend="italic">Extravagantes</hi> de Jean XXII <!-- A CONTINUER ICI --> 
+                  
+                  
+                  
+                  Toutes les citations apparaîtront dans le texte de normalisation avancée avec la méthode décrite ici.
+                  
+                  <bibl><ref>https://ustpaul.libguides.com/ld.php?content_id=22875199</ref></bibl>
+               </p>
+            </quotation>
+            <segmentation>
+               <p>Mentionner l'encodage adopté pour le découpage physique du texte: ab = div quand? emploi de p pour chaque paragraphe</p>
+               <p>Mentionner peut-être ici la méthode employée, en termes de l'emploi de différentes strates d'annotation.
+                  par exemple: L'encodage des variantes a été intégré à la ligne de lecture <gi>orig</gi>
+                  par exemple: L'encodage du vocabulaire a été intégré à la ligne de lecture <gi>reg</gi>.
+                  par exemple: L'encodage de la nature ou structure du texte a été intégré à la ligne de lecture<gi>reg</gi> 
+               </p>
+            </segmentation>
+            <interpretation>
+               <p/>
+            </interpretation>
+         </editorialDecl>
+         <appInfo>
+            <application ident="Kraken" version="4.1">
+               <label>Kraken</label>
+               <ptr target="https://github.com/mittagessen/kraken"/>
+            </application>
+         </appInfo>
+         <appInfo>
+            <application ident="FoNDUE" version="0.1">
+               <label>FoNDUE</label>
+               <ptr target="https://test2.fondue.unige.ch/"/>
+            </application>
+         </appInfo>
+         <classDecl>
+            <taxonomy xml:id="SegmOnto">
+               <bibl>
+                  <title>SegmOnto</title>
+                  <ptr target="https://segmonto.github.io/"/>
+               </bibl>
+               <category xml:id="SegmOntoZones"/>
+               <category xml:id="SegmOntoLines"/>
+            </taxonomy>
+         </classDecl>
+      </encodingDesc>
+      <profileDesc>
+         <particDesc>
+            <listPerson>
+               <person xml:id="Boniface"> <!-- deux alternatives au choix: ref ou ptr -->
+                  <name>Boniface VIII</name>
+                  <persName role="pope">Benedetto Caetani</persName>
+                  <birth>ca.1235/1240</birth>
+                  <death>1303</death>
+                  <note>élu au pontificat en 1294</note>
+                  <ptr target="https://isni.org/isni/0000000121242007"/>
+               </person>
+               <person xml:id="Paul">
+                  <name>Pietro Barbo</name>
+                  <persName role="pope">Paul II</persName>
+                  <birth>1417</birth>
+                  <death>1471</death>
+                  <note>élu au pontificat en 1464</note>
+                  <ptr target="https://isni.org/isni/0000000455908112"/>
+               </person>
+               <person xml:id="Gregoire">
+                  <name>Hildebrand</name>
+                  <persName role="pope">Grégoire VII</persName>
+                  <birth>1020
+                     <placeName>Soana</placeName>
+                     <country>Italie</country>
+                  </birth>
+                  <death>1085</death>
+                  <note>élu au ponticat en 1073</note>
+                  <ptr target="https://www.universalis.fr/encyclopedie/gregoire-vii-hildebrand/"/>
+               </person>
+               <person xml:id="Cesar">
+                  <name>César Borgia</name>
+                  <persName>duc de Valentinois</persName>
+                  <note> titre crée par Louis XII en 1498</note>
+                  <birth>1475</birth>
+                  <death>1507</death>
+                  <note>César Borgia, dit « le Valentinois »,
+                     est le fils aîné naturel de Rodrigo Borgia (pape sous le nom d'Alexandre VI) et 
+                     de Vannozza Cattanei, patricienne romaine</note>
+               </person>
+               <person xml:id="Jean">
+                  <name>Jacques Duèze (ou d'Euse)</name>
+                  <persName role="pope">Jean XXII</persName>
+                  <birth>1249</birth>
+                  <death>1334</death>
+                  <note>élu au pontificat en 1316</note>
+                  <ptr target="https://isni.org/isni/0000000449165295"/>
+               </person>
+               <person xml:id="Jules">
+                  <name>Giuliano Della Rovere</name>
+                  <persName role="pope">Jules II</persName>
+                  <birth>1443</birth>
+                  <death>1513</death>
+                  <note>élu au pontificat en 1503</note>
+                  <ptr target="https://www.idref.fr/027528081"/>
+                  <ptr target="https://isni.org/isni/0000000121326761"/>
+               </person>
+               <person xml:id="Leon">
+                  <name>Jean de Médicis</name>
+                  <birth>1475</birth>
+                  <death>1521</death>
+                  <note>élu au pontificat en 1513</note>
+                  <note>fils de Laurent de Médicis</note>
+                  <ptr target="https://www.idref.fr/070725721"/>
+                  <ptr target="https://isni.org/isni/000000012096688X"/>
+               </person>
+               <person xml:id="Clement">
+                  <name>Jules de Médicis</name>
+                  <persName role="pope">Clément VII</persName>
+                  <birth>1478
+                     <placeName>Florence</placeName>
+                  </birth>
+                  <death>1534</death>
+                  <note>élu au pontificat en 1523</note>
+                  <note>archevêque de Florence, 1513-1523</note>
+                  <ptr target="https://www.idref.fr/072315563"/>
+                  <ptr target="https://isni.org/isni/0000000121432441"/>
+               </person>
+               <person xml:id="Valla">
+                  <persName>Lorenzo Valla</persName>
+                  <birth>1407</birth>
+                  <death>1457</death>
+                  <occupation>secrétaire pontifical</occupation>
+                  <note>philologue, humaniste italien</note>
+                  <ptr target="https://isni.org/isni/0000000121258391"/>
+               </person>
+               <person xml:id="Albert">
+                  <persName>Albert Ier</persName>
+                  <birth>1248</birth>
+                  <death>1308</death>
+                  <note>roi des Romains et duc d’Autriche, fils aîné de l’empereur Rodolphe de Habsbourg (1255-1308)</note>
+                  <ptr target="https://isni.org/isni/0000000024857405"/>
+                  <ptr target="https://www.idref.fr/190452730"/>
+               </person>
+            </listPerson>
+         </particDesc>
+         <langUsage>
+            <language ident="frm">Français du XVIe siècle</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term type="form"><!-- Type de texte ? --></term>
+               <term type="segmentation_quality">gold</term>
+               <term type="transcription_quality">gold</term>
+               <term type="intermediary_reg_quality">gold</term>
+               <term type="advanced_reg_quality">gold</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <!-- Liste des modifications -->
+         <change/>
+      </revisionDesc>
+   </teiHeader>
+  <sourceDoc>
+     <surface xml:id="f8">
+        <graphic url="iiif:https://www.e-rara.ch/i3f/v20/4518839"/>
+     </surface>
+     <surface xml:id="f9">
+        <graphic url="iiif:https://www.e-rara.ch/i3f/v20/4518840"/>
+     </surface>
+     <surface xml:id="f10">
+        <graphic url="iiif:https://www.e-rara.ch/i3f/v20/4518841"/>
+     </surface>
+     <surface xml:id="f11">
+        <graphic url="iiif:https://www.e-rara.ch/i3f/v20/4518842"/>
+     </surface>
+  </sourceDoc>
+  <text xml:id="ed-crit">
+      <body>
+         <div type="antithesis" n="1">
+            <div type="Christ" n="a">
+               <pb corresp="#f8" n="FolioA4v°"/>
+               
+               <div type="MainZone" corresp="#f8_eSc_textblock_255fc2cf">
+                  <head place="top-center" rendition="bold">
+                     <choice>
+                        <orig>Iesus Christ fuyt</orig>
+                        <reg type="intermediary">Jesus Christ fuyt</reg>
+                        <reg type="contemporary">Jésus Christ fuit</reg>
+                     </choice>
+                  </head>
+                  
+                  <note type="MarginTextZone" subtype="manchette" place="margin" corresp="#f8_eSc_textblock_daec6f66" xml:lang="la">
+                     <choice>
+                        <orig><sic>Rengna</sic></orig>
+                        <reg type="intermediary">Regna</reg>
+                        <reg type="contemporary">Regna</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_a263dcd7_ligne_3"/>
+                     <choice>
+                        <orig>fugit</orig>
+                        <reg type="intermediary">fugit</reg>
+                        <reg type="contemporary">fugit</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_b0dc2b02_ligne_4"/>
+                     <choice>
+                        <orig>Christꝰ</orig>
+                        <reg type="intermediary">Christus</reg>
+                        <reg type="contemporary">Christus</reg>
+                     </choice>
+                     <note type="editor">Remploi de la manchette déjà présente dans le <hi rend="italic">Passional</hi><ref target="#P1521 #K1521"/> de 1521 de Strasbourg</note>
+                  </note>
+                  <figure>
+                     <graphic corresp="antithese_1a" url="/4518839/420,200,1180,1420/full/0/default.jpg"/>
+                     <figDesc>Le Christ refuse la couronne du royaume terrestre</figDesc>
+                  </figure>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_1487f9d2_ligne_3"/>
+                     <choice>
+                        <orig>¶ Iesus doncques quand il congneut quilz debuoyent uenir</orig>
+                        <reg type="intermediary">¶ Jesus doncques quand il <term key="#congnoistre">congneut</term> qu'ilz debvoyent venir</reg>
+                        <!--<reg type="contemporary1">¶ Jesus donc quand il <term n="1" key="#congnoistre">congneut</term> qu'ils debvoyent venir</reg>-->
+                        <reg type="contemporary">¶ Ainsi, lorsque Jésus s'aperçut qu'ils devaient venir</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_3772f511_ligne_4"/>
+                     <choice>
+                        <orig>pour le prendre/ ¶ le faire Roy: de rechief se retira seul en la</orig>
+                        <reg type="intermediary">pour le prendre/ et le faire Roy: <term key="#de_rechief">de rechief</term> se retira seul en la</reg>
+                        <reg type="contemporary">pour l'enlever et le faire roi, il se retira de nouveau, seul, dans la</reg><!-- Modernisation: ajout de il. Transformation de en: dans // traduction TOB -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_78e6c56d_ligne_5"/>
+                     <choice>
+                        <orig>montaigne. Iehan.6.</orig>
+                        <reg type="intermediary">montaigne.<bibl type="biblical" ana="Jn6:15">Jehan.6.</bibl><note type="editor">Remploi de la citation déjà présente dans le <hi rend="italic">Passional</hi><ref target="#W1521 #P1521 #K1521 #E1521"/> et les <hi rend="italic">Antithesis figurata</hi> <ref target="#LatW1521"/> de 1521</note></reg>
+                        <reg type="contemporary">montagne. <bibl type="biblical">Jn 6:15</bibl></reg>
+                     </choice>
+                     <note type="MarginTextZone" corresp="#f8_eSc_textblock_af8b44fc" place="margin">
+                        <choice>
+                           <orig>Iehan.6.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Jn6:15">Jehan.6.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Jn 6:15</bibl></reg><!-- résoudre les citations bibliques dans la régularisation type contemporaine. 
+                           Solution qui simplifie l'encodage. La partie ana apparaît dans choice-->
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f8_eSc_line_cd66d3dd_ligne_3"/>
+                        <choice>
+                           <orig>Iehã.18.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Jn18:36">Jehan.18.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Jn 18:36</bibl></reg>
+                        </choice>
+                     </note>
+                  </p>
+               
+                  <p>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_38d12056_ligne_6"/>
+                     <choice>
+                        <orig>¶ Mon Royaume nest pas de ce monde. Iehan.18.</orig>
+                        <reg type="intermediary">¶ Mon Royaume n'est pas de ce monde. <bibl type="biblical" ana="Jn18:36">Jehan.18.</bibl><note type="editor">Remploi de la citation déjà présente dans le <hi rend="italic">Passional</hi><ref target="#W1521 #P1521 #K1521 #E1521"/> et les <hi rend="italic">Antithesis figurata</hi> <ref target="#LatW1521"/> de 1521</note></reg>
+                        <reg type="contemporary">¶ Mon royaume n'est pas de ce monde. <bibl type="biblical">Jn 18:36.</bibl></reg>
+                     </choice>
+                  </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_280d7f4b_ligne_7"/>
+                     <choice>
+                        <orig>¶ Les Roys des gens ont domination sur eulx/ ⁊ ceulx qui</orig>
+                        <reg type="intermediary">¶ Les Roys des <term key="#gent">gens</term> ont domination sur eulx/ et ceulx qui</reg>
+                        <reg type="contemporary">¶ Les rois des nations ont autorité sur leurs peuples et ceux qui</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_7ed664e6_ligne_8"/>
+                     <choice>
+                        <orig>ont puissance sur iceulx/ sont nommez biensfaicteurs: mais</orig>
+                        <reg type="intermediary">ont <term key="#puissance">puissance</term> sur iceulx/ sont nommez biensfaicteurs: mais</reg>
+                        <reg type="contemporary">exercent ce pouvoir sur elles, sont nommés bienfaiteurs. Mais,</reg><!-- modernisation: iceulx: ceux-ci ou eux? Ajout de: ils-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_8423c7b6_ligne_9"/>
+                     <choice>
+                        <orig>il nest point ainsi de uous. Ains celuy qui est le plus grand</orig>
+                        <reg type="intermediary">il n'est <term n="1" key="#point">point</term> ainsi de vous. <term key="#ains">Ains</term> celuy qui est le plus grand</reg>
+                        <reg type="contemporary">qu'il n'en soit pas ainsi de vous. Au contraire, que le plus grand</reg>
+                     </choice>
+                  </p>
+               </div>
+                  
+                 <fw type="QuireMarksZone" corresp="#f8_eSc_textblock_cf476627">
+                     <lb type="DefaultLine" corresp="#f8_eSc_line_ef353dee_ligne_2"/>
+                     <choice>
+                        <orig>dentre</orig>
+                        <reg type="intermediary">d'entre</reg>
+                        <reg type="contemporary">d'entre</reg>
+                     </choice>
+                  </fw>
+               
+               <pb corresp="#f9" n="FolioB1r°"/>
+                  
+               <div type="MainZone" corresp="#f9_eSc_textblock_fed0e5ec">
+                  <head place="top-center" rendition="bold">
+                     <choice>
+                        <orig>le royaume terrien.</orig>
+                        <reg type="intermediary">le royaume terrien<term key="#terrien"/>.</reg>
+                        <reg type="contemporary">le royaume terrestre<term key="#terrien"/>.</reg>
+                     </choice>
+                  </head>    
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_7094e254_ligne_3"/>
+                     <choice>
+                        <orig>dentre uous/ soit faict le moindre: ⁊ celuy qui precede/ comme</orig>
+                        <reg type="intermediary">d'entre vous/ soit faict le moindre: et celuy qui <term key="#preceder">precede</term>/ comme</reg>
+                        <reg type="contemporary">parmi vous soit fait le plus petit, et celui qui commande,</reg><!-- Modernisation: ajout de qu'il: qu'il soit fait -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_1b497422_ligne_4"/>
+                     <choice>
+                        <orig>le seruiteur. Car lequel est le plus grand/ celuy qui est assis</orig>
+                        <reg type="intermediary">le serviteur. Car lequel est le plus grand/ celuy qui est assis</reg>
+                        <reg type="contemporary">le serviteur. En effet, qui est le plus grand? Celui qui est assis</reg><!-- Modernisation: lequel: qui; changement de ponctuation: / par ?-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_981fe6a2_ligne_5"/>
+                     <choice>
+                        <orig>a table/ ou celuy qui sert? nest ce pas celuy qui est assis a table?</orig>
+                        <reg type="intermediary">a table/ ou celuy qui sert? N'est ce pas celuy qui est assis a table?</reg>
+                        <reg type="contemporary">à table, ou celui qui sert? N'est-ce pas celui qui est assis à table?</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_f4c9237c_ligne_6"/>
+                     <choice>
+                        <orig>Et moy ie suis au millieu de uous/ comme celuy qui sert.</orig>
+                        <reg type="intermediary">Et moy je suis au millieu de vous/ comme celuy qui sert.</reg>
+                        <reg type="contemporary">Et moi, je suis au milieu de vous comme celui qui sert.</reg><!-- Modernisation: ajout de , -->
+                     </choice>
+                     <note type="MarginTextZone" corresp="#f9_eSc_textblock_4978bb7b" place="margin">
+                        <choice>
+                           <orig>Luc.22.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Lc22:27">Luc.22.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Lc 22:27</bibl></reg>
+                        </choice>
+                     </note>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_4ad15d95_ligne_7"/>
+                     <choice>
+                        <orig>Luc.22.</orig>
+                        <reg type="intermediary"><bibl type="biblical" ana="Lc22:25-27">Luc.22.</bibl><note type="editor">Remploi de la citation déjà présente dans le <hi rend="italic">Passional</hi><ref target="#W1521 #P1521 #K1521 #E1521"/> et les Antithesis figurata <ref target="#LatW1521"/> de 1521</note></reg>
+                        <reg type="contemporary"><bibl type="biblical">Lc 22:25-27</bibl></reg>
+                     </choice>
+                  </p>
+                  
+                  <p>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_24061d52_ligne_8"/>          
+                           <choice>
+                           <orig>¶ Le diable le transporta sur une montaigne fort haulte/ ¶</orig>
+                           <reg type="intermediary">¶ Le diable le transporta sur une montaigne <term key="#fort">fort</term> haulte/ et</reg>
+                           <reg type="contemporary">¶ Le diable le transporta sur une montagne très haute et</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_a9b9c7d3_ligne_9"/>
+                        <choice>
+                           <orig>luy monstra tous les Royaulmes du monde/ ⁊ la gloire di¬</orig>
+                           <reg type="intermediary">luy monstra tous les Royaulmes du monde/ et la gloire di¬</reg>
+                           <reg type="contemporary">lui montra tous les royaumes du monde et toute leur gloire</reg><!-- Modernisation: iceulx: ceux-ci ou plus simple: leur gloire?. AJout de : toute: toute leur gloire -->
+                        </choice>
+                              <lb type="DefaultLine" corresp="#f9_eSc_line_6022fb91_ligne_10" rend="hyphen"/>
+                        <choice>
+                           <orig>ceulx/ et luy dist: Ie te donneray toutes ces choses/ si en toy</orig>
+                           <reg type="intermediary">ceulx/ et luy dist: Je te donneray toutes ces choses/ si en toy</reg>
+                           <reg type="contemporary">et lui dit: Je te donnerai toutes ces choses, si en te</reg><!-- Modernisation: en toi: te -->
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_8ad46246_ligne_11"/>
+                        <choice>
+                           <orig>ꝓsternãt tu me adores. Adoncques Iesus luy dit: Ua Sa¬</orig>
+                           <reg type="intermediary">prosternant tu me adores.<term key="#adonc">Adoncques</term> Jesus luy dit: Va Sa¬</reg>
+                           <reg type="contemporary">prosternant, tu m'adores. Alors Jésus lui dit: Va-t'en Sa-</reg><!-- Modernisation: tu me adores: tu m'adores -->
+                        </choice>
+                              <lb type="DefaultLine" corresp="#f9_eSc_line_ab171c01_ligne_12" rend="hyphen"/>
+                        <choice>
+                           <orig>tan: car il est escript: Tu adoreras ton Seigneur Dieu/ ⁊ a</orig>
+                           <reg type="intermediary">tan: car il est escript: Tu adoreras ton Seigneur Dieu/ et a</reg>
+                           <reg type="contemporary">tan! Car il est écrit: Tu adoreras le Seigneur, ton Dieu, et</reg>
+                        </choice>
+                        <note type="MarginTextZone" corresp="#f9_eSc_textblock_85f20ca3" place="margin">
+                           <choice>
+                              <orig>Mat.4.</orig>
+                              <reg type="intermediary"><bibl type="biblical" ana="Mt4:8-10">Mat.4.</bibl></reg>
+                              <reg type="contemporary"><bibl type="biblical">Mt 4:8-10</bibl></reg>
+                           </choice>
+                        </note>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_fa6906aa_ligne_13"/>
+                        <choice>
+                           <orig>luy seul tu seruiras. Matthieu.4.</orig>
+                           <reg type="intermediary">luy seul tu serviras. <bibl type="biblical" ana="Mt4:8-10">Matthieu.4</bibl>.</reg> 
+                           <reg type="contemporary">tu le serviras lui seul. <bibl type="biblical">Mt 4:8-10</bibl></reg>
+                        </choice>
+                     </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_82d2fbb6_ligne_14"/><!-- test avec cit quote ref, mais il faudrait sortir la référence biblique de la balise choice. Autre solution=typé les paragraphes -->
+                     <choice>
+                        <orig>¶ Et aucun luy dit. Maistre dis a mõ frere quil partisse auec</orig>
+                        <reg type="intermediary">¶ Et <term key="#aucun">aucun</term> luy dit. Maistre dis a mon frere qu'il <term key="#partire">partisse</term> avec</reg>
+                        <reg type="contemporary">¶ Et quelqu'un lui dit: Maître, dis à mon frère qu'il partage avec</reg><!-- Modernisation: ajout de,  -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_310e6c07_ligne_15"/>
+                     <choice>
+                        <orig>moy lheritage. Et il luy dist. Homme qui ma constitue iu¬</orig>
+                        <reg type="intermediary">moy l'heritage. Et il luy dist. Homme qui m'a constitué ju¬</reg><!-- Diplomatique: ma=mot agglutiné - qui m'a constituté -->
+                        <reg type="contemporary">moi l'héritage. Et il lui dit: Ô homme, qui m'a établi pour être votre ju-</reg><!-- Modernisation: ajout de :; reprise de la formulation moderne de la citation. Changement: constitué en établi?-->
+                     </choice>
+                     <note type="MarginTextZone" corresp="#f9_eSc_textblock_c23f6014" place="margin">
+                        <choice>
+                           <orig>Luc.12.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Lc12:13-14">Luc.12.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Lc 12:13-14.</bibl></reg>
+                        </choice>
+                     </note>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_c4d120e6_ligne_16" rend="hyphen"/>
+                     <choice>
+                        <orig>ge/ ou partisseur sur uous? Luc.12.</orig>
+                        <reg type="intermediary">ge/ ou <term key="#partisseur">partisseur</term> sur vous? <bibl type="biblical" ana="Lc12:13-14">Luc.12.</bibl></reg>
+                        <reg type="contemporary">ge, ou pour être l'arbitre de vos partages? <bibl type="biblical">Lc 12:13-14</bibl></reg>
+                        <!-- partisseur: partageur ou distributeur; arbitre. Formulation présente dans les Faits=traduction de la vulgate: At ille dixit illi: Homo, quis me constituit judicem, aut divisorem super vos?
+                        Inversion: juge sur vous-->
+                     </choice>
+                  </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_0bf25d43_ligne_17"/>
+                     <choice>
+                        <orig>¶ Clerement lon uoit/ comme Iesus ne ueult Seigneurie/</orig>
+                        <reg type="intermediary">¶ Clerement l'on voit/ comme Jesus ne veult Seigneurie/</reg>
+                        <reg type="contemporary">¶ Il apparaît clairement que Jésus ne veut ni seigneurie,</reg><!-- modernisation: ne: ni?; majuscule: enlever? -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_e1625074_ligne_18"/>
+                     <choice>
+                        <orig>ne Puissance/ ne Office terrien: mais seulement est apres</orig>
+                        <reg type="intermediary">ne puissance/ ne office terrien<term key="#terrien"/>: mais seulement <term key="#estre_apres">est apres</term></reg>
+                        <reg type="contemporary">ni pouvoir, ni fonction terrestre<term key="#terrien"/>mais, il ne se consacre qu'</reg><!-- Résolution: ne en ni..ni. Inversion: mais il est seulement -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_595b10f7_ligne_19"/>
+                     <choice>
+                        <orig>la predication/ ¶ a soulagier le peuple: ⁊ pour deffence quelcon</orig>
+                        <reg type="intermediary">la predication/ et a soulagier le peuple: et pour deffence quelcon¬</reg>
+                        <reg type="contemporary">à prêcher et à soulager le peuple. Sans rien interdire à personne</reg><!-- Modernisation: pour=par. Ajout de ni-->
+                     </choice>
+                     <note type="MarginTextZone" corresp="#f9_eSc_textblock_4f4b5d61" place="margin">
+                        <choice>
+                           <orig>Luc.13.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Lc13:31-35">Luc.13.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Lc 13:31-35</bibl></reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_aa77b7e0_ligne_3"/>
+                        <choice>
+                           <orig>Iehan 7.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Jn7">Jehan 7.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">Jn 7</bibl><note type="editor" place="bottom">La référence biblique au septième chapitre de l'Evangile de Jean renvoie certainement à Jn 7: 16-19, 
+                                 pour souligner le respect par le Christ des commandements de son Père. À la différence du reste du texte, il n'y a pas de citation littérale de ce passage biblique</note></reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f9_eSc_line_8f87ba7e_ligne_4" rend="hyphen"/>
+                        <choice>
+                           <orig>⁊ 8.</orig>
+                           <reg type="intermediary"><bibl type="biblical" ana="Jn8">et 8.</bibl></reg>
+                           <reg type="contemporary"><bibl type="biblical">et 8.</bibl></reg>
+                        </choice>
+                     </note>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_0f83ec08_ligne_20" rend="hyphen"/>
+                     <choice>
+                        <orig>que/ ne menasses/ il ne desiste de faire ce que son pere luy a cõ¬</orig>
+                        <reg type="intermediary">que/ ne menasses/ il ne <term key="#desister">desiste</term> de faire ce que son pere luy a com¬</reg>
+                        <reg type="contemporary">ni menacer quiconque, il ne cesse de faire ce que son Père lui a ordon-</reg><!-- Modernisation: possibilité d'une inversion: et il ne cesse de faire ... ni par resistance-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_7670f29e_ligne_21" rend="hyphen"/>
+                     <choice>
+                        <orig>mande. Luc.13. Iehan.7.8.</orig>
+                        <reg type="intermediary">mandé. <bibl type="biblical" ana="Lc13:31-35">Luc.13.</bibl> <bibl type="biblical">Jehan.7. et .8.</bibl></reg>
+                        <reg type="contemporary">né. <bibl type="biblical">Lc 13:31-35.</bibl> <bibl type="biblical" ana="Jn7">Jean.7.</bibl> et <bibl type="biblical" ana="Jn8">.8.</bibl></reg>
+                     </choice>
+                  </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_7aa62234_ligne_22"/>
+                     <choice>
+                        <orig>¶ La ou le Pape ne tache que faire sa uolunte/ repugner a</orig>
+                        <reg type="intermediary">¶ La ou le Pape ne <term key="#tacher">tache</term> que faire sa volunté/ <term key="#repugner">repugner a</term></reg>
+                        <reg type="contemporary">¶ Tandis que le pape ne s'efforce que d'agir selon sa propre volonté, de s'opposer à</reg><!-- Modernisation : ajout de "de". Inversion. Utilisation de synonyme: tâcher: s'efforcer -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_4232f176_ligne_23"/>
+                     <choice>
+                        <orig>Dieu ¶ aux princes/ ausquelz par ses droictz/ il doibt estre</orig>
+                        <reg type="intermediary">Dieu et aux princes/ ausquelz par ses droictz/ il doibt estre</reg>
+                        <reg type="contemporary">Dieu et aux princes auxquels, par ses droits, il doit être</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f9_eSc_line_d7a7e867_ligne_24"/>
+                     <choice>
+                        <orig>subiect. distin.8. quo iure. distin.9. imperatores.</orig>
+                        <reg type="intermediary">subject. <bibl type="canon"><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_0_51">distin.8. quo jure.</ref></bibl> <bibl type="canon"><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_0_61">distin.9. imperatores.</ref></bibl></reg>
+                        <reg type="contemporary">sujet.<bibl type="canon"><ref target="#Friedberg1959pars1" corresp="col.12-13"><hi rend="italic">distin.8. quo jure</hi>.[D.8, c.1. D.9, c.1.]</ref></bibl></reg>
+                     </choice>
+                  </p>
+               </div>
+            
+               <fw type="QuireMarksZone" corresp="#f9_eSc_textblock_c7b378c2">
+                  <lb type="DefaultLine" corresp="#f9_eSc_line_b69f6c09_ligne_2"/>
+                  <choice>
+                     <orig>B ¶ Le</orig>
+                     <reg type="intermediary">B ¶ Le</reg>
+                     <reg type="contemporary">B ¶ Le</reg>
+                  </choice>
+               </fw>
+            </div>
+            
+            <div type="Pape" n="b">
+               <pb corresp="#f10" n="FolioB1v°"/>
+               <div type="MainZone" corresp="#f10_eSc_textblock_2c1627b9">
+                  <head place="top-center" rendition="bold">
+                     <choice>
+                        <orig>Mais le Pape par force</orig>
+                        <reg type="intermediary">Mais le Pape par force</reg>
+                        <reg type="contemporary">Mais le Pape par force</reg>
+                     </choice>
+                  </head>
+                  
+                  <note type="MarginTextZone" corresp="#f10_eSc_textblock_abf834d1" place="margin">
+                     <choice>
+                        <orig>Sed pre</orig>
+                        <reg type="intermediary">Sed pre</reg>
+                        <reg type="contemporary">Sed pre</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_b3742edf_ligne_3"/>
+                     <choice>
+                        <orig>sul susci</orig>
+                        <reg type="intermediary">sul susci</reg>
+                        <reg type="contemporary">sul susci</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_e4307d6f_ligne_4"/>
+                     <choice>
+                        <orig>pit ur¬</orig>
+                        <reg type="intermediary">pit ur¬</reg>
+                        <reg type="contemporary">pit ur¬</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_6e8cdace_ligne_5" rend="hyphen"/>
+                     <choice>
+                        <orig>bes.</orig>
+                        <reg type="intermediary">bes.</reg>
+                        <reg type="contemporary">bes.</reg>
+                     </choice>
+                     <note type="editor">Remploi de la manchette déjà présente dans le <hi rend="italic">Passional</hi><ref target="#P1521 #K1521"/>de 1521 de Strasbourg</note>
+                  </note>
+                  <figure>
+                    <graphic corresp="antithese_1b" url="/4518841/510,200,1180,1420/full/0/default.jpg"/>
+                    <figDesc>Le pape refuse l'entrée d'une ville à l'empereur</figDesc>
+                 </figure>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_8ddfd311_ligne_3"/>
+                     <choice>
+                        <orig>¶ Le Pape excommunie tous uicaires/ ⁊ tenãs aucune cho¬</orig>
+                        <reg type="intermediary">¶ Le Pape excommunie tous vicaires/ et <term key="#tenir" corresp="2">tenans</term> <term key="#aucun">aucune</term> cho¬</reg>
+                        <reg type="contemporary">¶ Le pape excommunie tous les vicaires qui possèdent quelque</reg><!-- Modernisation : problème. Comment rendre "aucun". Ici, choix de : chaque. Problème: tenir: garder, oberver? Maintenir? disposer de -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_45f06ce1_ligne_4"/>
+                     <choice>
+                        <orig>se de Lempire/ si du tout ne se demettẽt/ laissantz tout ce quilz</orig>
+                        <reg type="intermediary">se de l'empire/ si <term key="#tout">du tout</term> ne <term key="#se_demettre" n="2">se demettent</term>/ <term key="#laisser">laissantz</term> tout ce qu'ilz</reg>
+                        <reg type="contemporary">bien de l'Empire s'ils n'y renoncent entièrement en abandonnant tout ce qu'ils</reg><!-- Modernisation: ajout de ils. Inversion. Ajout de en. Synonyme de laisser: abandonner. Inversion  -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_fadd1a83_ligne_5"/>
+                     <choice>
+                        <orig>tiennent/ cassant tous sermens/ ⁊ iuremens faictz du peuple</orig>
+                        <reg type="intermediary"><term key="#tenir" corresp="2">tiennent</term>/ cassant tous sermens/ et <term key="#juremens">juremens</term> faictz du peuple</reg>
+                        <reg type="contemporary">possèdent, cassant tous les serments et les engagements que le peuple</reg><!-- Modernisation: engagements faits par le peuple à ceux-ci: ...que le peuple leur a faits -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_c54049e9_ligne_6"/>
+                     <choice>
+                        <orig>a iceulx: ¶ pour le ueoir plus a plain/ quon regarde le chapi¬</orig>
+                        <reg type="intermediary">a iceulx: et pour le veoir plus <term key="#plain">a plain</term>/ qu'on regarde le chapi¬</reg>
+                        <reg type="contemporary">leur a faits. Pour le voir plus ouvertement qu'on regarde le chapi-</reg><!-- Modernisation: iceulx -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_39a82b4b_ligne_7"/>
+                     <choice>
+                        <orig>tre. Si de fratrũ. qui est du Pape Iehan.xxii. Ne sede uac.</orig>
+                        <reg type="intermediary">tre. Si de fratrum. qui est du <persName role="pope" key="#Jean" ref="isni:isni/0000000449165295">Pape Jehan.xxii.</persName> Ne sede vac.</reg>
+                        <reg type="contemporary">tre. <hi rend="italic">Si de fratrum</hi>. qui est du pape Jean 22 <hi rend="italic">Ne sede vac.</hi></reg><!-- Modernisation des chiffres: romain en arabe 
+                        Modernisation: italique, nom cité du décret ou canon-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_b4d52657_ligne_8"/>
+                     <choice>
+                        <orig>aliquid innouetur extrauag. Si de fratrum. Et oyez encores/</orig>
+                        <reg type="intermediary">aliquid innovetur extravag<bibl type="canon" ana="Corpus Decretalium, Decretalium D. Gregorii Papae IX, Lib. 3, tit. 9"/>. Si de fratrum<bibl type="canon" ana="Corpus Decretalium, Extravag. Joan XXII, tit.5, c.1"/>. Et <term key="#ouir">oyez</term> encores/</reg>
+                        <reg type="contemporary"><hi rend="italic">aliquid innovetur extrauag. Si de fratrum</hi>. Et écoutez encore</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f10_eSc_line_c8a3b0b0_ligne_9"/>
+                     <choice>
+                        <orig>comme il se magnifie/ ⁊ aneantist la puissance de Lempereur/</orig>
+                        <reg type="intermediary">comme il <term key="#magnifier">se magnifie</term>/ et aneantist la puissance de l'empereur/</reg>
+                        <reg type="contemporary">comment il se glorifie et comme il réduit à néant la puissance de l'Empereur,</reg>
+                     </choice>
+                  </p>
+               </div>
+               <fw type="QuireMarksZone" subtype="catch" corresp="#f10_eSc_textblock_40015392">
+                  <lb type="DefaultLine" corresp="#f10_eSc_line_621cc509_ligne_2"/>
+                  <choice>
+                     <orig>disant:</orig>
+                     <reg type="intermediary">disant:</reg>
+                     <reg type="contemporary">disant:</reg>
+                  </choice>
+               </fw>
+         
+               <pb corresp="#f11" n="FolioB2r°"/>
+               
+               <div type="MainZone" corresp="#f11_eSc_textblock_0b98124a">
+                 <head place="top-center" rendition="bold">
+                     <choice>
+                        <orig>le faict sien.</orig>
+                        <reg type="intermediary">le faict sien.</reg>
+                        <reg type="contemporary">se l'approprie.</reg><!-- Modernisation: transformation: faire sien (expression vieillie) par s'approprier -->
+                     </choice>
+                  </head>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_599b94d3_ligne_3"/>
+                     <choice>
+                        <orig>disant: Nous sans doubte auons superiorite sur Lempire/ ⁊</orig>
+                        <reg type="intermediary">disant: Nous sans doubte avons superiorité sur l'empire/ et</reg>
+                        <reg type="contemporary">en disant: Sans aucun doute, nous sommes supérieurs à l'Empire et</reg><!-- Modernisation: faut-il une majuscule ici? -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_5f0d6325_ligne_4"/>
+                     <choice>
+                        <orig>iceluy uacant/ nous luy succedons/ ayans plenitude de puis¬</orig>
+                        <reg type="intermediary">iceluy vacant/ nous luy succedons/ ayans plenitude de puis¬</reg>
+                        <reg type="contemporary">lorsqu'il est vacant, nous en héritons. Car, nous détenons les pleins pou-</reg><!-- Modernisation: iceluy: celui-ci? Transformation de la phrase-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_8e38d4fa_ligne_5"/>
+                     <choice>
+                        <orig>sance/ laquelle le Roy des Roys/ ¶ le Seigneur des Sei¬</orig>
+                        <reg type="intermediary">sance/ laquelle le Roy des Roys/ et le Seigneur des Sei¬</reg>
+                        <reg type="contemporary">voirs que nous a donnés le Roi des rois et le Seigneur des sei-</reg><!-- Modernisation: laquelle: que. Commentaire : expression Roi des rois et Seigneur des seigneurs= Ap 19, 16 -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_dd503ac0_ligne_6"/>
+                     <choice>
+                        <orig>gneurs/ nous a donnee/ le Roy aussi de Cecile nous est sub¬</orig>
+                        <reg type="intermediary">gneurs/ nous a donnee/ le <persName role="roi_de_Sicile">roy aussi de <geogName key="Sicile">Cecile</geogName></persName> nous est sub¬
+                           <note type="editor" place="bottom">
+                              Cette bulle de Clément V de 1313 maintient que le Royaume de Sicile 
+                              est hors du territoire de l'Empire. Robert, comme tous les rois de Sicile était un vassal du pape
+                              un vicaire et un légat, n'étant donc pas considéré comme un souverain.<bibl><ref>https://www.jstor.org/stable/43892755</ref></bibl>
+                              <bibl><ref corresp="p.22">https//www.google.ch/books/edition/The_Political_Thought_of_Baldus_de_Ubald</ref></bibl><!-- Question: comment mettre le numéro de page? -->
+                           </note>
+                        </reg><!-- Problème d'encodage -->
+                        <reg type="contemporary">gneurs. Le roi de Sicile est aussi notre sujet, soumis à notre</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_13a2370d_ligne_7"/>
+                     <choice>
+                        <orig>iect iusticiable/ ⁊ nostre uassal/ tenant de nous son Royaume</orig>
+                        <reg type="intermediary">ject justiciable/ et nostre vassal/ <term key="#tenir" n="2">tenant</term> de nous son royaume</reg>
+                        <reg type="contemporary">juridiction, et notre vassal. Car, c'est de nous qu'il détient son royaume</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_5f555fc3_ligne_8"/>
+                     <choice>
+                        <orig>¶ terres. in Clementi. de senten. ⁊ re iudica. Pastoralis. Lem</orig>
+                        <reg type="intermediary">et terres. in Clementi. de senten. et re judica. Pastoralis<bibl type="canon" ana="Corpus Decretalium, Clementinarium, Lib. 3, tit. 9, cap. 2"/>. L'em¬ 
+                           
+                        </reg>
+                        <reg type="contemporary">et ses terres. <hi rend="italic">in Clementi. de senten. et re iudica. Pastoralis</hi>. L'em</reg>
+                     </choice>
+                     <note type="MarginTextZone" corresp="#f11_eSc_textblock_25582f45" place="margin">
+                        <choice>
+                           <orig>De ceste</orig>
+                           <reg type="intermediary">De ceste</reg>
+                           <reg type="contemporary">De cette</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_91c50326_ligne_3"/>
+                        <choice>
+                           <orig>faulse</orig>
+                           <reg type="intermediary">faulse</reg>
+                           <reg type="contemporary">fausse</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_842e6b8f_ligne_4"/>
+                        <choice>
+                           <orig>donatiõ</orig>
+                           <reg type="intermediary">donation</reg>
+                           <reg type="contemporary">donation</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_7000bf7b_ligne_5"/>
+                        <choice>
+                           <orig>uoyez</orig>
+                           <reg type="intermediary">voyez</reg>
+                           <reg type="contemporary">voyez</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_80da5ec6_ligne_6"/>
+                        <choice>
+                           <orig>Laurẽs</orig>
+                           <reg type="intermediary">Laurens</reg>
+                           <reg type="contemporary">Laurent</reg>
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_844ca829_ligne_7"/>
+                        <choice>
+                           <orig>ualle en</orig>
+                           <reg type="intermediary">valle<persName key="#Valla" ref="isni:0000000121258391"/> en</reg>
+                           <reg type="contemporary">Valla en</reg><!-- Modernisation : Valle - Valla: usage moderne du nom propre -->
+                        </choice>
+                        <lb type="DefaultLine" corresp="#f11_eSc_line_1df3dc14_ligne_8"/>
+                        <choice>
+                           <orig>sõ livre.</orig>
+                           <reg type="intermediary">son livre<note type="editor"/>.</reg><!-- FAIRE Référence au livre de Laurent Valla -->
+                           <reg type="contemporary">son livre.</reg>
+                        </choice>
+                     </note>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_0a11e28f_ligne_9"/>
+                     <choice>
+                        <orig>pereur Constantin/ nous a donne Lempire Doccident/ la</orig>
+                        <reg type="intermediary">pereur <persName ref="isni:0000000120966935">Constantin</persName>/ nous a donné l'empire d'occident/ la</reg>
+                        <reg type="contemporary">pereur Constantin nous a donné l'Empire d'Occident, la</reg><!-- Résolution de la casse des mots: usage actuel -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_fa63396d_ligne_10"/>
+                     <choice>
+                        <orig>couronne/ ¶ le manteau de pourpre/ ⁊ taout ce que appartient a</orig>
+                        <reg type="intermediary">couronne/ et le manteau de pourpre/ et tout ce que appartient a</reg>
+                        <reg type="contemporary">couronne et le manteau de pourpre et tout ce qui appartient à</reg><!-- Modernisation: tout ce que=tout ce qui -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_9730d82c_ligne_11"/>
+                     <choice>
+                        <orig>la dignite Imperialle. 12.q.1. Futuram. ⁊ distin.96. Constan</orig>
+                        <reg type="intermediary">la dignite imperialle. <bibl type="canon"><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_2_2024"/>12.q.1. Futuram.</bibl> et distin.96. Constan¬</reg>
+                        <reg type="contemporary">la dignité impériale. 12.q.1. <hi rend="italic">Futuram</hi>. [C.12, q.1, c.15.]<bibl type="canon"><ref target="#Friedberg1959pars2" corresp="col.682"/> et distin.96. <hi rend="italic">Constan-</hi></bibl></reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_b24eac36_ligne_12"/>
+                     <choice>
+                        <orig>tinus. Les Empereurs doibuẽt estre subiectz aux Euesques/</orig>
+                        <reg type="intermediary">tinus<bibl type="canon"/><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_1_1046"/>. Les empereurs doibvent estre subjectz aux evesques/</reg>
+                        <reg type="contemporary"><hi rend="italic">tinus</hi> [D. 96, c.14]<bibl><ref target="#Friedberg1959pars1" corresp="col. 343"/></bibl>. Les empereurs doivent être sujets des êveques,</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_5109d375_ligne_13"/>
+                     <choice>
+                        <orig>non point auoir preminence. distin.96. Si imperator. Les</orig>
+                        <reg type="intermediary">non <term n="2" key="#point">point</term> avoir preminence. <bibl type="canon"><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_1_1043"/>distin.96. Si imperator</bibl>. Les</reg>
+                        <reg type="contemporary">et non leur être supérieurs. distin.96. <hi rend="italic">Si imperator</hi> [D. 96, c. 11.]<bibl type="canon"><ref target="#Friedberg1959pars1" corresp="col.341"/></bibl>. Les</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_f88fb702_ligne_14"/>
+                     <choice>
+                        <orig>prestres sont maistres/ et peres des Princes. distinct.96.</orig>
+                        <reg type="intermediary">prestres sont maistres/ et peres des princes. distinct.96.</reg>
+                        <reg type="contemporary">prêtres sont maîtres et pères des princes. distinct.96.</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_0a075d9c_ligne_15"/>
+                     <choice>
+                        <orig>Quis dubitet.</orig>
+                        <reg type="intermediary">Quis dubitet.<bibl type="canon"/><ref target="https://geschichte.digitale-sammlungen.de/decretum-gratiani/kapitel/dc_chapter_1_1041"/></reg>
+                        <reg type="contemporary"><hi rend="italic">Quis dubitet</hi>.[D. 96, c.9.]<bibl type="canon"><ref target="#Friedberg1959pars1" corresp="col.340"/></bibl>.</reg>
+                     </choice>
+                  </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_a3776975_ligne_16"/>
+                     <choice>
+                        <orig>¶ Regardez Chrestiens/ si tout le droict Canon ne tache a</orig>
+                        <reg type="intermediary">¶ Regardez Chrestiens/ si tout le droict Canon ne <term key="#tacher">tache a</term></reg>
+                        <reg type="contemporary">¶ Regardez Chrétiens, tout le droit canon ne s'emploie-t-il pas à</reg><!-- Modernisation: préférer la tournure: s'employer à / viser à au lieu de s'efforcer de. Ajout de pas-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_c3f6d13e_ligne_17"/>
+                     <choice>
+                        <orig>cela/ de destruire tous Roys Empereurs/ ⁊ Seigneurs/ ⁊ leur</orig>
+                        <reg type="intermediary">cela/ de destruire tous Roys Empereurs/ et Seigneurs/ et leur</reg>
+                        <reg type="contemporary">détruire tous les rois, les empereurs et les seigneurs et à leur</reg><!-- Modernisation: ajout de , -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_8d59c791_ligne_18"/>
+                     <choice>
+                        <orig>oster le glaiue/ lequel Dieu leur a donne/ comme S. Paul</orig>
+                        <reg type="intermediary">oster le glaive/ lequel Dieu leur a donné/ comme saint Paul</reg>
+                        <reg type="contemporary">enlever le glaive que Dieu leur a donné? Saint Paul</reg><!-- Modernisation: lequel=que -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_83fd53c7_ligne_19"/>
+                     <choice>
+                        <orig>dit aux <bibl type="biblical" ana="Rm13:4">Romains.13.</bibl> pour accomplir ce que dit S. Pierre/ que</orig>
+                        <reg type="intermediary">dit aux <bibl type="biblical" ana="Rm13:4">Romains.13.</bibl> pour accomplir ce que dit saint Pierre/ que</reg>
+                        <reg type="contemporary">le dit aux <bibl type="biblical">Romains 13</bibl> <note type="editor" place="bottom">en référence à Rm 13:4</note> pour accomplir ce que dit saint Pierre:</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_bce5a695_ligne_20"/>
+                     <choice>
+                        <orig>se sont auteurs de sectes/ comme est le Pape/ ⁊ les religieux/</orig>
+                        <reg type="intermediary">se sont auteurs de sectes/ comme est le Pape/ et les religieux/</reg>
+                        <reg type="contemporary">ce sont les auteurs de sectes, comme le sont le pape et les religieux,</reg><!-- Modernisation: transformation de se en ce. Verbe au pluriel: comme est = comme sont -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_34c3c75c_ligne_21"/>
+                     <choice>
+                        <orig>qui contemnent la domination.2.Pier.2.</orig>
+                        <reg type="intermediary">qui <term key="#contemner">contemnent</term> la <term key="#domination">domination</term>. <bibl type="biblical" ana="IIP2:1;10">2.Pier.2.</bibl></reg>
+                        <reg type="contemporary">qui méprisent l'autorité.<bibl type="biblical">2P 2:1;10</bibl></reg>
+                     </choice>
+                  </p>
+                  
+                  <p>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_72227698_ligne_22"/>
+                     <choice>
+                        <orig>¶ Quon regarde la uie de Boniface.uiii. comme il sest porte</orig> 
+                        <reg type="intermediary">¶ Qu'on regarde la vie de <persName key="#Boniface" ref="isni:0000000121242007">Boniface.viii</persName>. comme il <term key="#se_porter">s'est porté</term></reg>
+                        <reg type="contemporary">¶ Qu'on regarde la vie de Boniface VIII comment il s'est conduit</reg><!-- Modernisation chiffre: VIII-->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_13d06ef2_ligne_23"/>
+                     <choice>
+                        <orig>enuers les Empereurs/ ⁊ la uie de Hildebrant/ grand magi¬</orig>
+                        <reg type="intermediary">envers les Empereurs/ et la vie de Hildebrant/ grand magi¬</reg>
+                        <reg type="contemporary">avec les empereurs, et la vie de Hildebrand, grand magi-</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_370b037b_ligne_24"/>
+                     <choice>
+                        <orig>cien/ quon appelle Gregoire septiesme/ quest ce quil na faict</orig>
+                        <reg type="intermediary">cien<note type="editor" place="inline">En référence à la diète de Worms et à son conflit avec l'empereur Henri IV</note>
+                           / qu'on appelle <persName role="pope" key="#Grégoire VII" ref="isni:0000000121442500">Gregoire septiesme</persName>/ qu'est ce qu'il n'a faict</reg>
+                        <reg type="contemporary">cien, qu'on appelle Grégoire VII : que n'a-t'il pas fait</reg><!-- Modernisation: ajout de pas + tiret: qu'est-ce qu'il -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_6479f878_ligne_25"/>
+                     <choice>
+                        <orig>pour destruire Lempire? combien tous les Papes ont este a</orig>
+                        <reg type="intermediary">pour destruire l'empire? <term n="2" key="#combien">Combien</term> tous les Papes <term key="#estre_à">ont esté a</term></reg>
+                        <reg type="contemporary">pour détruire l'Empire? À quel point tous les papes ont eu part à</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_b7f25bd4_ligne_26"/>
+                     <choice>
+                        <orig>Lempire? ¶ les grandz tors quilz ont faict aux droictz ⁊ natu</orig>
+                        <reg type="intermediary">l'empire? et les grandz tors qu'ilz ont faict aux <term key="#droit">droictz</term> et natu¬</reg>
+                        <reg type="contemporary">l'Empire? Et les grands torts qu'ils ont faits aux vrais et aux légi-</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_e58ec7c8_ligne_27"/>
+                     <choice>
+                        <orig>relz seigneurs/ leurs ostãt leurs seigneuries ⁊ royaumes/ les</orig>
+                        <reg type="intermediary">relz<term key="#naturel"/> seigneurs/ leurs ostant leurs seigneuries et royaumes/ les</reg>
+                        <reg type="contemporary">times seigneurs, en leur enlevant leurs seigneuries et leurs royaumes pour les</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_d27d1c0c_ligne_28"/>
+                     <choice>
+                        <orig>donnant aux traistres qui maintenissent les Papes?</orig>
+                        <reg type="intermediary">donnant aux traistres qui <term key="#maintenir">maintenissent</term> les Papes?</reg>
+                        <reg type="contemporary">donner aux traîtres qui soutiennent les papes?</reg><!-- Modernisation: maintenissent: maintiennent? soutenir?-->
+                     </choice>
+                  </p>
+                     
+                  <p>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_8970a3fe_ligne_29"/>
+                     <choice>
+                        <orig>¶ O Princes/ quand aurez uous yeulx de recongnoistre ce¬</orig>
+                        <reg type="intermediary">¶ O Princes/ quand <term key="#oeil">aurez vous yeulx de</term> recongnoistre ce¬</reg>
+                        <reg type="contemporary">¶ Ô princes, quand vous préoccuperez-vous de reconnaître ce-</reg><!-- Modernisation: recongnoistre: reconnaître -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_9a82c243_ligne_30"/>
+                     <choice>
+                        <orig>luy qui commande quon uous rende ce quon uous doibt/ ne</orig>
+                        <reg type="intermediary">luy qui commande qu'on vous rende ce qu'on vous doibt/ ne</reg>
+                        <reg type="contemporary">lui qui commande que ce que l'on vous doit, vous soit rendu,</reg>
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_7bfdb8fb_ligne_31"/>
+                     <choice>
+                        <orig>uoulant usurper/ ne uous oster uostre puissance. <bibl type="biblical" ana="Lc12:56-59">Luc.12.</bibl> Ma¬</orig>
+                        <reg type="intermediary">voulant usurper/ ne vous oster vostre puissance. <bibl type="biblical" ana="Lc12:56-59">Luc.12.</bibl> Ma¬</reg>
+                        <reg type="contemporary">sans volonté de s'arroger votre autorité ni de vous la retirer! <bibl type="biblical">Lc 12:56-59</bibl> Mt</reg><!-- Modernisation: ne devient ni -->
+                     </choice>
+                     <lb type="DefaultLine" corresp="#f11_eSc_line_4a9792aa_ligne_32"/>
+                     <choice>
+                        <orig>thieu.17<bibl type="biblical" ana="Mt17:24-27"/>.22.<bibl type="biblical" ana="Mt22:21"/></orig>
+                        <reg type="intermediary">thieu.17<bibl type="biblical" ana="Mt17:24-27"/>.22.<bibl type="biblical" ana="Mt22:21"/></reg>
+                        <reg type="contemporary">17:24-27<bibl type="biblical"/> <bibl type="biblical">Mt 22:21</bibl></reg>
+                     </choice>
+                  </p>
+              </div>
+              
+              <fw type="QuireMarksZone" subtype="catch+sig" corresp="#f11_eSc_textblock_58a04583">
+                  <lb type="DefaultLine" corresp="#f11_eSc_line_845b3842_ligne_2"/>
+                  <choice>
+                     <orig>B 2 ¶ Certes</orig>
+                     <reg type="intermediary">B 2 ¶ Certes</reg>
+                     <reg type="contemporary">B 2 ¶ Certes</reg>
+                  </choice>
+              </fw>
+            </div>
+            </div>
+      </body>
+  </text>
+</TEI>

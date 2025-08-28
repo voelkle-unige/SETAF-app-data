@@ -1,0 +1,3340 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <list type="index">
+            <head>Glossaire</head>
+            <item xml:id="abattre">
+               <term>abattre</term>
+               <p>(verbe): jeter à bas, anéantir; jeter vers le bas, précipiter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/abattre1"/>
+            </item>
+            <item xml:id="abismer">
+               <term>abismer, abîmer</term>
+               <p>(verbe, intrans.): tomber comme dans un abîme, s'engloutir</p>
+               <p>(part.passé en emploi adj.): englouti</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/abîmer"/>
+            </item>
+            <item xml:id="absoudre">
+               <term>absoudre</term>
+               <p>(verbe): délivrer, délier qq'un de qqch</p>
+               <ptr target="https://www.cnrtl.fr/definition/absoudre" corresp="Étymol.2"/>
+               <ptr target="https://gaffiot.fr/#absolvo"/>
+            </item>
+            <item xml:id="abusion">
+               <term>abusion</term>
+               <p>(subst.fém.): action d'abuser, d'usurper, abus</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/abusion"/>
+            </item>
+            <item xml:id="accoustrer">
+               <term>accoustrer, accoutrer</term>
+               <p>(verbe): équiper, harnacher</p>
+               <p>(verbe): parer, habiller, ajuster</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/accoutrer"/>
+            </item>
+            <item xml:id="acheter">
+               <term>achepter, acheter</term>
+               <p>(verbe): obtenir, obtenir les bonnes grâces de qq'un, gagner, se procurer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/acheter"/>
+            </item>
+            <item xml:id="acquester">
+               <term n="1">acquester, acquêter</term>
+               <p>(verbe): s'attirer (obj. inanimé), obtenir</p>
+               <term n="2">acquester, acquêter</term>
+               <p>(verbe): acquérir, entrer en possession de, obtenir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/acquêter"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/acqu%C3%AAter"/>
+            </item>
+            <item xml:id="adventz">
+               <term>Advents, avent</term>
+               <p>(subst.masc.):(liturg.)(souvent au plur.) Avent; temps liturgique précédant Noël,
+                  temps de préparation à Noël</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/avent "/>
+            </item>
+            <item xml:id="advenement">
+               <term>avenement, avènement</term>
+               <p>(subst.masc.): venue de qq'un, arrivée</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/avènement"/>
+            </item>
+            <item xml:id="advenir">
+               <term>advenir</term>
+               <p>(verbe): arriver, venir, survenir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/advenir"/>
+               <term n="2">advenir</term>
+               <p>(verbe): à venir (var. graphique de ad venir)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/advenir" corresp="ArticleComplet_IIIA"/>
+            </item>
+            <item xml:id="adonc">
+               <term>adonques, adonc</term>
+               <p>(adv.): alors, puis</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/30/179?DMF"/>
+               <ptr target="https://www.cnrtl.fr/definition/adonc"/>
+            </item>
+            <item xml:id="adonner">
+               <term>adonner à</term>
+               <p>(verbe): appliquer, consacrer à; livrer à, mettre en proie à; soumettre à</p>
+               <p>(verbe): s'adonner à, se livrer à par routine ou obligation à une activité; se
+                  consacrer, pratiquer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/adonner"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/240/136?DMF"/>
+            </item>
+            <item xml:id="affection">
+               <term>affection</term>
+               <p>(subst.fem.): penchant, tendance, inclination</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/affection"/>
+            </item>
+            <item xml:id="affermer">
+               <term>affermer, affirmer</term>
+               <p>(verbe): déclarer, énoncer pour vrai, pour certain</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/affermer1"/>
+            </item>
+            <item xml:id="agios">
+               <term>agios</term>
+               <p>(subst.masc.plur.): cérémonies, pratiques extérieures du culte</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/agios"/>
+               <ptr target="https://www.cnrtl.fr/definition/agiau" corresp="Étymol._et_Hist.II"/>
+            </item>
+            <item xml:id="aggraver">
+               <term>(estre) aggravé de qqch</term>
+               <p>(passif): être accablé de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aggraver1" corresp="Article_completIA3"/>
+            </item>
+            <item xml:id="aimer">
+               <term>aimer mieux qqch.</term>
+               <p>(verbe): préférer qqch.</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aimer" corresp="ArticleComplet_ID5a"/>
+            </item>
+            <item xml:id="aller">
+               <term>aller après</term>
+               <p>(verbe): suivre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aller"/>
+            </item>
+            <item xml:id="amener">
+               <term>amener</term>
+               <p>(verbe): mener avec soi, transporter</p>
+               <p>(verbe): emmener, prendre avec soi en allant ailleurs; conduire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/amener" corresp="ArticleComplet_IA1b+IB1"/>
+            </item>
+            <item xml:id="amyable">
+               <term>amiable</term>
+               <p>(adj.): aimable, digne d'être aimé</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/amiable"/>
+            </item>
+            <item xml:id="amyablement">
+               <term>amiablement</term>
+               <p>(adv.): affectueusement, amicalement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/amiablement"/>
+            </item>
+            <item xml:id="annonciateur">
+               <term>annonciateur</term>
+               <p>(subst.masc.): celui qui annonce qqch.</p>
+               <ptr target="https://gaffiot.fr/#adnuntiator"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/annonciateur"/>
+            </item>
+            <item xml:id="apostater">
+               <term>apostater</term>
+               <p>(verbe): apostasier, devenir apostat, renier sa foi, ses voeux</p>
+               <ptr target="https://gaffiot.fr/#apostato"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/apostater "/>
+            </item>
+            <item xml:id="apartenir">
+               <term>il appartient</term>
+               <p>(verbe, empl.pron.): il le faut; c'est juste, convenable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/appartenir"/>
+            </item>
+            <item xml:id="appeter">
+               <term>appeter, appéter</term>
+               <p>(verbe): désirer, rechercher (qqch)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/appéter"/>
+            </item>
+            <item xml:id="approcher">
+               <term>approcher</term>
+               <p>(verbe): venir, aller près de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/approcher"/>
+            </item>
+            <item xml:id="artifice">
+               <term>artifice</term>
+               <p>(subst.masc.): procédé, technique; savoir-faire de l'artisan</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/artifice"/>
+            </item>
+            <item xml:id="assister">
+               <term>assister</term>
+               <p>(verbe): être présent</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/assister"/>
+            </item>
+            <item xml:id="aussi">
+               <term n="1">aussi...comme</term>
+               <p>(loc.): de même, également, comme...comme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aussi" corresp="Article_completB"/>
+               <term n="2">aussi</term>
+               <p>(adv.): ainsi; de même, également</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aussi" corresp="Article_completA+B"/>
+            </item>
+            <item xml:id="aussi_comme">
+               <term>aussi comme</term>
+               <p>(loc.): de la même manière que, comme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/comme" corresp="Article_completIIA1a"/>
+            </item>
+            <item xml:id="autant">
+               <term>d'autant que...d'autant</term>
+               <p>(loc.): plus...plus</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/131/88?DMF" corresp="89"/>
+            </item>
+            <item xml:id="autrement">
+               <term n="1">autrement</term>
+               <p>(adv.): sans quoi, sans cela, sinon</p>
+               <term n="2">autrement</term>
+               <p>(adv.): différemment dans un sens positif, c'est-à-dire davantage</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/autrement"/>
+            </item>
+            <item xml:id="avoir">
+               <term>avoir à + inf.</term>
+               <p>(loc.): devoir, être en situation de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/avoir1" corresp="IID3"/>
+               <term>avoir</term>
+               <p>(verbe): subir qqch; être sujet à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/avoir1" corresp="IB2"/>
+            </item>
+            <item xml:id="ayde">
+               <term>aide, aïe (dr.médiév.)</term>
+               <p>(subst.fem.): corvée; subside, imposition, taille</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aide1"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/aide" corresp="Etymol_et_Hist_II"/>
+            </item>
+            <item xml:id="ayder">
+               <term>ayder à qq'un, aider</term>
+               <p>(verbe): aider, secourir qqn dans une situation matérielle ou morale difficile</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aider" corresp="Article_complet1a"/>
+            </item>
+            <item xml:id="ains">
+               <term>ains</term>
+               <p>(adv. ou conj.) : mais; (mais) plutôt, (mais) au contraire</p>
+               <ptr target="https://www.anglo-norman.net/entry/ainz_2"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/240/637" corresp="637c"/>
+               <ptr target="https://www.cnrtl.fr/definition/ains"/>
+            </item>
+            <item xml:id="ainsi">
+               <term n="1">par ainsi</term>
+               <p>(adv.): ainsi, de cette manière, par conséquent</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ainsi" corresp="Article_completA"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/ainsi"/>
+               <term n="2">ainsi que</term>
+               <p>(conj.): comme</p>
+               <p>(conj.): en sorte que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ainsi"/>
+               <term n="3">ainsi comme</term>
+               <p>(adv.): comme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ainsi" corresp="IIB1"/>
+               <term n="4">tout ainsi que</term>
+               <p>(conj.): tout à fait de la même manière que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ainsi"/>
+            </item>
+            <item xml:id="aparoir">
+               <term>aparoir, apparoir</term>
+               <term>(comme) il appert en qqch.</term>
+               <p>(verbe, empl.impers.): être évident, manifeste, clair</p>
+               <p>(Comme) il apparaît d'après/par qqch; (comme) il découle de qqch</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/250/24?DMF"/>
+               <ptr target="https://gaffiot.fr/#appareo" corresp="3"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/apparoir" corresp="ArticleComplet_IC3"/>
+            </item>
+            <item xml:id="appeler">
+               <term>appeller, appeler</term>
+               <p>(verbe): donner un nom, nommer, appeler</p>
+               <ptr target="https://gaffiot.fr/#1%20appello"/>
+            </item>
+            <item xml:id="apprendre">
+               <term>apprendre</term>
+               <p>(verbe): acquérir une connaissance, enseigner qn</p>
+               <term>apprins, apris</term>
+               <p>(p. passé): instruit, enseigné, façonné</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/apprendre"/>
+               <ptr target="http://micmap.org/dicfro/search/complement-godefroy/aprendre"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/250/49?DMF"/>
+            </item>
+            <item xml:id="apres">
+               <term>en après</term>
+               <p>(adv., loc.adv.): ensuite, par la suite, après</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/après "/>
+               <ptr target="https://www.anglo-norman.net/entry/enapr%C3%A9s"/>
+            </item>
+            <item xml:id="arroser">
+               <term>arroser</term>
+               <p>(verbe): asperger, mouiller, humecter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/arroser"/>
+            </item>
+            <item xml:id="assavoir">
+               <term>assavoir</term>
+               <p>(verbe): savoir, apprendre qqch, connaître</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/assavoir"/>
+               <p>(loc.conj.): à savoir</p>
+               <ptr target="https://www.cnrtl.fr/definition/academie9/assavoir"/>
+            </item>
+            <item xml:id="aucun">
+               <term>aucun</term>
+               <p>(indéfin.) (adj. indéf.): quelque, tel ou tel, certain</p>
+               <p>(indéfin.) (adj. indéf.): personne, nul</p><!-- à contrôler -->
+               <p>(indéfin.) (adj. indéf.): quelqu'un, tel ou tel</p>
+               <ptr target="https://gaffiot.fr/#aliquis"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/240/322?DMF"/>
+               <p>(indéfin.) (adj. indéf.): chaque</p>
+               <ptr target="https://www.anglo-norman.net/entry/auscun"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/aucun"/>
+               <p>(pron.indéf.): quelqu'un</p>
+               <ptr target="https://www.anglo-norman.net/entry/auscun"/>
+            </item>
+            <item xml:id="avec">
+               <term>d'avec</term>
+               <p>(prép.): avec (précédé de de marque la rupture d'une concomittance, d'un
+                  accompagnement)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/avec" corresp="Article_completB4"/>
+            </item>
+            <item xml:id="aventurier">
+               <term>aventurier</term>
+               <p>(subst.masc.): mercenaire; celui qui va à la guerre sans recevoir de solde</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aventurier"/>
+            </item>
+            <item xml:id="aucunement">
+               <term>aucunement</term>
+               <p>(adv.): d’une certaine manière, de quelque façon</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aucunement"/>
+            </item>
+            <item xml:id="aucunefois">
+               <term>aucunefois</term>
+               <p>(adv.): quelquefois</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aucunefois"/>
+            </item>
+            <item xml:id="babylonique">
+               <term>babylonique</term>
+               <p>(adj.): de Babylone, qui a rapport à Babylone</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/babylonique"/>
+            </item>
+            <item xml:id="bailler">
+               <term>bailler</term>
+               <p>(verbe): donner, remettre, livrer, présenter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bailler1"/>
+            </item>
+            <item xml:id="baisement">
+               <term>baisement</term>
+               <p>(subst.masc.): action de baiser, baiser</p>
+               <ptr target="ttp://www.atilf.fr/dmf/definition/baisement"/>
+            </item>
+            <item xml:id="bardure">
+               <term>bardure</term>
+               <p>(subst.fem.): barde, pièce d'armure en lames placées sur le portail du cheval</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bardure"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/barde"/>
+            </item>
+            <item xml:id="bas">
+               <term>ça-bas</term>
+               <p>(avd.): sur la terre, ici-bas</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bas" corresp="ArticleComplet_IIA1d"/>
+            </item>
+            <item xml:id="bastonnier">
+               <term>bastonnier</term>
+               <p>(subst.masc.): homme muni d'une bannière, d'une arme; celui qui a en dépôt le
+                  bâton d'une confrérie et le porte, lors des processionshomme portant la
+                  bannière</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bâtonnier"/>
+            </item>
+            <item xml:id="basture">
+               <term>batture</term>
+               <p>(subst.fem.): action de battre qqun, fait d'être battu,de recevoir des coups et
+                  blessure qui en résulte</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/batture"/>
+            </item>
+            <item xml:id="batailler">
+               <term>batailler</term>
+               <p>(verbe): livrer bataille, combattre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/batailler"/>
+            </item>
+            <item xml:id="bateleur">
+               <term>basteleur</term>
+               <p>(subst.masc.): personne qui fait des tours d'adresse et d'escamotage;
+                  saltimbanque, amuseur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bateleur1"/>
+               <ptr target="https://www.cnrtl.fr/definition/bateleur" corresp="Étymol._eT_Hist."/>
+            </item>
+            <item xml:id="benefice">
+               <term>bénéfice</term>
+               <p>(subst.masc.): bienfait</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bénéfice"/>
+            </item>
+            <item xml:id="beneisson">
+               <term>beneïsson</term>
+               <p>(subst.fem.): bénédiction</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bénéisson"/>
+            </item>
+            <item xml:id="benin">
+               <term>bénin</term>
+               <p>(adj.): bienveillant, enclin à la bonté, doux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bénin"/>
+            </item>
+            <item xml:id="benoist">
+               <term>benoist, benoît</term>
+               <p>(adj.): saint, bienheureux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/benoît"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/beno%C3%AEt"/>
+            </item>
+            <item xml:id="bienfaire">
+               <term>bienfaire</term>
+               <p>(verbe): faire du bien, bien agir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bienfaire"/>
+            </item>
+            <item xml:id="bestial">
+               <term>bestial</term>
+               <p>(subst.masc.): bétail</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bestial2"/>
+            </item>
+            <item xml:id="beuvrage">
+               <term>beuvrage, breuvage</term>
+               <p>(subst.masc.): boisson, breuvage</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/breuvage"/>
+            </item>
+            <item xml:id="besogne">
+               <term>faire sa/ses besogne/s</term>
+               <p>(loc.): faire son travail, accomplir sa tâche</p>
+               <ptr target="https://www.anglo-norman.net/entry/bosoigne_1"/>
+               <term>besogne</term>
+               <p>(subst.fém.): affaire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/besogne"/>
+            </item>
+            <item xml:id="bons">
+               <term>les bons</term>
+               <p>(empl.subst.): les braves gens</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bon" corresp="ArticleComplet_IIA2"/>
+            </item>
+            <item xml:id="boubance">
+               <term>bobance</term>
+               <p>(subst.fem): arrogance, orgueil, fierté; faste,luxe</p>
+               <ptr target="https://www.cnrtl.fr/definition/bombance"/>
+            </item>
+            <item xml:id="bouche">
+               <term>de bouche</term>
+               <p>(loc.): de vive voix</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bouche1" corresp="Article_completB4b"/>
+            </item>
+            <item xml:id="bouillir">
+               <term>bouillir, bouillant</term>
+               <p>(verbe): exciter, agiter, troubler En lien, avec la traduction de l'expression
+                  utilisée de la Vulgate, dans <bibl>Es 5:11-12</bibl>:
+                     <ref>https://gaffiot.fr/#aestuo</ref></p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bouillir"/>
+            </item>
+            <item xml:id="bordeau">
+               <term>bordeau, bourdeau</term>
+               <p>(subst.masc.): bordel, lieu de prostitution</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bordel"/>
+            </item>
+            <item xml:id="brave">
+               <term>brave</term>
+               <p>(adj.): richement vêtu, élégant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/brave1"/>
+            </item>
+            <item xml:id="bref">
+               <term>de bref</term>
+               <p>(loc.adv.): sous peu</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bref" corresp="Article_complet2b"/>
+            </item>
+            <item xml:id="ça">
+               <term>ça ne là</term>
+               <p>(loc.adv.): nulle part</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/çà"/>
+            </item>
+            <item xml:id="cafadrise">
+               <term>cafadrise</term>
+               <p>(subst.fem.): dévotion feinte; esprit du faux dévot et de l'hypocrite</p>
+               <ptr target="https://www.cnrtl.fr/definition/cafardise"/>
+            </item>
+            <item xml:id="captif">
+               <term>captif</term>
+               <p>(adj. et subst.): celui qui est prisonnier/prisonnière; prisonnier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/captif"/>
+            </item>
+            <item xml:id="cas">
+               <term>cas</term>
+               <p>(subst.masc.): crime, délit, affaire délictueuse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cas1"/>
+            </item>
+            <item xml:id="cause">
+               <term n="1">à cause que</term>
+               <p>(loc. conj.): parce que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cause"/>
+               <term n="2">cause, tirer en cause</term>
+               <p>(subst.fem..): cause juridique, procès; affaire pour laquelle une action est
+                  intentée en justice</p>
+               <p>(loc.verbale): mettre en jugement, mener une affaire devant la justice, faire un
+                  procès</p>
+               <ptr target="https://www.dictionnaire-academie.fr/article/A1P0288"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/cause"/>
+               <term n="3">estre cause de</term>
+               <p>(loc.verbale): être l'auteur de qqch, être l'origine</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cause" corresp="Article_CompletIA2a"/>
+            </item>
+            <item xml:id="cecite">
+               <term>cécité</term>
+               <p>(subst.fém.): privation de la vue, au propre comme au figuré</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cécité"/>
+            </item>
+            <item xml:id="chaloir">
+               <term>chaloir</term>
+               <p>(verbe): importer à qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chaloir1"/>
+            </item>
+            <item xml:id="charite">
+               <term>charité</term>
+               <p>(subst.fém.): amour parfait venant de Dieu et dont Dieu est l'objet; amour
+                  désintéressé du prochain, générosité</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/charité"/>
+            </item>
+            <item xml:id="charger">
+               <term>chargé</term>
+               <p>(verbe, empl.abs.): fatigué, accablé (par un combat)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/charger"/>
+            </item>
+            <item xml:id="chascun">
+               <term>un chascun, un chacun</term>
+               <p>(pron.indéf., loc.): chacun, toute personne, qui que ce soit, prise un à un dans
+                  un ensemble</p>
+               <term n="2">un chascun, un chacun + subst.</term>
+               <p>(pron.indéf.): chaque</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chacun"/>
+            </item>
+            <item xml:id="change">
+               <term>change</term>
+               <p>(subst.masc.): échange; substitution (d'une pers.à une autre), remplacement (d'une
+                  pers. à une autre)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/change"/>
+            </item>
+            <item xml:id="chef">
+               <term>chief, chef</term>
+               <p>(subst.masc.): tête</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chef "/><!-- à compléter -->
+            </item>
+            <item xml:id="chetif">
+               <term>chétif</term>
+               <p>(adj.): misérable, pitoyable, malheureux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chétif"/>
+            </item>
+            <item xml:id="choir">
+               <term>choir, chu (part.passé)</term>
+               <p>(verbe): tomber, être entraîné vers le sol</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/choir "/>
+            </item>
+            <item xml:id="chose">
+               <term>quelque chose que</term>
+               <p>(loc.): quoi que ce soit que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chose"/>
+               <term n="2">chose</term>
+               <p>(subst.fem.): réalité quelle qu'elle soit, effective, possible, imaginaire,
+                  concrète, abstraite...</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chose" corresp="ArticleComplet_IIB"/>
+               <term n="3">grand chose</term>
+               <p>(loc.nominale): quelque chose qui a une certaine importance, qu'il faut noter, qui
+                  peut étonner; (P. iron.) [Sur le mode de l'emphase]: extraordinaire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/grand" corresp="ArticleComplet_IIIB1"/>
+            </item>
+            <item xml:id="celestiel">
+               <term>célestiel</term>
+               <p>(adj.): céleste, du ciel, qui a rapport au divin</p>
+            </item>
+            <item xml:id="celestin">
+               <term>celestin</term>
+               <p>(subst.masc.): religieux appartenant à l'ordre des Célestins (institué en 1254 par
+                  Pietro Angeleri, devenu pape sous le nom de Célestin V)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/célestin1"/>
+            </item>
+            <item xml:id="celuy"><!-- Modernisation: problème de définition! -->
+               <term>celui</term>
+               <p>(pron.dém.): celui</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/celui"/>
+            </item>
+            <item xml:id="cenacle">
+               <term>cénacle</term>
+               <p>(subst.masc.): salle à manger. En particulier: Salle où Jésus, entouré de ses
+                  disciples, institua l'Eucharistie (Luc 22:10-12)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cénacle"/>
+               <ptr target="https://gaffiot.fr/#cenaculum"/>
+            </item>
+            <item xml:id="cene">
+               <term>cène</term>
+               <p>(subst.fem.): repas (du soir)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cène"/>
+            </item>
+            <item xml:id="cense">
+               <term>cense</term>
+               <p>(subst.fem.): cens, redevance due pour la jouissance d'un bien; impôt, tribut</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cense"/>
+            </item>
+            <item xml:id="certain">
+               <term>il est (tout) certain que</term>
+               <p>(adj.; tournure imper.): qui est hors de doute; il est hors de doute que</p>
+            </item>
+            <item xml:id="certainement">
+               <term>certainement</term>
+               <p>(adv.): de toute évident, assurément, sans aucun doute</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/certainement"/>
+            </item>
+            <item xml:id="certes">
+               <term>certes</term>
+               <p>(adv.): en vérité, assurément, certainement</p>
+               <p>(adv.): effectivement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/certes"/>
+            </item>
+            <item xml:id="cesser">
+               <term>cesser à</term>
+               <p>(verbe): prendre fin pour qqun, prendre fin, s'arrêter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cesser1"/>
+            </item>
+            <item xml:id="cestuy">
+               <term>cist, cestuy, cestui, ceste(s)</term>
+               <p>(adj. dém.): ce...-ci</p>
+               <p>(pron.dém.): celui-ci</p>
+               <p>(pron. dém., comme sujet): cela, ce</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cist"/>
+            </item>
+            <item xml:id="chere">
+               <term>faire grant chere</term>
+               <p>(expr.): (se) régaler largement</p><!-- Attention: emploi plus tardif (Mérimée) -->
+               <ptr target="https://www.cnrtl.fr/definition/ch%C3%A8re"/>
+               <term>chère</term>
+               <p>(subst.fem.): réception, grande fête; repas, repas offert à qq'un, réjouissances
+                  qui l'accompagnent</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/chère"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/348?DMF" corresp="350_3b"/>
+            </item>
+            <item xml:id="clair">
+               <term>tout clair, il est tout clair que</term>
+               <p>(adj. et adv.): évident, certain, assuré, manifeste, sans équivoque</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/clair1"/>
+            </item>
+            <item xml:id="clarifier">
+               <term>clarifier</term>
+               <p>(verbe): glorifier, illustrer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/clarifier2"/>
+            </item>
+            <item xml:id="circoncision">
+               <term>circoncision</term>
+               <p>(subst.fém.): prépuce</p>
+               <ptr target="https://micmap.org/dicfro/search/dictionnaire-godefroy/circoncision"/>
+            </item>
+            <item xml:id="coeur">
+               <term>de bon coeur</term>
+               <p>(loc.adv.): avec ardeur; pleinement, sincèrement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/coeur"/>
+            </item>
+            <item xml:id="colorer">
+               <term>colorer</term>
+               <p>(verbe, part. passé en empl. adj): faussement embelli, trompeur, déguisé</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/colorer" corresp="Article_Complet_C2b"/>
+            </item>
+            <item xml:id="conferer">
+               <term>conférer (de qqch) avec</term>
+               <p>(verbe): discuter, débattre (de qqch)(avec qqun)</p>
+               <p>(verbe): rassembler des choses pour les comparer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/conférer"/>
+            </item>
+            <item xml:id="confession">
+               <term>confession</term>
+               <p>(subst.fem.): proclamation, déclaration, déclaration officielle; foi</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/confession"/>
+            </item>
+            <item xml:id="conforme">
+               <term>conforme à</term>
+               <p>(adj.): semblable à, comparable à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/conforme"/>
+               <ptr target="https://gaffiot.fr/#conformis"/>
+            </item>
+            <item xml:id="confusion">
+               <term>confusion</term>
+               <p>(subst.fem.): honte, ignominie</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/confusion"/>
+            </item>
+            <item xml:id="consentir">
+               <term>consentir à qq'un</term>
+               <p>(verbe): s'accorder avec qq'un, se rallier à qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/consentir" corresp="ArticleComplet_IB2b"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/consentir" corresp="Etymol._Hist."/>
+            </item>
+            <item xml:id="consommateur">
+               <term>consommateur</term>
+               <p>(subst.masc.): celui qui amène quelque chose à son plein accomplissement, à sa
+                  perfection; pour qualifier le Christ "celui qui accomplit les prophéties"</p>
+               <ptr target="https://www.cnrtl.fr/definition/academie9/consommateur"/>
+               <ptr target="https://www.cnrtl.fr/definition/consommateur"/>
+            </item>
+            <item xml:id="consommation">
+               <term>consommation</term>
+               <p>(subst.fem.):fin de qqch, achèvement, accomplissement, réalisation de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/consommation"/>
+            </item>
+            <item xml:id="consummer">
+               <term>consummer</term>
+               <p>(verbe): ruiner, gâter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/consumer" corresp="ArticleComplet_A2"/>
+            </item>
+            <item xml:id="convenable">
+               <term>convenable</term>
+               <p>(adj.): qui est approprié à ce qu'il faut, qui est nécessaire; propice, opportun,
+                  approprié</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/convenable"/>
+            </item>
+            <item xml:id="coustume">
+               <term>avoir de coutume (de)</term>
+               <p>(loc.verb.): avoir l'habitude</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/coutume" corresp="Article_completA3"/>
+            </item>
+            <item xml:id="contemptible">
+               <term>contemptible</term>
+               <p>(adj.): méprisable, qu'on peut mépriser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/contemptible"/>
+            </item>
+            <item xml:id="content">
+               <term>content de qqch</term>
+               <p>(adj.): satisfait, qui se contente de qqc., qui se satisfait de qqc., qui ne
+                  demande pas plus</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/content2"/>
+            </item>
+            <item xml:id="contradiction">
+               <term>contradiction</term>
+               <p>(subst.fem.): opposition, vive opposition, répugnance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/contradiction"/>
+            </item>
+            <item xml:id="contredire">
+               <term>contredire à qq'un</term>
+               <p>s'opposer à qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/contredire"/>
+            </item>
+            <item xml:id="confermer">
+               <term>confermer</term>
+               <p>(verbe): renforcer, affermir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/confermer"/>
+               <term n="2">confermer</term>
+               <p>(verbe): confirmer, valider, ratifier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/confermer"/>
+            </item>
+            <item xml:id="conge">
+               <term>congé, sans congé</term>
+               <p>(loc.): sans autorisation</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/congé"/>
+            </item>
+            <item xml:id="congnoistre">
+               <term n="1">congnoistre que, connoistre que</term>
+               <p>(verbe): s'apercevoir que, se rendre compte que</p><!-- Problème: connaitre peut aussi signifier : reconnaître, connaître -->
+               <ptr target="http://www.atilf.fr/dmf/definition/connaître"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/847?DMF"/>
+               <term n="2">se congnoistre</term>
+               <p>(verbe):se reconnaître</p><!-- Problème de définition -->
+               <term n="3">congnoistre; (spéc.DR.)(mod.) connaître de qqch</term>
+               <p>(verbe, emploi intrans.): être compétent pour juger, avoir autorité et compétence
+                  pour juger de certaines matières</p>
+               <ptr target="https://www.cnrtl.fr/definition/academie9/conna%C3%AEtre"/>
+               <term n="4">congnoistre</term>
+               <p>(verbe): reconnaître qqn, l'identifier comme qqn de connu</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/connaître" corresp="Article_completIIA"/>
+               <term n="5">il est connu que</term>
+               <p>(loc.verbale): il est admis que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/connaître" corresp="ArticleComplet_IA1b"/>
+            </item>
+            <item xml:id="conquester">
+               <term>conquester, conquêter</term>
+               <p>(verbe): conquérir (par les armes)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/conquêter"/>
+            </item>
+            <item xml:id="conservation">
+               <term>conservation</term>
+               <p>(subst.fem.): maintien (de qqc.), fait de conserver qqc., de le maintenir intact;
+                  respect</p>
+               <ptr target="https://gaffiot.fr/#conservatio"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/conservation"/>
+            </item>
+            <item xml:id="controuver">
+               <term>controuver</term>
+               <p>(verbe): imaginer, inventer mensongèrement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/controuver"/>
+            </item>
+            <item xml:id="combien">
+               <term>combien que</term>
+               <p>(loc.conj.): bien que, quoique, même si</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/combien"/>
+               <term n="2">combien</term>
+               <p>(adv.): comment, de quelle manière</p>
+               <ptr target="https://gaffiot.fr/#quomodo"/>
+            </item>
+            <item xml:id="come">
+               <term>comme</term>
+               <p>(adv.): en qualité de</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/1542?DMF" corresp="1542_bε"/>
+            </item>
+            <item xml:id="comme">
+               <term>comme ainsi soit que</term>
+               <p>(loc.conj.): d'autant que, puisque</p><!-- ATTENTION chercher définition -->
+               <p>(loc.conj.): quoique, alors que, puisque</p>
+               <ptr target="https://dvlf.uchicago.edu/mot/comme%20ainsi%20soit%20que"/>
+            </item>
+            <item xml:id="comment">
+               <term>comment que</term>
+               <p>(conj.): de quelque manière que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/comment2"/>
+            </item>
+            <item xml:id="commettre">
+               <term>commettre à qqun qqchose</term>
+               <p>(verbe): confier qqch à qqun, charger qqun de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/commettre"/>
+            </item>
+            <item xml:id="communiquer">
+               <term>communiquer</term>
+               <p>(verbe): communier. Emprunté au latin : communicare</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/communier1"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/960?DMF"/>
+            </item>
+            <item xml:id="compagnie">
+               <term>avoir la compagnie de</term>
+               <p>(loc.verb.): avoir commerce charnel avec qqn</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/compagnie" corresp="Article_completA2b"/>
+            </item>
+            <item xml:id="comparer">
+               <term>comparé à</term>
+               <p>(verbe, part.passé): semblable à, identique à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/comparer1"/>
+            </item>
+            <item xml:id="competer">
+               <term>compéter</term>
+               <p>(verbe): coïncider, se retrouver, se rencontrer au même point</p>
+               <ptr target="https://gaffiot.fr/#competo"/>
+               <term>compéter</term>
+               <p>(verbe): appartenir, revenir à qqn en vertu d'un droit</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/977?DMF" corresp="977_I1"/>
+               <p>(verbe) compéter à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/compéter "/>
+            </item>
+            <item xml:id="complaire">
+               <term>complaire à qqun</term>
+               <p>(verbe): être agréable à qqun en s'accommodant à ses goûts, à son humeur, à ses
+                  attentes...; faire plaisir à qqunsatisfaire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/complaire"/>
+            </item>
+            <item xml:id="contemner">
+               <term>contemner</term>
+               <p>(verbe): mépriser, traiter avec mépris</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/contemner"/>
+            </item>
+            <item xml:id="contenir">
+               <term>contenir</term>
+               <p>(verbe): mentionner,exposer, stipuler</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/contenir" corresp="Article_completIA3b"/>
+            </item>
+            <item xml:id="convive">
+               <term>convive</term>
+               <p>(subst.masc.): banquet, festin, repas en commun</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/convive"/>
+            </item>
+            <item xml:id="coulpe">
+               <term>coulpe</term>
+               <p>(subst.fém.): péché, faute</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/coulpe"/>
+            </item>
+            <item xml:id="corporal">
+               <term>corporal</term>
+               <p>(subst.masc.): corporal, linge qui se met sur l'autel pour y poser l'hostie
+                  pendant la messe</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/corporal"/>
+            </item>
+            <item xml:id="corruptible">
+               <term>corruptible</term>
+               <p>(adj.): qui est sujet à la destruction ou à l'altération; périssable, altérable,
+                  putrescible</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/corruptible"/>
+            </item>
+            <item xml:id="cure">
+               <term>avoir cure de qqch</term>
+               <p>(loc.verb.): se soucier de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/cure" corresp="Article_completA2"/>
+            </item>
+            <item xml:id="debonnaire">
+               <term>débonnaire</term>
+               <p>(adj.): doux, bon, gentil</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/débonnaire"/>
+            </item>
+            <item xml:id="debteur">
+               <term>debteur, detteur</term>
+               <p>(adj.): débiteur, redevable, assujeti, obligé</p>
+               <p>(susbt.masc.): débiteur, créancier, personne qui doit une somme à une autre;
+                  personne qui est redevable</p>
+               <ptr target="https://gaffiot.fr/#debitor"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/detteur"/>
+            </item>
+            <item xml:id="decent">
+               <term>décent</term>
+               <p>(adj.): adéquat, approprié, convenable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/décent"/>
+            </item>
+            <item xml:id="deception">
+               <term>déception</term>
+               <p>(subst.fém.): tromperie, fraude</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/déception"/>
+            </item>
+            <item xml:id="decevoir">
+               <term>décevoir</term>
+               <p>(verbe): tromper, abuser qqun, induire qqun en erreur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/décevoir"/>
+            </item>
+            <item xml:id="declarer">
+               <term>déclarer</term>
+               <p>(verbe): faire connaître qqch. clairement (à qq'un)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/déclarer"/>
+            </item>
+            <item xml:id="decouvrir">
+               <term>découvrir</term>
+               <p>(verbe): révéler, dévoiler qqc. (à qqn)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/découvrir"/>
+            </item>
+            <item xml:id="desdier">
+               <term>dédier</term>
+               <p>(verbe): consacrer, consacrer à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dédier"/>
+            </item>
+            <item xml:id="deffence">
+               <term>defense, défense</term>
+               <p>(subst.fém.): résistance, fait de se défendre contre qqch; protection, sauvegarde,
+                  fait de défendre qq'un ou qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/défense"/>
+            </item>
+            <item xml:id="defaillir">
+               <term>défaillir</term>
+               <p>(verbe): faiblir, décliner, disparaître, mourir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/défaillir"/>
+               <term n="2">défaillir en qqch</term>
+               <p>(loc.): être en défaut dans tel ou tel domaine</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/défaillir" corresp="ArticleComplet_IA1e"/>
+            </item>
+            <item xml:id="defendre">
+               <term>défendre</term>
+               <p>(verbe): soutenir qqch, argumenter en faveur de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/défendre1"/>
+            </item>
+            <item xml:id="delaisser">
+               <term>délaisser de/à + inf.</term>
+               <p>(verbe): renoncer à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/délaisser"/>
+            </item>
+            <item xml:id="demeurer">
+               <term>demeurer en qqch</term>
+               <p>(verbe): persévérer dans qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/demeurer" corresp="Article_Complet_B1c"/>
+            </item>
+            <item xml:id="demoniacle">
+               <term>démoniacle</term>
+               <p>(adj. et subst.): démoniaque, celui qui est possédé par le démon</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/démoniaque"/>
+            </item>
+            <item xml:id="departir">
+               <term>departir, départir</term>
+               <p>(verbe): partager qqch, diviser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/départir"/>
+            </item>
+            <item xml:id="deporter">
+               <term>se déporter de + inf.</term>
+               <p>(verbe, empl.pron.): s'abstenir de, renoncer à</p>
+            </item>
+            <item xml:id="depriser">
+               <term>dépriser</term>
+               <p>(verbe): mépriser, dédaigner</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dépriser"/>
+               <ptr target="https://micmap.org/dicfro/search/dictionnaire-godefroy/desprisier"/>
+            </item>
+            <item xml:id="de_rechief">
+               <term>de rechief, derechief</term>
+               <p>(adv.): derechef, une nouvelle fois, de nouveau</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/derechef"/>
+               <ptr target="https://www.cnrtl.fr/definition/derechef"/>
+            </item>
+            <item xml:id="dernier">
+               <term>au dernier</term>
+               <p>(loc.): à la fin, en fin de compte</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dernier"/>
+            </item>
+            <item xml:id="des">
+               <term>dès longtemps</term>
+               <p>(loc.prép.): depuis longtemps</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/d%C3%A8s"/>
+            </item>
+            <item xml:id="desserte">
+               <term>sans desserte</term>
+               <p>(loc.): sans que ce soit mérité (en bien ou en mal)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/desserte1"/>
+            </item>
+            <item xml:id="desir">
+               <term>désir de</term>
+               <p>(subst.masc.): souhait, envie, projet de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/désir" corresp="A1"/>
+            </item>
+            <item xml:id="desirer">
+               <term>désirer de + inf.</term>
+               <p>(verbe): aspirer à, souhaiter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/désirer" corresp="B3a"/>
+            </item>
+            <item xml:id="desister">
+               <term>desister</term>
+               <p>(verbe): cesser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/désister"/>
+            </item>
+            <item xml:id="se_demettre">
+               <term n="1">se démettre</term>
+               <p>(verbe): se soumettre, cesser volontairement de remplir une fonction, un emploi </p>
+               <p>(verbe): s'abaisser, s'humilier</p>
+               <ptr target="https://micmap.org/dicfro/search/dictionnaire-godefroy/desmetre1"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/62/191?DMF" corresp="191 II.1"/>
+               <term n="2">se démettre de qqch</term>
+               <p>(verbe): renoncer à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/démettre" corresp="Article_complet_IIA1"/>
+            </item>
+            <item xml:id="devant">
+               <term n="1">devant que</term>
+               <p>(loc.conj.): avant que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/devant"/>
+               <term n="2">au devant de</term>
+               <p>(loc.prép.): en avant de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/devant"/>
+               <term n="3">aller devant</term>
+               <p>(loc.verbale): aller en tête, avant d'autres; conduire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/devant" corresp="Article_completIA1c"/>
+               <term n="4">venir au devant</term>
+               <p>(loc.verbale): aller/venir à la rencontre de qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/devant" corresp="A2b"/>
+            </item>
+            <item xml:id="dextre">
+               <term>dextre, destre</term>
+               <p>(adj. et subst.fem.): droit, qui est à droite; la main droite, le côté droit</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dextre"/>
+            </item>
+            <item xml:id="dignite">
+               <term>dignité</term>
+               <p>(subst.fém.): charge, fonction religieuse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dignité"/>
+            </item>
+            <item xml:id="dilection">
+               <term>dilection</term>
+               <p>(subst.fem.): amour, grande affection</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dilection"/>
+            </item>
+            <item xml:id="diligence">
+               <term>diligence</term>
+               <p>(subst.fem.): soin, soin empressé, application, zèle</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/diligence"/>
+            </item>
+            <item xml:id="dispensation">
+               <term>dispensation</term>
+               <p>(subst.fem.): dispense; action, de la part d'une autorité (civile ou religieuse),
+                  de décharger qqn d'une obligation résultant d'une règle établie</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dispensation"/>
+            </item>
+            <item xml:id="dispenser">
+               <term>dispenser</term>
+               <p>(verbe): autoriser à faire qqch que la loi défend, accorder une dispense</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/dispenser"/>
+            </item>
+            <item xml:id="divers">
+               <term>divers</term>
+               <p>(adj.): différent, varié</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/divers"/>
+            </item>
+            <item xml:id="don">
+               <term>don</term>
+               <p>(subst.masc.): cadeau, donation, largesse, libéralité</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/don"/>
+            </item>
+            <item xml:id="donc">
+               <term>doncques, donc</term>
+               <p>(adv.): alors</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/30/179?DMF" corresp="179_1"/>
+            </item>
+            <item xml:id="dont">
+               <term>dont</term>
+               <p>(adv.): d'où</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/140/32?DMF" corresp="2a_alpha"/>
+            </item>
+            <item xml:id="domestique">
+               <term>domestique</term>
+               <p>(adj.): qui appartient à la maison</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/domestique"/>
+            </item>
+            <item xml:id="domination">
+               <term>domination</term>
+               <p>(subst.fem.): pouvoir, autorité, fait d'exercer un pouvoir de suprématie,
+                  souveraineté</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/domination"/>
+               <ptr target="https://gaffiot.fr/#dominatio"/>
+            </item>
+            <item xml:id="douter">
+               <term>ne pas douter que</term>
+               <p>(loc.verbale): être sûr, être assuré</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/douter" corresp="Article_completA3"/>
+            </item>
+            <item xml:id="droit">
+               <term n="1">droit</term>
+               <p>(adj.): vrai</p>
+               <ptr target="https://micmap.org/dicfro/search/complement-godefroy/dreit3"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/droit2 "/>
+               <term n="2">à bon droit</term>
+               <p>(loc.): à juste titre, légitimement</p>
+               <ptr target="https://www.anglo-norman.net/entry/dreit"/>
+            </item>
+            <item xml:id="duc">
+               <term>duc</term>
+               <p>(subst.masc.): conducteur, chef, celui qui dirige</p>
+               <ptr target="https://gaffiot.fr/#dux"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/duc1"/>
+            </item>
+            <item xml:id="durant">
+               <term>durant que</term>
+               <p>(loc.conj.): quand, pendant que, pendant tout le temps que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/durant1 "/>
+            </item>
+            <item xml:id="duysant">
+               <term>duysant, duisant</term>
+               <p>(adj.): convenable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/duisant"/>
+            </item>
+            <item xml:id="effouir">
+               <term>effouir, esfoir</term>
+               <p>(verbe): déterrer, creuser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/effouir"/>
+            </item>
+            <item xml:id="effusion">
+               <term>effusion de sang</term>
+               <p>(subst. fem.): action de faire couler du sang (par la violence)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/effusion" corresp="ArticleComplet"/>
+            </item>
+            <item xml:id="elever">
+               <term>s'élever</term>
+               <p>(verbe, empl. pron.): s'enorgueillir, se prévaloir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/élever" corresp="ArticleCompletIIC1d"/>
+            </item>
+            <item xml:id="emerveiller">
+               <term>s'emerveiller</term>
+               <p>(verbe): s'étonner, être surpris</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/émerveiller"/>
+            </item>
+            <item xml:id="empescher">
+               <term>empescher, empêcher</term>
+               <p>(verbe): gêner, être un obstacle pour qq'un, embarrasser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/empêcher"/>
+            </item>
+            <item xml:id="en">
+               <term>en</term>
+               <p>(prép): sur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/en1" corresp="ArticleComplet_IIA1d"/>
+            </item>
+            <item xml:id="enchanterie">
+               <term>enchanterie</term>
+               <p>(subst.fem.): enchantement, sort, magie, sorcellerie; fait d'abuser la vue par
+                  divers moyens</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/enchanterie"/>
+            </item>
+            <item xml:id="encontre">
+               <term>à l'encontre de</term>
+               <p>(prép.): contre qq'un ou qqch, en opposition à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/encontre2"/>
+            </item>
+            <item xml:id="encore">
+               <term>ne encore, ni encore</term>
+               <p>(adv.): ni même</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/encore" corresp="Article_completB2a"/>
+            </item>
+            <item xml:id="ennuyer">
+               <term>ennuyer, ennuyé</term>
+               <p>(verbe, part.passé): fatiguer (au moral), affliger; lasser de l'intérêt</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ennuyer"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/40/701?DMF"/>
+            </item>
+            <item xml:id="ensuivre">
+               <term n="1">(s')en ensuivre</term>
+               <p>(verbe): découler, résulter de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ensuivre" corresp="Article_completC"/>
+               <term n="2">ensuivre qq'un</term>
+               <p>(verbe): suivre, accompagner qq'un</p>
+            </item>
+            <item xml:id="entour">
+               <term>à l'entour de</term>
+               <p>(prép.): autour de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/entour"/>
+            </item>
+            <item xml:id="entrevenir">
+               <term>entrevenir</term>
+               <p>(verbe): survenir, arriver</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/entrevenir"/>
+            </item>
+            <item xml:id="entretant">
+               <term>entretant que</term>
+               <p>(loc.conj.): pendant que, tandis que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/entretant"/>
+            </item>
+            <item xml:id="entretenir">
+               <term n="1">entretenir</term>
+               <p>(verbe): pourvoir qqn de ce qui est nécessaire à la vie, pourvoir aux besoins de
+                  qqn</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/entretenir1"/>
+               <term n="2">soy entretenir, s'entretenir</term>
+               <p>(verbe, empl.pron.): subvenir à ses besoins, se maintenir, subsister</p>
+            </item>
+            <item xml:id="enorme">
+               <term>énorme</term>
+               <p>(adj.): qui s'écarte de toute règle, de toute norme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/énorme"/>
+            </item>
+            <item xml:id="evangeliser">
+               <term>evangeliser, evangelizer</term>
+               <p>(verbe): annoncer, porter une bonne nouvelle</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/%C3%A9vang%C3%A9liser" corresp="Etymol._et_Hist."/>
+            </item>
+            <item xml:id="environner">
+               <term>environner</term>
+               <p>(verbe): envelopper</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/environner"/>
+            </item>
+            <item xml:id="epandre">
+               <term>épandre,espandre</term>
+               <p>(verbe): faire couler, (dé)verser, répandre un liquide</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/épandre"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/%C3%A9pandre" corresp="Etymol.et_Hist.3b"/>
+            </item>
+            <item xml:id="errer">
+               <term>errer</term>
+               <p>(verbe): se tromper, s'éloigner de la vérité</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/errer2"/>
+            </item>
+            <item xml:id="es">
+               <term>ès</term>
+               <p>(prép.): dans les, en les</p>
+               <ptr target="https://www.cnrtl.fr/definition/%C3%A8s"/>
+            </item>
+            <item xml:id="escole">
+               <term>école</term>
+               <p>(subst.fém.): (par.ext.) tout enseignement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/école"/>
+            </item>
+            <item xml:id="escrire">
+               <term>escrire (qq'un)</term>
+               <p>(verbe): inscrire, classer qqn (dans une liste); consigner, enregistrer qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/écrire"/>
+            </item>
+            <item xml:id="esjouir">
+               <term>esjouir, éjouir</term>
+               <p>(verbe, empl.pron.): se réjouir de</p>
+               <p>(verbe, empl.trans.): réjouir qqn</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/éjouir"/>
+            </item>
+            <item xml:id="esmouvoir">
+               <term n="1">esmouvoir, émouvoir</term>
+               <p>(verbe): troubler, agiter, remuer, ébranler</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/émouvoir "/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/30/300?DMF" corresp="300"/>
+               <term n="2">esmouvoir qq'un (à/de) + inf., émouvoir</term>
+               <p>(verbe): pousser qq'un à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/émouvoir" corresp="Article_completIVb"/>
+            </item>
+            <item xml:id="espars">
+               <term>espars</term>
+               <p>(adj.): dispersé, épars</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/épars"/>
+            </item>
+            <item xml:id="estat">
+               <term>estat, état</term>
+               <p>(subst.masc.): manière d'être; conduite, agissements; manière de vivre; condition,
+                  situation; charge, position</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/état"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/120/248?DMF"/>
+            </item>
+            <item xml:id="estroitement">
+               <term>estroitement, étroitement</term>
+               <p>(adv.): instamment, avec insistance; rigoureusement, formellement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/étroitement"/>
+            </item>
+            <item xml:id="estre_à">
+               <term>estre à</term>
+               <p>(verbe): contribuer à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/être1" corresp="IIB1a"/>
+            </item>
+            <item xml:id="estre_après">
+               <term>estre après qqch</term>
+               <p>(verbe): être occupé à</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/%C3%AAtre/0" corresp="7b"/>
+            </item>
+            <item xml:id="estre_pour">
+               <term>estre pour + inf.</term>
+               <p>(verbe): être fait pour, être capable de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/être1"/>
+            </item>
+            <item xml:id="estre_par">
+               <term>estre par</term>
+               <ptr target="http://www.atilf.fr/dmf/definition/être1" corresp="ArticleComplet_IIB5"/>
+            </item>
+            <item xml:id="exaction">
+               <term>exaction</term>
+               <p>(subst.fém.): abus commis sur qqn, acte de violence, exaction</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exaction"/>
+            </item>
+            <item xml:id="exalter">
+               <term n="1">exalter</term>
+               <p>(verbe): élever, honorer, élever qq'un à une dignité, élever qq'un au-dessus des
+                  autres</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exalter"/>
+               <ptr target="https://gaffiot.fr/#exalto"/>
+               <term n="2">s'exalter</term>
+               <p>(verbe, empl.pron.réfl.): s'élever, s'élever au-dessus des autres (par son
+                  savoir)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exalter"/>
+            </item>
+            <item xml:id="excommuniement">
+               <term>excommuniement</term>
+               <p>(subst.masc.): excommunication</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/excommuniement"/>
+            </item>
+            <item xml:id="excellent">
+               <term>excellent</term>
+               <p>(adj.): éminent, noble, qui tient un rang élevé; </p>
+               <ptr target="http://www.atilf.fr/dmf/definition/excellent"/>
+               <ptr target="https://www.anglo-norman.net/entry/excellent"/>
+            </item>
+            <item xml:id="exemplaire">
+               <term>exemplaire</term>
+               <p>(subst.masc.): modèle</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exemplaire1 "/>
+            </item>
+            <item xml:id="exempter">
+               <term>exempter</term>
+               <p>(verbe): soustraire à une juridiction, à une autorité judiciaire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exempter"/>
+            </item>
+            <item xml:id="exercite">
+               <term>exercite</term>
+               <p>(subst.masc.): armée</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exercite1"/>
+            </item>
+            <item xml:id="experimenter">
+               <term>experimenter qq'un</term>
+               <p>(verbe): mettre à l'épreuve qq'un, éprouver qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/expérimenter"/>
+            </item>
+            <item xml:id="expressement">
+               <term>expressément</term>
+               <p>(adv.): explicitement, de manière explicite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/expressément"/>
+            </item>
+            <item xml:id="exprimer">
+               <term>exprimer</term>
+               <p>(verbe): faire connaître qqc., dire, évoquer par la parole; rendre manifeste par
+                  la parole (une intention, un sentiment...)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exprimer"/>
+            </item>
+            <item xml:id="exterminer">
+               <term>exterminer</term>
+               <p>(verbe): banir ou faire périr jusqu'au dernier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/exterminer"/>
+            </item>
+            <item xml:id="fascheux">
+               <term>fascheux, fâcheux</term>
+               <p>(adj.): pénible, désagréable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fâcheux"/>
+            </item>
+            <item xml:id="faillir">
+               <term>faillir</term>
+               <p>(verbe, empl. intrans.): manquer à ses devoirs, à ses engagements</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/faillir" corresp="2A1"/>
+            </item>
+            <item xml:id="faire">
+               <term>bienfaire, bien faire</term>
+               <p>(verbe): faire du bien, faire du bien aux autres, répandre/distribuer des
+                  bienfaits</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/bienfaire"/>
+            </item>
+            <item xml:id="se_faire">
+               <term>se faire: se fait, s'il se peut faire</term>
+               <p>(verbe, empl.pronom.): si telle chose se produit, s'accomplit, arrive</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/faire" corresp="ArticleComplte_IIIB"/>
+            </item>
+            <item xml:id="fardemens">
+               <term>fardement</term>
+               <p>(subst.masc.): action de se farder; (fig.) ruse, tromperie, action de dissimuler
+                  la réalité sous une apparence trompeuse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fardement"/>
+            </item>
+            <item xml:id="farder">
+               <term>farder</term>
+               <p>(verbe,part. passé en empl. adj.): trompeur, dissimulé</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/farder1" corresp="Article_Complet_C"/>
+            </item>
+            <item xml:id="faute">
+               <term>par faute de, par faute de + inf.</term>
+               <p>(loc.): par manque de, en l'absence de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/faute"/>
+            </item>
+            <item xml:id="fauteur">
+               <term>fauteur</term>
+               <p>(subst.masc.): partisan, défenseur, complice, celui qui favorise, celui qui
+                  excite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fauteur"/>
+               <ptr target="https://gaffiot.fr/#fautor"/>
+            </item>
+            <item xml:id="feste">
+               <term>faire (la) fête à qq'un de qqchose</term>
+               <p>(loc.verbale): faire plaisir à qq'un au moyen de qqchose</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fête" corresp="Article_complet4a"/>
+            </item>
+            <item xml:id="fiance">
+               <term>fiance</term>
+               <p>(subst.fem.): confiance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fiance"/>
+            </item>
+            <item xml:id="ficher">
+               <term>ficher qqch. (à clous), fichier</term>
+               <p>(verbe): fixer qqch. en le perçant (d'un objet pointu), enfoncer en fixant par la
+                  pointe</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ficher"/>
+            </item>
+            <item xml:id="figure">
+               <term>figure</term>
+               <p>(subst.fem.): (theol.) représentation visible d'un être abstrait ou d'une réalité
+                  supérieure invisible</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/figure" corresp="ArticleCompletB4b"/>
+            </item>
+            <item xml:id="fin">
+               <term>fin</term>
+               <p>(subst.fem.): but, finalité</p>
+               <term>à celle fin que + subj.</term>
+               <p>(loc.): dans le but de, pour que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fin1"/>
+               <term n="3">sans fin</term>
+               <p>(loc.adv.): à tout jamais</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fin1" corresp="Article_CompletIB2e"/>
+            </item>
+            <item xml:id="fleute">
+               <term>fleute</term>
+               <p>(subst.fem.): flûte</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/flûte"/>
+            </item>
+            <item xml:id="foi">
+               <term>hors de foi</term>
+               <p>(subst.masc., loc.): incroyant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/foi1" corresp="1A"/>
+            </item>
+            <item xml:id="force">
+               <term> à force</term>
+               <p>(loc.): en grand nombre, en grande quantité</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/force" corresp="Article_completIIA"/>
+            </item>
+            <item xml:id="forme">
+               <term n="1">en la forme de + subst.</term>
+               <p>(loc.): sous l'apparence de</p>
+               <term n="2">prendre la forme de</term>
+               <p>(loc.verbale): prendre l'apparence de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/forme"/>
+            </item>
+            <item xml:id="fors">
+               <term n="1">fors</term>
+               <p>(prép.): hormis, excepté, sauf</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fors"/>
+               <term n="2">fors que</term>
+               <p>(conj.): excepté, si ce n'est</p>
+               <ptr target="https://micmap.org/dicfro/search/dictionnaire-godefroy/fors"/>
+            </item>
+            <item xml:id="forsenerie">
+               <term>forsenerie, forcenerie</term>
+               <p>(subst.fem.): folie, fureur, acte de celui qui est forcené</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/forcenerie"/>
+               <ptr target="https://www.cnrtl.fr/definition/forcen%C3%A9"/>
+            </item>
+            <item xml:id="fort">
+               <term>fort</term>
+               <p>(adv.): bien, intensément, beaucoup, avec force</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fort"/>
+               <term n="2">fort</term>
+               <p>(adv.): très</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fort" corresp="ArticleComplet_IIB2"/>
+            </item>
+            <item xml:id="fosse">
+               <term>fosse</term>
+               <p>(subst.fem.): terrier, tanière</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fosse"/>
+            </item>
+            <item xml:id="franc">
+               <term n="1">franc</term>
+               <p>(adj.): exempté, qui n'est pas asservi, assujeti</p>
+               <term n="2">franc</term>
+               <p>(adj.): libre, qui est de condition libre, exempt de certaines charges</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/franc2"/>
+            </item>
+            <item xml:id="frapper">
+               <term>être frappé de Dieu</term>
+               <p>(loc.verbale): recevoir un coup de la Providence</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/frapper" corresp="B2"/>
+            </item>
+            <item xml:id="fraudulent">
+               <term>fraudulent</term>
+               <p>(adj.): frauduleux, qui est de nature à causer du tort à qqn en le trompant, qui
+                  trompe, qui déçoit</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fraudulent"/>
+            </item>
+            <item xml:id="froisser">
+               <term>froisser</term>
+               <p>(verbe): blesser, meurtrir, contusionner</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/froisser"/>
+            </item>
+            <item xml:id="fulmination">
+               <term>fulmination</term>
+               <p>(subst.fem.): publication (d'un décret, d'une condamnation, etc.); action de
+                  l'autorité ecclésiastique qui fulmine</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/fulmination"/>
+            </item>
+            <item xml:id="gaignage">
+               <term>gaignage, gagnage</term>
+               <p>(subst.masc.): bénéfice, gain, revenu</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gagnage "/>
+            </item>
+            <item xml:id="gaigner">
+               <term>gaigner, gagner</term>
+               <p>(verbe): obtenir, acquérir (quelque chose) par grâce ou par mérite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gagner" corresp="IIID1"/>
+            </item>
+            <item xml:id="garder">
+               <term n="1">garder</term>
+               <p>(verbe): observer, respecter, suivre</p>
+               <ptr target="https://www.cnrtl.fr/definition/garder" corresp="Etymol_et_Hist_5"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/garder"/>
+               <term n="2">garder</term>
+               <p>(verbe): protéger, surveiller</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/garder"/>
+               <ptr target="https://www.cnrtl.fr/definition/garder" corresp="Etymol_et_Hist_5"/>
+               <term n="3">se garder de + inf.</term>
+               <p>(verbe): éviter de, s'abstenir de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/garder" corresp="ArticleComplet_B4c"/>
+               <term n="4">garder que (ne)</term>
+               <p>(verbe, emploi pron.): se méfier de, se protéger de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/garder" corresp="Article_completB3"/>
+               <p>(verbe, loc.): éviter, avoir soin qu'une chose soit évitée</p>
+               <ptr target="https://www.cnrtl.fr/definition/garder"/>
+            </item>
+            <item xml:id="gaster">
+               <term>gâter</term>
+               <p>(verbe): dévaster, détruire, déteriorer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gâter"/>
+            </item>
+            <item xml:id="geline">
+               <term>géline</term>
+               <p>(subst.fem.): poule</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/géline"/>
+            </item>
+            <item xml:id="gent">
+               <term>gent</term>
+               <p>(subst.fem.): nation, peuple</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gent1"/>
+            </item>
+            <item xml:id="genouil">
+               <term>genouil, genoil</term>
+               <p>(subst.masc.): genou</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/genou1"/>
+            </item>
+            <item xml:id="gens">
+               <term>toutes gens</term>
+               <p>(subst.masc. - subst.fém.): tout le monde</p>
+               <ptr target="https://www.anglo-norman.net/entry/gent_1"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/gens" corresp="B2b"/>
+            </item>
+            <item xml:id="gensdarmerie">
+               <term>gendarmerie</term>
+               <p>(subst.fem.): armée, cavalerie lourdement armée, ensemble de gens en armes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gendarmerie"/>
+            </item>
+            <item xml:id="gensdarmes">
+               <term>gendarmes,gendarme</term>
+               <p>(subst.masc.): soldat(s), homme(s) de guerres</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gendarme"/>
+            </item>
+            <item xml:id="gergon">
+               <term>gargon</term>
+               <p>(subst.masc.): jargon, langage (distinct du langage ordinaire)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/jargon"/>
+            </item>
+            <item xml:id="gourmander">
+               <term>gourmander</term>
+               <p>(verbe): (dans un contexte figuré) dévorer, avaler avidement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/gourmander"/>
+            </item>
+            <item xml:id="grand">
+               <term>grand</term>
+               <p>(adj.): beaucoup</p>
+               <ptr target="https://www.anglo-norman.net/entry/grant_2"/>
+            </item>
+            <item xml:id="grandement">
+               <term>grandement</term>
+               <p>(adv.): vivement, considérablement, à un degré élevé, beaucoup, très</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/grandement"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/grandement" corresp="Etymol._et_Hist."/>
+            </item>
+            <item xml:id="grever">
+               <term>grever, grevé</term>
+               <p>(verbe): alourdir, accabler, appesantir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/grever"/>
+               <ptr target="https://micmap.org/dicfro/search/dictionnaire-godefroy/grever1"/>
+            </item>
+            <item xml:id="guetteur">
+               <term>guetteur, guetteur de chemins</term>
+               <p>(subst.): voleur de grands chemins; celui qui se met en embuscade sur les chemins
+                  pour détrousser les gens</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/guetteur "/>
+            </item>
+            <item xml:id="habit">
+               <term>en habit de</term>
+               <p>(subst.masc.): manière d'être, état; apparence</p>
+               <p>(loc.): habillé comme, sous la forme de</p>
+               <ptr target="https://www.anglo-norman.net/entry/habit_1"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/habit "/>
+               <ptr target="https://gaffiot.fr/#2%20habitus"/>
+            </item>
+            <item xml:id="haim">
+               <term>haim, aim</term>
+               <p>(subst.masc.): hameçon</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/aim"/>
+            </item>
+            <item xml:id="hautesse">
+               <term>hautesse</term>
+               <p>(subst.fem.): prééminence, puissance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/hautesse"/>
+            </item>
+            <item xml:id="haultain">
+               <term>haultain, hautain</term>
+               <p>(adj.)(sans valeur dépréciative): très haut, souverain</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/hautain"/>
+            </item>
+            <item xml:id="heure">
+               <term n="1">pour ceste heure</term>
+               <p>(loc.): pour le moment</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/heure" corresp="Article_complet_IB"/>
+               <term n="2">de ceste heure</term>
+               <p>(loc.): à partir de maintenant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/heure" corresp="IB1aRem"/>
+            </item>
+            <item xml:id="honte">
+               <term>mener qq'un à honte</term>
+               <p>(loc.verbale): conduire qq'un au déshonneur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/honte"/>
+            </item>
+            <item xml:id="humain">
+               <term>humain</term>
+               <p>(adj.): qui concerne les hommes, temporel, du monde</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/humain"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/40/507?DMF"/>
+            </item>
+            <item xml:id="humilier">
+               <term>s'humilier</term>
+               <p>(verbe): se faire humble, s'abaisser (jusqu'à devenir homme)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/humilier" corresp="ArticleComplet_B1b"/>
+            </item>
+            <item xml:id="huys">
+               <term>huis</term>
+               <p>(subst.masc.): porte</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/huis"/>
+            </item>
+            <item xml:id="hostellerie">
+               <term>hostellerie, hôtelerie</term>
+               <p>(subst.fem.): auberge, hôtel, maison où les gens de passage peuvent être
+                  hébergés</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/hôtellerie"/>
+            </item>
+            <item xml:id="iceluy">
+               <term>iceluy, icelui; icelle; iceux</term>
+               <p>(pron.; adj. dem.): celui, celle, ceux</p>
+               <ptr target="https://www.dictionnaire-academie.fr/article/A9I0013"/>
+            </item>
+            <item xml:id="ignorans">
+               <term>ignorans</term>
+               <p>(adj.): irréfléchi, qui manque de sagesse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ignorant"/>
+            </item>
+            <item xml:id="illuminer">
+               <term>illuminer</term>
+               <p>(verbe): éclairer; éclairer de la lumière de la vérité, de la foi</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/illuminer"/>
+            </item>
+            <item xml:id="immundicite">
+               <term>immundicité, immondicité</term>
+               <p>(subst.fem.): impureté, ordure</p>
+            </item>
+            <item xml:id="immunde">
+               <term>immunde, immonde</term>
+               <p>(adj.): mauvais, moralement impur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/immonde"/>
+            </item>
+            <item xml:id="importable">
+               <term>importable</term>
+               <p>(adj.): insupportable, pénible, intolérable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/importable"/>
+            </item>
+            <item xml:id="imposition">
+               <term>imposition</term>
+               <p>(subst.fem.): taxe, impôt, redevance, contribution</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/imposition"/>
+            </item>
+            <item xml:id="inclination">
+               <term>inclination</term>
+               <p>(subst.fém.): action d'incliner le corps ou la tête (pour saluer); fait de pencher
+                  le corps ou la tête (en signe de soumission, de respect,...); génuflexion,
+                  salutation</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/inclination"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/inclination" corresp="Étymol._et_Hist.2a"/>
+            </item>
+            <item xml:id="incontamine">
+               <term>incontaminé</term>
+               <p>(adj.): sans souillure</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/incontaminé"/>
+               <ptr target="https://gaffiot.fr/#incontaminabilis"/>
+            </item>
+            <item xml:id="incontinent">
+               <term>incontinent</term>
+               <p>(adv.): aussitôt, immédiatement, tout de suite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/incontinent2"/>
+            </item>
+            <item xml:id="incorporer">
+               <term>incorporer</term>
+               <p>(verbe): unir dans un seul corps, faire entrer, joindre</p>
+               <p>(verbe): faire entrer (dans le corps mystique de l'église). Emprunté à <hi rend="italic">incorporare</hi> (lat.) : revêtir d'un corps; faire entrer dans
+                  un corps, adjoindre. Dans le latin chrétien: incarner.</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/incorporer"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/incorporer"/>
+            </item>
+            <item xml:id="injure">
+               <term>faire injure à</term>
+               <p>(loc.verbale): outrager, offenser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/injure" corresp="ArticleComplet_A2"/>
+            </item>
+            <item xml:id="inserer">
+               <term>insérer</term>
+               <p>(verbe): mettre dans, intégrer. Emprunté à <hi rend="italic">inserere</hi>(lat.):
+                  mettre dans, insérer, introduire; mêler, intercaler; greffer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/insérer"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/ins%C3%A9rer"/>
+            </item>
+            <item xml:id="infirmite">
+               <term>infirmité</term>
+               <p>(subst.fem.): faiblesse morale, état de celui qui est faible, infirme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/infirmité "/>
+            </item>
+            <item xml:id="insipience">
+               <term>insipience</term>
+               <p>(subst.fem.): ignorance, inconscience, folie</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/insipience"/>
+            </item>
+            <item xml:id="introduire">
+               <term>introduire</term>
+               <p>(verbe): faire adopter, établir, instaurer (une pratique)</p>
+               <ptr target="https://micmap.org/dicfro/search/complement-godefroy/introduire"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/introduire" corresp="ArticleComplet_A2"/>
+            </item>
+            <item xml:id="invaseur">
+               <term>invaseur</term>
+               <p>(subst.masc.): agresseur, envahisseur, assaillant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/invaseur"/>
+            </item>
+            <item xml:id="ire">
+               <term>ire</term>
+               <p>((subst.fem.): colère, courroux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ire"/>
+            </item>
+            <item xml:id="irregulier">
+               <term>irrégulier</term>
+               <p>(adj.): illégal; qui n'est pas conforme aux canons, à la règle monastique</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/irrégulier"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/irr%C3%A9gulier" corresp="Etymol._et_Hist.B"/>
+            </item>
+            <item xml:id="irriter">
+               <term>irriter</term>
+               <p>(verbe): rendre vain, enfraindre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/irriter2"/>
+            </item>
+            <item xml:id="issir">
+               <term>issir de</term>
+               <p>(verbe): sortir de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/issir"/>
+            </item>
+            <item xml:id="item">
+               <term>item</term>
+               <p>(adv.): de même, et aussi, pareillement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/item"/>
+            </item>
+            <item xml:id="jacopin">
+               <term>jacopin</term>
+               <p>(subst.masc.): religieux de l'ordre de saint Dominique, dominicain</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/jacobin1"/>
+            </item>
+            <item xml:id="jeter">
+               <term>jeter, jeter hors</term>
+               <p>(loc.verb.): faire sortir qqc, ou qqn de qqc</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/jeter"/>
+               <term n="2">jeter qqch à qqun</term>
+               <p>(verbe): envoyer en direction de qqn, pour donner</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/jeter" corresp="Ia2b"/>
+            </item>
+            <item xml:id="juger">
+               <term>juger de qq'un</term>
+               <p>(verbe): porter un jugement, émettre une opinion sur; considérer comme
+                  coupable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/juger" corresp="ArticleComplet_IIB2"/>
+            </item>
+            <item xml:id="jurement">
+               <term>jurement, juremens</term>
+               <p>(subst.masc.): serment, action de faire un serment; engagement, promesse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/jurement"/>
+            </item>
+            <item xml:id="lascher">
+               <term>lascher, lâcher</term>
+               <p>(verbe): relâcher</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lâcher"/>
+            </item>
+            <item xml:id="lacs">
+               <term>lacs, laz</term>
+               <p>(subst.masc.): piège, filet</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lacs"/>
+               <ptr target="https://gaffiot.fr/#laqueus"/>
+            </item>
+            <item xml:id="ladre">
+               <term>ladre</term>
+               <p>(subst.masc.): lépreux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ladre"/>
+            </item>
+            <item xml:id="lai">
+               <term>lai</term>
+               <p>(adj. ou subst.): laïc, laïque</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lai1"/>
+            </item>
+            <item xml:id="laisser">
+               <term>laisser qq'un/qqchose</term>
+               <p>(verbe): quitter; abandonner, délaisser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/laisser" corresp="IA3b"/>
+               <term n="2">laisser qqch</term>
+               <p>(verbe): oublier, omettre, laisser de côté, négliger</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/laisser" corresp="ID1c"/>
+            </item>
+            <item xml:id="languer">
+               <term>langueur</term>
+               <p>(subst.fém.): maladie, état de faiblesse; état d'affaiblissement et d'abattement
+                  dû à la maladie</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/langueur "/>
+            </item>
+            <item xml:id="larrecin">
+               <term>larrecin, larcin</term>
+               <p>(subst.masc.): butin, chose volée</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/larcin1"/>
+            </item>
+            <item xml:id="legat">
+               <term>légat</term>
+               <p>(subst.masc.): délégué du pape chargé d'administrer une province ecclésiastique;
+                  représentant du Pape, ambassadeur du Saint-Siège</p>
+               <ptr target="https://www.cnrtl.fr/definition/l%C3%A9gat"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/légat1"/>
+            </item>
+            <item xml:id="lieu">
+               <term n="1">lieu</term>
+               <p>(subst.masc.): occasion, moment opportun. (loc): en aucun lieu (trad.): nusquam:
+                  en aucune occasion</p>
+               <ptr target="https://gaffiot.fr/#nusquam"/>
+               <term n="2">tenir le lieu de qqn</term>
+               <p>(loc.verbale): prendre la place de, se substituer; faire office à la place de
+                  qq'un, occuper la place de qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lieu1" corresp="Article_Complet_B1b"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/tenir" corresp="C2b"/>
+               <term n="3">au lieu où</term>
+               <p>(loc.): à l'endroit où, là où</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lieu" corresp="ArticleComplet_B3a"/>
+            </item>
+            <item xml:id="lieux">
+               <term>haut lieu, hauts lieux</term>
+               <p>(subst.masc.): le Ciel, le Paradis; les cieux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lieu" corresp="ArticleComptet_IA1b"/>
+            </item>
+            <item xml:id="loisible">
+               <term>loysible, loisible</term>
+               <p>(adj.): qui est permis, qui est admissible, qui est licite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/loisible"/>
+            </item>
+            <item xml:id="lors">
+               <term>pour lors</term>
+               <p>(loc.adv.): alors, à cette époque-là, à ce moment-là</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lors"/>
+            </item>
+            <item xml:id="loyer">
+               <term>loyer</term>
+               <p>(subst.masc.): récompense, rétribution, salaire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/loyer"/>
+            </item>
+            <item xml:id="lucz">
+               <term>lucque, leuc, leut</term>
+               <p>(subst.masc.): luth,instrument de musique à plusieurs rangs de cordes montées sur
+                  une caisse arrondie en dessous</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/luth"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/190/195?DMF"/>
+            </item>
+            <item xml:id="lustral">
+               <term>lustral</term>
+               <p>(adj.): qui sert à la purification; à Rome servant à la purification</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lustral"/>
+               <ptr target="https://www.cnrtl.fr/definition/academie9/lustral"/>
+            </item>
+            <item xml:id="macule">
+               <term>macule</term>
+               <p>(subst.fem.): tache, souillure (en part. du péché), salissure</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/macule1"/>
+            </item>
+            <item xml:id="magnifier">
+               <term>se magnifier</term>
+               <p>(verbe réfl.): se glorifier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/magnifier"/>
+               <ptr target="https://micmap.org/dicfro/search/complement-godefroy/magnifier"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/61/47?DMF"/>
+            </item>
+            <item xml:id="maintenant">
+               <term n="1">pour maintenant</term>
+               <p>(loc.adv.): dans l'immédiat</p>
+               <term n="2">maintenant...maintenant</term>
+               <p>(loc.adv.): tantôt...tantôt</p>
+               <term n="3">dès maintenant</term>
+               <p>(loc.adv): à présent, maintenant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/maintenant" corresp="Article_completB2a"/>
+            </item>
+            <item xml:id="maintenir">
+               <term>maintenir</term>
+               <p>(verbe): soutenir, protéger, défendre contre»</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/maintenir"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/maintenir" corresp="Etymol.et_Hist.1."/>
+            </item>
+            <item xml:id="majeste">
+               <term>majesté</term>
+               <p>(subst.fem.): Dieu, Dieu tout puissant</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/61/54?DMF"/>
+            </item>
+            <item xml:id="malevolence">
+               <term>malevolence, malivolence</term>
+               <p>(subst.fem.): volonté de nuire, malveillance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/malivolence"/>
+            </item>
+            <item xml:id="mal_talent">
+               <term>mal talent, maltalent</term>
+               <p>(subst.masc.): mauvaise volonté; animosité, malveillance, colère, dépit</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/maltalent"/>
+               <ptr target="https://www.cnrtl.fr/definition/maltalent"/>
+            </item>
+            <item xml:id="maniere">
+               <term>en la manière que</term>
+               <p>(loc.conj.): comme</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/manière" corresp="ArticleCompletD2"/>
+            </item>
+            <item xml:id="manifeste">
+               <term>manifeste</term>
+               <p>(adj.): visible, apparent, perceptible; notoire, évident pour tout le monde</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/61/229?DMF"/>
+               <ptr target="https://www.anglo-norman.net/entry/manifeste"/>
+            </item>
+            <item xml:id="manifester">
+               <term>manifester</term>
+               <p>(verbe): montrer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/manifester"/>
+            </item>
+            <item xml:id="marchandise">
+               <term>faire (sa/ses) marchandise(/s)</term>
+               <p>(loc.verb.): commercer, faire commercer, faire des opérations de commerce</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/marchandise" corresp="Article_completB"/>
+            </item>
+            <item xml:id="marchander">
+               <term>marchander de</term>
+               <p>(verbe): faire commerce de, faire de qqch l'objet d'un marché</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/marchander" corresp="Article_complet2c"/>
+            </item>
+            <item xml:id="marguerite">
+               <term>marguerite</term>
+               <p>(subst.fém.): perle</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/marguerite"/>
+            </item>
+            <item xml:id="marri">
+               <term>marri</term>
+               <p>(adj.): affligé, triste, contrarié</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/marri"/>
+            </item>
+            <item xml:id="matin">
+               <term n="1">du matin</term>
+               <p>(loc.adv.): de bonne heure</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/matin" corresp="B2"/>
+               <term n="2">au matin</term>
+               <p>(loc.adv.): au point du jour, à l'aube</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/matin" corresp="IA2"/>
+            </item>
+            <item xml:id="meconnaissance">
+               <term>mecognoissance, méconnaissance</term>
+               <p>(subst.fem.): ignorance, erreur; action de ne pas reconnaître le mérite de qqun,
+                  ingratitude</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/20/846?DMF" corresp="846"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/méconnaissance"/>
+               <ptr target="https://www.cnrtl.fr/definition/m%C3%A9connaissance" corresp="Étymol._et Hist._1."/>
+            </item>
+            <item xml:id="meler">
+               <term>mesler, mêler</term>
+               <p>(verbe): introduire qqc. (dans qqc.)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/mêler" corresp="ArticleCompletA1b"/>
+            </item>
+            <item xml:id="mercy">
+               <term>crier mercy, crier merci</term>
+               <p>(subst.fem.): pardon, grâce, faveur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/merci"/>
+               <p>demander pardon, demander grâce</p>
+               <ptr target="https://www.anglo-norman.net/entry/merci"/>
+            </item>
+            <item xml:id="mettre">
+               <term>mettre sur</term>
+               <p>(verbe): imposer, infliger à</p>
+               <ptr target="https://www.anglo-norman.net/entry/mettre"/>
+            </item>
+            <item xml:id="mettre_devant">
+               <term>mettre devant</term>
+               <p>(verbe):mettre qqun en avant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/mettre" corresp="IC1a"/>
+            </item>
+            <item xml:id="ministrer">
+               <term>ministrer</term>
+               <p>(verbe): prendre soin de, servir, assurer un service, procurer qqch à qq'un,
+                  donner, distribuer, administrer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ministrer"/>
+            </item>
+            <item xml:id="moderer">
+               <term>modérer</term>
+               <p>(verbe): diriger, gouverner, règler</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/modérer"/>
+            </item>
+            <item xml:id="moindre">
+               <term>moindre de</term>
+               <p>(adj.): inférieur à</p>
+               <ptr target="ttp://www.atilf.fr/dmf/definition/moindre"/>
+            </item>
+            <item xml:id="monter">
+               <term>monter</term>
+               <p>se diriger vers le haut, s'élever</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/monter" corresp="ArticleComplet_IA2"/>
+            </item>
+            <item xml:id="moyennant">
+               <term>moyennant</term>
+               <p>(prép.): par le moyen de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/moyennant"/>
+            </item>
+            <item xml:id="mouchoir">
+               <term>mouchoir</term>
+               <p>(subst.masc.): petite pièce de linge, servant principalement pour se moucher</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/mouchoir1"/>
+            </item>
+            <item xml:id="mouvement">
+               <term>mouvement de terre</term>
+               <p>(subst.masc.): tremblement de terre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/mouvement"/>
+            </item>
+            <item xml:id="moudre">
+               <term>mollu, moulu</term>
+               <p>(adj.): endolori, endolori par les coups reçus, fatigué par les coups; broyé.
+                  Participe passé du verbe broyer: moudre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/moudre1"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/moudre" corresp="Etymol._et_Hist.3"/>
+            </item>
+            <item xml:id="moyen">
+               <term>par le moyen de</term>
+               <p>(adv.): grâce à, avec l'aide de; par l'intermédiare, par l'entremise de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/moyen1"/>
+            </item>
+            <item xml:id="multitude">
+               <term>multitude</term>
+               <p>(subst.fém.): foule, peuple</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/multitude" corresp="Article_completB1b"/>
+            </item>
+            <item xml:id="multiplier">
+               <term>multiplier</term>
+               <p>(verbe, empl. instrans.): augmenter, s'accroître ; se propager, se répandre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/multiplie"/>
+            </item>
+            <item xml:id="naturel">
+               <term>naturel</term>
+               <p>(adj.): légitime, de naissance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/naturel" corresp="A2c"/>
+            </item>
+            <item xml:id="navre">
+               <term>navré</term>
+               <p>(adj.): blessé. Participe passé du verbe navrer: blesser qq'un (en transperçant,
+                  en coupant); blesser</p>
+            </item>
+            <item xml:id="nettoyer">
+               <term>nettoyer</term>
+               <p>(verbe): purifier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nettoyer"/>
+            </item>
+            <item xml:id="non">
+               <term>non pas que</term>
+               <p>(adv.de nég.): ce n'est pas ... (mais)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/non" corresp="ArticleComplet_IA1e"/>
+            </item>
+            <item xml:id="nonnain">
+               <term>nonnain</term>
+               <p>(subst.fem.): nonne, jeune nonne, religieuse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nonnain"/>
+            </item>
+            <item xml:id="nonobstant">
+               <term n="1">nonobstant</term>
+               <p>(adv.): cependant</p>
+               <term n="2">nonobstant que</term>
+               <p>(conj.): bien que</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/nonobstant"/>
+            </item>
+            <item xml:id="nombrer">
+               <term>nombrer</term>
+               <p>(verbe): établir le nombre de, dénombrer, compter, recenser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nombrer"/>
+            </item>
+            <item xml:id="nourrir">
+               <term>nourrir de</term>
+               <p>(verbe): apporter à qqn une nourriture morale, psychique, spirituelle...</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nourrir" corresp="ArticleComplet_IB1a"/>
+            </item>
+            <item xml:id="nu">
+               <term>nu</term>
+               <p>(adj.): mal vêtu, pauvre, misérable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nu"/>
+            </item>
+            <item xml:id="nuisans">
+               <term>nuisans, nuisant</term>
+               <p>(adj.): nuisible</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/nuire"/>
+            </item>
+            <item xml:id="obedience">
+               <term>obédience</term>
+               <p>(subst.fem.): obéissance, soumission</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/obédience"/>
+            </item>
+            <item xml:id="obedient">
+               <term>obédient</term>
+               <p>(adj.): obéissant, soumis</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/obédient"/>
+            </item>
+            <item xml:id="obtenebrer">
+               <term>obtenebrer, obténébrer</term>
+               <p>(verbe): obscurcir, assombrir, voiler</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/obténébrer"/>
+            </item>
+            <item xml:id="occasion">
+               <term>occasion; à l'occasion de</term>
+               <p>(subst.fem.): cause, motif, prétexte</p>
+               <p>(loc.): à cause de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/occasion"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/70/296?DMF" corresp="296_II"/>
+            </item>
+            <item xml:id="occire">
+               <term>occire</term>
+               <p>(verbe): tuer, faire mourir qq'un de mort violente</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/occire"/>
+            </item>
+            <item xml:id="occision">
+               <term>occision</term>
+               <p>(subst.fem): meurtre, mise à mort</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/occision"/>
+            </item>
+            <item xml:id="oeil">
+               <term>avoir l'oeil à/de + inf.</term>
+               <p>(loc.verb.): se préoccuper de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/oeil" corresp="Article_completB1"/>
+            </item>
+            <item xml:id="ombre">
+               <term>sous l'ombre de qq'un</term>
+               <p>(loc.): sous couvert de qq'un, au nom de qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ombre1" corresp="C3b"/>
+            </item>
+            <item xml:id="ongle">
+               <term>ongle</term>
+               <p>(subst.masc.): sabot</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ongle"/>
+            </item>
+            <item xml:id="opprobre">
+               <term>opprobre</term>
+               <p>(subst.masc.): injure, parole blessante</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/opprobre"/>
+            </item>
+            <item xml:id="ouir">
+               <term>oir, ouïr</term>
+               <p>(verbe): écouter, prêter attention à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ouïr"/>
+            </item>
+            <item xml:id="ord">
+               <term>ord</term>
+               <p>(adj.): (au propre) sale, répugnant. (au figuré): vil, méprisable</p>
+            </item>
+            <item xml:id="ordement">
+               <term>ordement</term>
+               <p>(adv.): de manière sale, repoussante, ignoble</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ordement"/>
+            </item>
+            <item xml:id="ordure">
+               <term>ordure</term>
+               <p>(subst.fem.): (au sens figuré) souillure morale, chose vile; flétrissure,
+                  impureté</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ordure"/>
+            </item>
+            <item xml:id="orgueilleux">
+               <term>orgueilleux</term>
+               <p>(adj.): véhément, violent, impétueux</p>
+               <p>(adj.): arrogant, qui fait preuve d'orgueil</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/orgueilleux"/>
+            </item>
+            <item xml:id="ouvertement">
+               <term>ouvertement</term>
+               <p>(adv.): publiquement, officiellement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ouvertement"/>
+            </item>
+            <item xml:id="operation">
+               <term n="1">opération</term>
+               <p>(subst.fém.): acte, action; influence exercée par qq'un</p>
+               <term n="2">par l'opération</term>
+               <p>(loc.): à l'instigation de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/opération"/>
+            </item>
+            <item xml:id="paistre">
+               <term>paistre, paître</term>
+               <p>(verbe): nourrir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/paître"/>
+            </item>
+            <item xml:id="paix">
+               <term>avoir paix à qqn</term>
+               <p>(loc.verbale): ne pas être importuné par qqn</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/paix" corresp="ArticleComplet_B"/>
+            </item>
+            <item xml:id="papistique">
+               <term>papisticque, papistique</term>
+               <p>(adj.péj.): papiste; du papisme, des papistes; partisan de l'autorité absolue du
+                  pape</p>
+               <ptr target="https://www.cnrtl.fr/definition/papistique"/>
+            </item>
+            <item xml:id="par">
+               <term>de par, de part</term>
+               <p>(prép.): au nom de qqn, de la part de qqn</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/part"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/de" corresp="ArticleComplet_2C1"/>
+            </item>
+            <item xml:id="paravant">
+               <term>paravant</term>
+               <p>(adv.): avant, précédemment, auparavant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/paravant"/>
+            </item>
+            <item xml:id="parfaire">
+               <term>parfaire</term>
+               <p>(verbe): conduire qqn ou qqch. à la perfection; porter qqc. à un état de parfait
+                  accomplissement, accomplir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/parfaire"/>
+            </item>
+            <item xml:id="parler">
+               <term>parler contre qq'un</term>
+               <p>(verbe, loc.): critiquer qq'un, protester contre qq'un</p>
+            </item>
+            <item xml:id="parquoi">
+               <term>par quoy, par quoi + ind.</term>
+               <p>si bien que, en raison de quoi, de telle façon que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/par1" corresp="article_complet3b"/>
+            </item>
+            <item xml:id="part">
+               <term>avoir part en</term>
+               <p>(loc.verb.): participer à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/part1" corresp="Article_completB1c"/>
+               <term n="2">part</term>
+               <p>(subst.fém.): parti, faction</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/part1"/>
+            </item>
+            <item xml:id="partire">
+               <term>partire, partir</term>
+               <p>(verbe): partager, répartir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/partir"/>
+               <ptr target="https://www.cnrtl.fr/definition/partir"/>
+            </item>
+            <item xml:id="partir">
+               <term>se partir de qq'un</term>
+               <p>(verbe, empl.pron.): se séparer de qq'un, quitter qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/partir" corresp="Article_completC2b"/>
+            </item>
+            <item xml:id="partisseur">
+               <term>partisseur</term>
+               <p>(subst.masc.): partageur, répartisseur, distributeur; celui qui fait un
+                  partage</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/partisseur"/>
+               <ptr target="https://gaffiot.fr/#partitor"/>
+            </item>
+            <item xml:id="partout">
+               <term>par tout, partout</term>
+               <p>(adv.): en tout lieu, partout</p>
+               <p>(adv.)(en phrase négative): nulle part, en aucun lieu</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/partout" corresp="Article_complet"/>
+            </item>
+            <item xml:id="passer">
+               <term>passer</term>
+               <p>(verbe): ratifier, conclure; accepter qqch, accorder qqch</p>
+               <p>(verbe): aller au-delà de qqch, ignorer (un ordre), le transgresser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/passer1"/>
+            </item>
+            <item xml:id="pasteur">
+               <term>pasteur</term>
+               <p>(subst.masc.): berger</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pasteur"/>
+            </item>
+            <item xml:id="pasture">
+               <term>pasture, pâture</term>
+               <p>(subst.fem.): nourriture</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pâture1"/>
+            </item>
+            <item xml:id="patience">
+               <term>par patience</term>
+               <p>(loc.): avec courage</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/patience"/>
+            </item>
+            <item xml:id="pauvre">
+               <term>povre, paoure</term>
+               <p>(adj.): malheureux, qui inspire la pitié, misérable; faible</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pauvre"/>
+            </item>
+            <item xml:id="pauvrement">
+               <term>poauvrement, pauvrement</term>
+               <p>(adv.): misérablement, sans gloire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pauvrement"/>
+            </item>
+            <item xml:id="pauvrete"><!-- à définir -->
+               <term>povreté, paouvreté, pauvreté</term>
+               <p>(subst.fem.): manque, insuffisance; malpropreté</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pauvreté"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/80/59?DMF"/>
+            </item>
+            <item xml:id="pescherie">
+               <term>pescherie, pêcherie</term>
+               <p>(subst.fém.): pêche, produit de la pêche</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pêcherie"/>
+            </item>
+            <item xml:id="pecune">
+               <term>pécune</term>
+               <p>(subst.fem.): argent, argent comptant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pécune"/>
+            </item>
+            <item xml:id="peine">
+               <term>peine</term>
+               <p>(subst.fém.): punition, pénitence</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/peine"/>
+            </item>
+            <item xml:id="penser">
+               <term>penser de qqch/de qq'un</term>
+               <p>(verbe): s'occuper de, prendre soin de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/penser"/>
+            </item>
+            <item xml:id="perdre">
+               <term>perdre</term>
+               <p>(verbe): anéantir, ruiner, faire disparaître, détruire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/perdre"/>
+            </item>
+            <item xml:id="perir">
+               <term>périr</term>
+               <p>(verbe): (relig.) se perdre spirituellement, être damné</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/périr" corresp="ArticleComplet_IIA"/>
+            </item>
+            <item xml:id="perpetuellement">
+               <term>perpétuellement</term>
+               <p>(adv.): éternellement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/perpétuellement"/>
+            </item>
+            <item xml:id="peuple">
+               <term>peuple</term>
+               <p>(subst.masc.): les gens; gens, monde</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/peuple1"/>
+            </item>
+            <item xml:id="place">
+               <term>place; tenir la place de</term>
+               <p>(subst.fém., loc.): occuper la place de, représenter; se substituer, remplacer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/place1" corresp="Article_completC2b"/>
+            </item>
+            <item xml:id="plaidoyer">
+               <term>plaidoyer</term>
+               <p>(verbe): soutenir une cause; plaider</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plaidoyer1"/>
+            </item>
+            <item xml:id="plain">
+               <term>à plain, à plein</term>
+               <p>(loc.adv.): ouvertement, directement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plain"/>
+               <ptr target="https://micmap.org/dicfro/previous/dictionnaire-godefroy/188/6/plain1"/>
+            </item>
+            <item xml:id="plaire">
+               <term>plaire à qq'un</term>
+               <p>(verbe): être agréable à qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plaire"/>
+            </item>
+            <item xml:id="plaisir">
+               <term>plaisir; faire son plaisir</term>
+               <p>(subst.masc., loc.): suivre son désir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plaisir" corresp="Article_complet_B"/>
+            </item>
+            <item xml:id="planiere">
+               <term>plénière, plénier</term>
+               <p>(adj.): plénier, qui se réalise entièrement, qui est complet, total</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plénier"/>
+            </item>
+            <item xml:id="plus">
+               <term>le plus</term>
+               <p>(quant.): la plupart</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/plus" corresp="IIB"/>
+            </item>
+            <item xml:id="pitoyable">
+               <term>pitoyable</term>
+               <p>(adj.): compatissant, porté à la pitié</p>
+               <p>(adj.): miséricordieux, qui est enclin à la pitié</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pitoyable"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/pitoyable" corresp="Etymol.et.Hist"/>
+            </item>
+            <item xml:id="point">
+               <term n="1">ne...point</term>
+               <p>(adv.de nég.): ne...pas</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/point2 "/>
+               <term n="2">non point</term>
+               <p>(adv. de nég.): non pas</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/point2 "/>
+            </item>
+            <item xml:id="police">
+               <term>police</term>
+               <p>(subst.fem.): ordre (dans les choses), mise en ordre, organisation, manière</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/police1"/>
+            </item>
+            <item xml:id="pollu">
+               <term>pollu</term>
+               <p>(adj.): impur, souillé, souillé (moralement)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pollu"/>
+            </item>
+            <item xml:id="pompes">
+               <term>pompes mondaines</term>
+               <p>(plur.): plaisirs mondains</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pompe1" corresp="ArticleComplet_B"/>
+            </item>
+            <item xml:id="pontife">
+               <term>pontife</term>
+               <p>(sbust.masc.): (lat.: pontifex) prêtre chrétien, évêque, prélat </p>
+               <ptr target="https://gaffiot.fr/#pontifex"/>
+            </item>
+            <item xml:id="porter">
+               <term>porter (qqch. de physiquement (puis moralement) pénible)</term>
+               <p>(verbe): endurer qqch., supporter qqch.</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/porter1" corresp="ArticleComplet_IA3a"/>
+            </item>
+            <item xml:id="se_porter">
+               <term>se porter</term>
+               <p>(verbe réfl.): se conduire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/porter1"/>
+               <ptr target="https://micmap.org/dicfro/next/complement-godefroy/381/10/porter"/>
+            </item>
+            <item xml:id="posseder">
+               <term>posseder</term>
+               <p>(verbe): avoir la jouissance de (un bien, un droit...)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/posséder"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/possesser"/>
+            </item>
+            <item xml:id="possession">
+               <term>possession</term>
+               <p>(subst.masc.): bien, ce qui est possédé, propriété</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/possession"/>
+            </item>
+            <item xml:id="pour">
+               <term n="1">pour (ce) que + ind.</term>
+               <p>(prép., loc.): parce que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pour" corresp="Article_completC1"/>
+               <term n="2">pour ce</term>
+               <p>(loc.prép.): à cause de cela, en raison de cela </p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pour" corresp="Article_completC1"/>
+            </item>
+            <item xml:id="pourchatz">
+               <term>pourchas, porchas</term>
+               <p>(subst.masc.): poursuite; efforts en vue de qqc.</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pourchas"/>
+            </item>
+            <item xml:id="pourtant">
+               <term n="1">pourtant</term>
+               <p>(adv.): à cause de cela, pour cette raison</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pourtant"/>
+               <term n="2">pourtant que</term>
+               <p>(conj.): parce que, à cause de cela que, pour cette raison que</p>
+               <p>(adv.conj.)(dans le sens de pour autant): dans la mesure où, pour peu que</p>
+               <ptr target="http://atilf.atilf.fr/scripts/dmfX.exe?LEM=pourtant;MODE=XML;MENU=menu_dmf;FERMER;ISIS=isis_dmf2012.txt;MENU=menu_dmf;OUVRIR_MENU=0;s=s102f2ac8;LANGUE=FR;FERMER"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/pourtant" corresp="Article_completA2"/>
+            </item>
+            <item xml:id="pourquoi">
+               <term>pourquoy, pourquoi</term>
+               <p>(adv.relatif): c'est pourquoi, en raison de quoi</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pourquoi"/>
+            </item>
+            <item xml:id="preceder">
+               <term>précéder</term>
+               <p>(verbe): être supérieur à, avoir la préminence sur, l'emporter sur, surpasser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/précéder "/>
+            </item>
+
+            <item xml:id="presbytere">
+               <term>presbytère</term>
+               <p>(subst.masc.): (emprunté au latin chrétien: presbyterium) choeur de l'église, lieu
+                  où se tiennent les prêtres</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/presbyt%C3%A8re" corresp="Etymol._et_Hist."/>
+            </item>
+            <item xml:id="presence">
+               <term>venir en présence</term>
+               <p>(loc.verbale): venir auprès de qq'un, être</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/présence" corresp="ArticleCompletA2b"/>
+            </item>
+            <item xml:id="presumer">
+               <term>présumer</term>
+               <p>(verbe): prétendre faire qqch., oser qqch.</p>
+            </item>
+            <item xml:id="prevenir">
+               <term>prevenir</term>
+               <p>(verbe): agir le premier, devancer, commencer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prévenir"/>
+            </item>
+            <item xml:id="prevot">
+               <term>prévôt</term>
+               <p>(subst.masc.): gouverneur, préteur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prévôt"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/préteur"/>
+            </item>
+            <item xml:id="principal">
+               <term>princiapl</term>
+               <p>(subst.masc.): chef, meneur; celui qui est le plus important; grand prêtre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/principal" corresp="ArticleComplet_IIA"/>
+            </item>
+            <item xml:id="proceder">
+               <term>procéder de</term>
+               <p>(verbe): tirer son origine, venir de, provenir, émaner</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/procéder"/>
+               <ptr target="https://www.cnrtl.fr/definition/academie9/proc%C3%A9der"/>
+            </item>
+            <item xml:id="profiter">
+               <term>profiter qqch, ne rien profiter (à qq'un)</term>
+               <p>(verbe): servir à qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/profiter" corresp="ArticleComplet_IIA1"/>
+               <term n="2">profiter</term>
+               <p>(verbe): faire des progrès, évoluer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/profiter"/>
+            </item>
+            <item xml:id="pourvoir">
+               <term>pourvoir, porveoir</term>
+               <p>(verbe): s'occuper de, veiller sur; protéger, défendre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/pourvoir" corresp="B1a"/>
+            </item>
+            <item xml:id="puantise">
+               <term>puantise</term>
+               <p>(subst.fem.): puanteur, odeur nauséabonde, infection, pestilence, abjection</p>
+               <p>(sbust.fem.): mauvaise odeur du vice</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/puantise"/>
+            </item>
+            <item xml:id="puissant">
+               <term>puissant</term>
+               <p>(adj.): capable, qui a le pouvoir de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/puissant" corresp="ArticleCompletA3a"/>
+            </item>
+            <item xml:id="puissance">
+               <term>avoir puissance sur</term>
+               <p>(loc.verbale): pouvoir de contrainte; pouvoir d'imposer son autorité, sa
+                  domination, sa souveraineté</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/puissance"/>
+            </item>
+            <item xml:id="purgation">
+               <term>purgation</term>
+               <p>(subst.fém.): purification</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/purgation"/>
+            </item>
+            <item xml:id="purgatoire">
+               <term>purgatoire</term>
+               <p>(adj., empl.subst.): remède qui a la propriété de purger ; purgatif; (fig.):
+                  expiatoir; expiateur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/purgatoire"/>
+            </item>
+            <item xml:id="purger">
+               <term>purger; se purger</term>
+               <p>(verbe): purifier; se purifier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/purger"/>
+            </item>
+            <item xml:id="prendre">
+               <term n="1">prendre</term>
+               <p>(verbe): saisir qqch; saisir qqch pour le faire pénétrer à l'intérieur de
+                  soi-même, absorber, ingurgiter qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prendre"/>
+               <term n="2">estre pris de qqch</term>
+               <p>(verbe, au passif): être emprunté à qqch, venir de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prendre" corresp="IC1b"/>
+               <term n="3">prendre</term>
+               <p>(verbe): accepter qqch. (de qq'un), recevoir qqch.</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prendre" corresp="ArticleComplet_D2b"/>
+            </item>
+            <item xml:id="pres">
+               <term>près de</term>
+               <p>(adv.): proche de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/près"/>
+            </item>
+            <item xml:id="preschement">
+               <term>preschement</term>
+               <p>(subst.masc.): prédication, action de prêcher, prêche, sermon</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prêchement"/>
+            </item>
+            <item xml:id="present">
+               <term n="1">présent</term>
+               <p>(adj.): actuel, qui existe actuellement, qui est dans le temps où nous sommes</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/90/306?DMF" corresp="307_2"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/présent1"/>
+               <term n="2">pour le présent</term>
+               <p>(loc.adv): pour l'instant, pour le moment</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/présent1" corresp="Article_completB3"/>
+            </item>
+            <item xml:id="prise">
+               <term>prise</term>
+               <p>(subst.fém.): captivité, capture</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prise1"/>
+            </item>
+            <item xml:id="profit">
+               <term>profit</term>
+               <p>(subst.masc.): avantage, bénéfice, intérêt, utilité (matérielle ou morale)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/profit"/>
+            </item>
+            <item xml:id="profitable">
+               <term>profitable</term>
+               <p>(adj.): bénéfique, utile, instructif</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/profitable"/>
+            </item>
+            <item xml:id="propitiation">
+               <term>propitiation</term>
+               <p>(subst.fém.): spéc. en parlant du Christ: victime, moyen d'expiation</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/propitiation"/>
+            </item>
+            <item xml:id="prouver">
+               <term>prouver qq'un</term>
+               <p>(verbe): mettre qq'un à l'épreuve; se mettre à l'épreuve</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/prouver"/>
+            </item>
+            <item xml:id="protonotaire">
+               <term>protonotaire</term>
+               <p>(subst.masc.): prélat du Vatican, non revêtu du caractère épiscopal, supérieur en
+                  titre aux autres notaires apostoliques; notaire attaché à la Cour pontificale,
+                  prélat chargé d'expédier les actes dans les grandes causes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/protonotaire"/>
+            </item>
+            <item xml:id="putier">
+               <term>putier</term>
+               <p>(subst.masc.): débauché, homme vil</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/putier"/>
+            </item>
+            <item xml:id="quelque">
+               <term>quelque</term>
+               <p>(adj.indéf.): un, une (valeur d'indétermination)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/quelque"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/quelque" corresp="Etymol._et_Hist.2ß"/>
+            </item>
+            <item xml:id="querir">
+               <term>quérir (à ou de) + inf.</term>
+               <p>(verbe): chercher à</p>
+               <term n="2">querir</term>
+               <p>(verbe): chercher, rechercher</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/quérir"/>
+            </item>
+            <item xml:id="questeur">
+               <term>questeur, quêteur</term>
+               <p>(subst.masc.): religieux ou religieuse, ou plus largement, celui qui quête pour
+                  les oeuvres charitables</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/quêteur" corresp="Article_completA"/>
+            </item>
+            <item xml:id="quinquagesime">
+               <term>quinquagésime, (dimanche de la) quinquagésime</term>
+               <p>(subst.fem.): dimanche précédant le premier dimanche de Carême et correspondant au
+                  cinquantième jour avant Pâques</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/quinquagésime"/>
+            </item>
+            <item xml:id="recevoir">
+               <term>recevoir</term>
+               <p>(verbe): accueillir qq'un en l'admettant (auprès de soi, dans tel ou tel groupe,
+                  dans une communauté...); accueillir, admettre au royaume des cieux</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/recevoir"/>
+               <term n="2">recevoir qqch</term>
+               <p>(verbe): reprendre, recouvrer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/recevoir" corresp="I.D."/>
+            </item>
+            <item xml:id="reciter">
+               <term>réciter</term>
+               <p>(verbe): exposer, rapporter, narrer, (à haute voix ou par écrit)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/réciter"/>
+            </item>
+            <item xml:id="repaistre">
+               <term>repaistre, repaître</term>
+               <p>(verbe): nourrir, rassasier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/repaître"/>
+            </item>
+            <item xml:id="refectionner">
+               <term>réfectionner</term>
+               <p>(verbe): sustenter, nourrir (d'une nourriture spirituelle)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/réfectionner"/>
+            </item>
+            <item xml:id="refrener">
+               <term>réfréner</term>
+               <p>(verbe): réprimer, modérer, maîtriser</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/30/775?DMF"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/refr%C3%A9ner"/>
+            </item>
+            <item xml:id="regarder">
+               <term>regarder à qqch.</term>
+               <p>(verbe): prendre qqch. en considération, y réfléchir, s'en préoccuper</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/regarder"/>
+            </item>
+            <item xml:id="regard">
+               <term>avoir regard que</term>
+               <p>(loc.verbale): veiller que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/regard" corresp="ArticleComplet_IIA1b"/>
+            </item>
+            <item xml:id="regime">
+               <term>régime</term>
+               <p>(subst.fem): gouvernement, administration, direction, conduite</p>
+               <ptr target="https://gaffiot.fr/#regimen"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/régime"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/100/208?DMF" corresp="208_II"/>
+            </item>
+            <item xml:id="remors">
+               <term>remors</term>
+               <p>(subst.masc.): souvenir, souvenance, rappel, fait d'émerger à la conscience</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/remords"/>
+            </item>
+            <item xml:id="rendre">
+               <term>rendre (qqch) (à qq'un)</term>
+               <p>(verbe): restituer, donner en retour (ce qui est dû, ce qu'on a pris ou reçu)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/rendre"/>
+            </item>
+            <item xml:id="renoncer">
+               <term>renoncer</term>
+               <p>(verbe): renier qq'un ou qqchose (Dieu, le diable, sa foi,...)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/renoncer"/>
+            </item>
+            <item xml:id="renommer">
+               <term n="1">estre renommé de qqch</term>
+               <p>(verbe, empl. trans.): être réputé pour qqch</p>
+               <term n="2">renommé de + inf.</term>
+               <p>(verbe, empl.trans.): qui a la réputation de</p>
+            </item>
+            <item xml:id="reparer">
+               <term>réparer à</term>
+               <p>(verbe): pourvoir à </p>
+               <ptr target="http://www.atilf.fr/dmf/definition/reparer"/>
+            </item>
+            <item xml:id="reposer">
+               <term>reposer</term>
+               <p>(verbe): être placé qq. part, se trouver qq. part</p>
+               <ptr target="https://gaffiot.fr/#reclino"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/reposer" corresp="ArticleComplet_A3a"/>
+            </item>
+            <item xml:id="reprocher">
+               <term>reprocher</term>
+               <p>(verbe): blâmer, accuser</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/reprocher"/>
+            </item>
+            <item xml:id="repugner">
+               <term>repugner à</term>
+               <p>(verbe): s'opposer à, résister à, contredire</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/100/280?DMF" corresp="280_3aß"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/répugner"/>
+            </item>
+            <item xml:id="reputer">
+               <term>reputer</term>
+               <p>(verbe):considérer comme, tenir pour</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/réputer"/>
+            </item>
+            <item xml:id="requerir">
+               <term>requerir, requérir de + inf</term>
+               <p>(verbe): demander à</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/requérir" corresp="article_completIIA"/>
+            </item>
+            <item xml:id="restituer">
+               <term>restituer à</term>
+               <p>(verbe): réintégrer, rétablir qqn (dans l'état où il était, en partic. avant une
+                  décision de justice)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/restituer"/>
+            </item>
+            <item xml:id="restitution">
+               <term>restitution</term>
+               <p>(subst.fém.): restaurer, action de rétablir qqn ou qqc. (dans sa situation
+                  antérieure)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/restitution"/>
+               <ptr target="https://gaffiot.fr/#restitutio"/>
+            </item>
+            <item xml:id="retirer">
+               <term>retirer qq'un de qqch</term>
+               <p>(verbe): détourner qq'un de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/retirer" corresp="Article_completB1a"/>
+            </item>
+            <item xml:id="reverence">
+               <term>révérence</term>
+               <p>(subst.fém.): vénération, déférence, respect profond, grande considération</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/révérence"/>
+               <ptr target="https://gaffiot.fr/#reverentia"/>
+            </item>
+            <item xml:id="reverie">
+               <term>resverie, rêverie</term>
+               <p>(subst.fem.): absurdité, folie, extravagence, délire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/rêverie"/>
+            </item>
+            <item xml:id="revoquer">
+               <term>se révoquer</term>
+               <p>(verbe): se rétracter, se dédire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/révoquer" corresp="ArticleComplet_IIB"/>
+            </item>
+            <item xml:id="rouilleure">
+               <term>rouilleure, rouillure</term>
+               <p>(subst.fem.): rouille</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/rouillure "/>
+            </item>
+            <item xml:id="roveisons">
+               <term>rovaison</term>
+               <p>(subst.fem.): Rogations, les trois jours de prière qui précèdent l'Ascension</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/rovaison"/>
+            </item>
+            <item xml:id="roncin">
+               <term>roncin</term>
+               <p>(subst.masc.): cheval, étalon; cheval de service, cheval de somme</p>
+               <p>(subst.masc.): roussin, cheval trapu, qui servait de monture à la guerre ou à la
+                  chasse, destrier</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/roncin"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/100/575?DMF" corresp="575_I.1."/>
+               <ptr target="https://www.cnrtl.fr/definition/roussin"/>
+            </item>
+            <item xml:id="ruer">
+               <term>ruer</term>
+               <p>(verbe): jeter impétueusement, lancer avec violence, précipiter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ruer"/>
+            </item>
+            <item xml:id="ruffien">
+               <term>ruffian, ruffien</term>
+               <p>(subst.masc.): débauché, entremetteur, souteneur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ruffian"/>
+            </item>
+            <item xml:id="saie">
+               <term>saye, saie</term>
+               <p>(subst.fem.): étoffe, drap destiné à la fabrication des vêtements</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/saie"/>
+            </item>
+            <item xml:id="sain">
+               <term>sain</term>
+               <p>(adj.):(par anal. au fig.) irréprochable, pur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sain1" corresp="Article_Complet_C1b"/>
+            </item>
+            <item xml:id="salle">
+               <term>salle</term>
+               <p>(subst. fém.): grande pièce</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/salle"/>
+            </item>
+            <item xml:id="sans">
+               <term>sans</term>
+               <p>(prép.): hors de, en l'absence de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sans"/>
+            </item>
+            <item xml:id="sapience">
+               <term>sapience</term>
+               <p>(subst.fem.): sagesse</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sapience"/>
+            </item>
+            <item xml:id="satellite">
+               <term>satellite</term>
+               <p>(subst.masc.): homme de main, mercenaire, garde du corps</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/satellite"/>
+            </item>
+            <item xml:id="satisfaction">
+               <term>satisfaction</term>
+               <p>(subst.fém.): pardon; pénitence, acte par lequel on répare une offense</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/satisfaction"/>
+            </item>
+            <item xml:id="scabelle">
+               <term>scabelle</term>
+               <p>(subst.fem.): marchepied, escabeau</p>
+               <ptr target="https://www.cnrtl.fr/definition/escabeau"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/escabeau"/>
+            </item>
+            <item xml:id="selon">
+               <term>selon que, selon (ce) que</term>
+               <p>(loc.conj.): dans la mesure où, compte tenu de ce que, selon que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/selon"/>
+            </item>
+            <item xml:id="semblablement">
+               <term>semblablement</term>
+               <p>(adv.): de même; de la même façon</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/semblablement"/>
+            </item>
+            <item xml:id="semblance">
+               <term>semblance</term>
+               <p>(subst.fem.): ressemblance, fait d'être semblable</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/semblance"/>
+            </item>
+            <item xml:id="semence">
+               <term>semence</term>
+               <p>(subst.fém.): postérité, descendance, race</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/semence" corresp="ArticleComplet_B1c"/>
+            </item>
+            <item xml:id="sentir">
+               <term>sentir</term>
+               <p>(verbe): percevoir par l'intermédaire des sens; ressentir</p>
+               <p> (verbe): avoir l'intuition, le sentiment de qqchose</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sentir"/>
+            </item>
+            <item xml:id="seoir">
+               <term>seoir, séant; se seoir</term>
+               <p>(verbe, emploi part.prés.): se tenir, séjourner</p>
+               <p>(verbe, emploi part.prés.): s'asseoir, siéger, tenir séance</p>
+               <p>(verbe, pron.): s'asseoir, être assis</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/seoir"/>
+               <ptr target="https://www.cnrtl.fr/definition/seoir" corresp="Etymol._Hist.2"/>
+               <ptr target="https://gaffiot.fr/#sedeo"/>
+            </item>
+            <item xml:id="separer">
+               <term>séparer</term>
+               <p>(verbe): diviser</p>
+               <term n="2">mettre à l'écart, éloigner</term>
+               <ptr target="http://www.atilf.fr/dmf/definition/séparer"/>
+            </item>
+            <item xml:id="serf">
+               <term>serf</term>
+               <p>(subst.masc., adj.): esclave</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/serf"/>
+            </item>
+            <item xml:id="service">
+               <term>service</term>
+               <p>(subst.masc.): soumission, état de soumission; servitude, soumission au
+                  seigneur</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/service"/>
+            </item>
+            <item xml:id="servir">
+               <term>servir à</term>
+               <p>(verbe): se soumettre à, se conformer aux exigences de qqc/qqun</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/servir"/>
+            </item>
+            <item xml:id="servitude">
+               <term>mettre en servitude</term>
+               <p>(loc.verbale): assujettir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/servitude"/>
+            </item>
+            <item xml:id="si">
+               <term>si</term>
+               <p>(adv.): aussi, de même, ainsi</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/si4" corresp="IIA1a"/>
+            </item>
+            <item xml:id="siecle">
+               <term>siècle</term>
+               <p>(subst.masc.): monde terrestre, soumis à la durée, transitoire, monde
+                  d'ici-bas</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/siècle"/>
+            </item>
+            <item xml:id="signe">
+               <term>signe</term>
+               <p>(subst.fém.): miracle; chose remarquable, significative</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/signe" corresp="Etymol._Hist._1a"/>
+            </item>
+            <item xml:id="signer">
+               <term>signer, seignier</term>
+               <p>(verbe): désigner qqch d'un signe; indiquer, signaler</p>
+               <ptr target="https://gaffiot.fr/#signo"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/signer" corresp="Etymolog._Hist._4b"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/signer"/>
+               <term n="2">signer</term>
+               <p>(verbe): faire le signe de croix; bénir par un signe de croix</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/signer" corresp="ArticleComplet_B1"/>
+            </item>
+            <item xml:id="sinon">
+               <term>sinon que</term>
+               <p>(conj.): si ce n'est que, sauf que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sinon"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/sinon" corresp="Etymol_et_Hist.II."/>
+            </item>
+            <item xml:id="sommeiller">
+               <term>sommeiller</term>
+               <p>(verbe): être inactif ; se laisser aller au relâchement, faire preuve de
+                  négligence</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sommeiller"/>
+            </item>
+            <item xml:id="sorte">
+               <term>d'une sorte</term>
+               <p>(loc.adv.): de même manière</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sorte" corresp="ArticleCompletA2b"/>
+            </item>
+            <item xml:id="souffir">
+               <term>soufire, sofire</term>
+               <p>(verbe): suffire</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/suffire"/>
+            </item>
+            <item xml:id="souffrir">
+               <term n="1">souffrir que</term>
+               <p>(verbe): tolérer, permettre que</p>
+               <term n="2">souffrir qqch</term>
+               <p>(verbe): supporter, accepter qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/souffrir"/>
+            </item>
+            <item xml:id="souvenance">
+               <term>avoir souvenance de</term>
+               <p>(loc.verb.): se souvenir de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/souvenance" corresp="Article_completA"/>
+            </item>
+            <item xml:id="souventesfois">
+               <term>souventesfois</term>
+               <p>(adv.): souvent, à plusieurs reprises</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/120/333?DMF"/>
+            </item>
+            <item xml:id="sous">
+               <term n="1">sous</term>
+               <p>(prép.): au-dessous de, en dessous de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sous"/>
+               <term n="2">être sous qq'un</term>
+               <p>(loc.): être soumis à</p>
+               <ptr target="https://lecteur-few.atilf.fr/lire/120/369?DMF" corresp="369"/><!-- Attention: emploi attesté au XVIIe siècle -->
+            </item>
+            <item xml:id="spirituelz">
+               <term>spirituel, espirituel</term>
+               <p>(adj.): qui relève de la religion et de l'Eglise; par opposition à temporel</p>
+               <p>(adj., par ext.): ecclésiastique, homme d'église, membre du clergé, personne qui
+                  s'adonne à la vie mystique</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/spirituel"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/espirituel"/>
+            </item>
+            <item xml:id="statere">
+               <term>statère</term>
+               <p>(subst.fem.): monnaie d'argent grecque valant de deux à quatre drachmes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/statère1"/>
+            </item>
+            <item xml:id="subjuger">
+               <term>subjuguer</term>
+               <p>(verbe): assujettir, faire passer sous le joug, soumettre, réduire par la force
+                  des armes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/subjuguer"/>
+            </item>
+            <item xml:id="subside">
+               <term>subside</term>
+               <p>(subst.masc.): impôt occasionnel, aide pécuniaire réclamée par le souverain pour
+                  les nécessités du royaume, en partic. de la guerre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/subside"/>
+            </item>
+            <item xml:id="supporter">
+               <term>supporter</term>
+               <p>(verbe): favoriser, avantager</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/supporter/0" corresp="Étymol. et Hist.3"/>
+            </item>
+            <item xml:id="sus">
+               <term>là sus</term>
+               <p>(adv.): là haut; en haut, vers le haut</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sus"/>
+            </item>
+            <item xml:id="susciter">
+               <term>susciter</term>
+               <p>(verbe): faire paraître à une époque précise un personnage inspiré, un prophète;
+                  provoquer l'apparition</p>
+               <p>(verbe): faire naître</p>
+               <ptr target="https://www.cnrtl.fr/definition/susciter" corresp="Etymol. et Hist.2b"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/susciter"/>
+            </item>
+            <item xml:id="sur">
+               <term>être sur</term>
+               <p>(loc.): être (en autorité) sur, avoir autorité sur</p>
+               <ptr target="https://www.anglo-norman.net/entry/estre_3" corresp="estre_sur"/>
+            </item>
+            <item xml:id="sur_ce">
+               <term>sur ce</term>
+               <p>(loc.): à ce sujet</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/sur1" corresp="ArticleComplet_IIB"/>
+            </item>
+            <item xml:id="surmonter">
+               <term>surmonter</term>
+               <p>(verbe): surpasser, dépasser qqun ou qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/surmonter"/>
+            </item>
+            <item xml:id="surplus">
+               <term>du surplus</term>
+               <p>(loc.adv.): pour ce qui est du reste, de la suite; pour le reste, par ailleurs, en
+                  outre, au demeurant</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/surplus"/>
+            </item>
+            <item xml:id="tacher">
+               <term>tâcher (à/de)</term>
+               <p>(verbe): s'efforcer de, faire tout son possible pour</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tâcher"/>
+            </item>
+            <item xml:id="taille">
+               <term>taille</term>
+               <p>(subst.fem.): impôt direct sur toutes personnes levé par le seigneur ou le roi et
+                  réparti selon des règles complexes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/taille"/>
+            </item>
+            <item xml:id="tellement">
+               <term>tellement que</term>
+               <p>(conj.): de telle manière que, de telle façon que; à tel point que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tellement"/>
+            </item>
+            <item xml:id="temps">
+               <term>temps</term>
+               <p>(subst.masc.): moment, circonstance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/temps"/>
+            </item>
+            <item xml:id="tenir">
+               <term n="1">tenir</term>
+               <p>(verbe): observer, y adhérer, garder</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tenir" corresp="Article_completID2"/>
+               <term n="2">tenir</term>
+               <p>(verbe): posséder, détenir, disposer de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tenir" corresp="Article_completB1a"/>
+               <term n="3">tenir de</term>
+               <p>(verbe): se réclamer de, dépendre de, relever de</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tenir" corresp="Article_completIIB2"/>
+            </item>
+            <item xml:id="tenir_lieu">
+               <term>tenir le lieu de qq'un</term>
+               <p>(loc.verbale): prendre la place de qq'un, faire office à la place de qq'un, se
+                  substituer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/lieu" corresp="B1c"/>
+            </item>
+            <item xml:id="testament">
+               <term>testament</term>
+               <p>(subst.masc.): (relig.) alliance de Dieu avec les hommes</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/testament"/>
+            </item>
+            <item xml:id="tigne">
+               <term>teigne</term>
+               <p>(subst.fém.): teigne, mite</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/teigne"/>
+            </item>
+            <item xml:id="tirer">
+               <term>tirer argent</term>
+               <p>(loc.verb.): se faire donner de l'argent par qq'un à force de sollicitations et de
+                  poursuites; soutirer, obtenir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tirer" corresp="Article_completD2b"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/tirer" corresp="Étymol_et_Hist_A1δ"/>
+            </item>
+            <item xml:id="terrien">
+               <term>terrien</term>
+               <p>Dans l'expression: "seignor terrïen"</p>
+               <p>(adj.): celui qui possède des terres (opposé à spirituel)</p>
+               <ptr target="https://www.cnrtl.fr/definition/terrien" corresp="Etymol._et_Hist.2"/>
+            </item>
+            <item xml:id="tolir">
+               <term>tolir</term>
+               <p>(verbe): enlever, ravir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tolir"/>
+            </item>
+            <item xml:id="toutefoys">
+               <term>toutefois que</term>
+               <p>(loc.conj.): chaque fois que</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/toutefois"/>
+            </item>
+            <item xml:id="torment">
+               <term>tourment</term>
+               <p>(subst.masc.): supplice, torture, martyre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tourment"/>
+            </item>
+            <item xml:id="torner">
+               <term>torner, tourner</term>
+               <p>(verbe): parcourir, faire le tour</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tourner"/>
+            </item>
+            <item xml:id="tortu">
+               <term>tortu</term>
+               <p>(adj.): tordu, qui n'est pas droit (au propre ou au fig.), qui est tordu</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tortu"/>
+            </item>
+            <item xml:id="tout">
+               <term>du tout</term>
+               <p>(subst. masc., loc.adv.): complètement, entièrement, absolument, pleinement</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/tout"/>
+               <ptr target="https://www.cnrtl.fr/lexicographie/tout/2"/>
+               <term n="2">le tout</term>
+               <p>(subst.masc.): ce qui est important; ce qui compte le plus pour quelqu'un</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/tout/2" corresp="Etymol._et_Hist.4a-b"/>
+            </item>
+            <item xml:id="tous">
+               <term>tous</term>
+               <p> (adj.indéfini): la totalité des êtres, des éléments déterminés d'une communauté,
+                  d'un tout</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/tout/0"/>
+            </item>
+            <item xml:id="traffiquer">
+               <term>traffiquer, trafiquer</term>
+               <p>(verbe): faire commerce sur, faire un commerce lointain, faire trafic</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/trafiquer"/>
+            </item>
+            <item xml:id="traffiquerie">
+               <term>trafficquerie, traffiquerie</term>
+               <term>trafic</term>
+               <p>(subst.fem.): trafic, commerce. Manoeuvre, intrigue</p>
+               <p>(subst.fem.): action de négocier par intrigue, de susciter qqch par l'intrigue</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/trafique"/>
+            </item>
+            <item xml:id="train">
+               <term>train</term>
+               <p>(subst.masc): genre de vie, manière d'agir</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/train" corresp="Étymol. et Hist.C. 1. a"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/132/163?DMF"/>
+            </item>
+            <item xml:id="transitoire">
+               <term>transitoire</term>
+               <p>(adj.): terrestre, qui est passager, qui ne dure pas; temporel</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/transitoire"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/132/207?DMF" corresp="207"/>
+            </item>
+            <item xml:id="travailler">
+               <term n="1">travailler</term><!-- à définir -->
+               <p>(verbe): exercer une activité qui demande un effort</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/travailler" corresp="Etymol.et_Hist2"/>
+               <term n="2">se travailler</term>
+               <p>(verbe, empl.pron.) : s'efforcer, faire un effort en vue de qqch</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/travailler"/>
+               <ptr target="https://lecteur-few.atilf.fr/lire/132/287?DMF" corresp="288_3a"/>
+               <term n="3">travailler</term>
+               <p>fatiguer, épuiser qq'un</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/travailler" corresp="IA2"/>
+            </item>
+            <item xml:id="trestous">
+               <term>trèstous</term>
+               <p>(indef.): absolument tous (forme renforcée de tous)</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/trèstous"/>
+            </item>
+            <item xml:id="tribut">
+               <term>tribut</term>
+               <p>(subst.masc.): impôt, impôt levé par un État ou un seigneur, taxe</p>
+               <ptr target="https://www.cnrtl.fr/lexicographie/tribut"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/tribut"/>
+            </item>
+            <item xml:id="trouver">
+               <term>estre trouvé, se trouver</term>
+               <p>(verbe): exister, être dans tel état, se produire</p><!-- OU estimer, juger ?-->
+               <ptr target="http://www.atilf.fr/dmf/definition/trouver "/>
+               <term n="2">trouver</term>
+               <p>(verbe): inventer, élaborer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/trouver"/>
+            </item>
+            <item xml:id="un">
+               <term>en un</term>
+               <p>(loc.): en un même lieu, de manière convergente</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/un" corresp="IIIB2"/>
+            </item>
+            <item xml:id="user">
+               <term>user</term>
+               <p>(verbe): consommer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/user"/>
+            </item>
+            <item xml:id="usurper">
+               <term>usurper</term>
+               <p>(verbe): s'approprier, s'arroger qqc. avec ruse et violence, usurper</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/usurper"/>
+            </item>
+            <item xml:id="vaisseau">
+               <term>vaisseau</term>
+               <p>(subst.masc.): récipient, récipient sacré, vaisselle</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vaisseau"/>
+            </item>
+            <item xml:id="vanite">
+               <term>vanité</term>
+               <p>(subst.fem.): vaine apparence, mensonge; illusion, tromperie</p>
+               <ptr target="https://gaffiot.fr/#vanitas"/>
+               <ptr target="http://www.atilf.fr/dmf/definition/vanité"/>
+            </item>
+            <item xml:id="veloux">
+               <term>velous, velos</term>
+               <p>(subst.masc.): velours, riche étoffe à deux chaînes dont l'endroit a une surface
+                  lustrée et moelleuse formée de petits poils courts, dressés, serrés</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/velours"/>
+            </item>
+            <item xml:id="venir">
+               <term>venir avant</term>
+               <p>(verbe): progresser, avancer</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/venir" corresp="Article_complet_IA3a"/>
+               <term n="2">venir après</term>
+               <p>(verbe): suivre</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/venir" corresp="ArticleComplet_IA3a"/>
+            </item>
+            <item xml:id="vengeance">
+               <term>faire vengeance</term>
+               <p>(loc.verbale): action de punir (un coupable)</p>
+               <ptr target="ttp://www.atilf.fr/dmf/definition/vengeance"/>
+            </item>
+            <item xml:id="verge">
+               <term>verge</term>
+               <p>(subst.fem.): bâton, baguette (de bois) longue et flexible</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/verge1"/>
+            </item>
+            <item xml:id="vertu">
+               <term>vertu</term>
+               <p>(subst.fem.): force, puissance</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vertu"/>
+               <term n="2">faire vertu</term>
+               <p>(loc.verbale): faire un miracle</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vertu" corresp="ArticleComplet_C2b"/>
+            </item>
+            <item xml:id="vexer">
+               <term>vexer</term>
+               <p>(verbe): tourmenter, harceler, persécuter</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vexer"/>
+            </item>
+            <item xml:id="viande">
+               <term>viande</term>
+               <p>(subst.fém.): nourriture</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/viande"/>
+            </item>
+            <item xml:id="vil">
+               <term>vil</term>
+               <p>(adj.): digne de mépris, méprisable, indigne, vil</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vil"/>
+            </item>
+            <item xml:id="villette">
+               <term>villette</term>
+               <p>(subst.fém.): village, petite ville</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/villette"/>
+            </item>
+            <item xml:id="voire">
+               <term>voire</term>
+               <p>(adv.): et même</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/voire1"/>
+            </item>
+            <item xml:id="voye">
+               <term>voye, voie</term>
+               <p>(subst.fem.): route, chemin, espace à parcourir</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/voie"/>
+               <term n="2">voie</term>
+               <p>(subst.masc.): manière, façon; moyen pour parvenir à une fin, procédé</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/voie" corresp="ArticleComplet_D2"/>
+            </item>
+            <item xml:id="vray">
+               <term>vray, vrai</term>
+               <p>(adj., loc.adv.) pour vrai: en vérité, vraiment</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/vrai"/>
+               <note>À propos de cette expression et pour une définition, voire :
+                  https://www.cairn.info/revue-langue-francaise-2007-4-page-61.htm;
+                  Grand dictionnaire de moyen français : la langue de la Renaissance, de 1340 à
+                  1611, par Algirdas-Julien Greimas et Teresa Mary Keane, Larousse (2007), p.
+                  666.</note>
+            </item>
+            <item xml:id="vulgairement">
+               <term>vulgairement</term>
+               <p>(adv.): communément, généralement, d'ordinaire, selon l'usage commun</p>
+               <ptr target="https://www.cnrtl.fr/definition/vulgairement"/>
+            </item>
+            <item xml:id="yvrogner">
+               <term>yvrongner, yvrogner, ivrogner</term>
+               <p>(verbe): s'enivrer, se saoûler, se livrer à l'ivrognerie</p>
+               <ptr target="http://www.atilf.fr/dmf/definition/ivrogner"/>
+            </item>
+         </list>
+      </body>
+   </text>
+</TEI>

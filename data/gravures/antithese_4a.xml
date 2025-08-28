@@ -1,0 +1,563 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Antithèse_4a</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>
+               <figure>
+                  <graphic url="https://www.e-rara.ch/i3f/v20/4518851/full/full/0/default.jpg"/>
+                  <figDesc>
+                     <!-- Description de la gravure -->
+                     <title type="titre_gravure">Tribut de saint Pierre</title>
+                     <title type="titre_courant">Jesus Christ paie tribut &amp; toutes impositions.</title>
+                     <title type="manchette">Vectigal soluit.</title>
+                     <dim unit="mm">116 x 96</dim>
+                     <locus type="page">[C2v]</locus>
+                     <objectType>Gravure sur bois</objectType>
+                     
+                     <!-- Description de la source -->
+                     <bibl source="http://dx.doi.org/10.3931/e-rara-12688">
+                        <title type="titre_ouvrage">Faitz</title>
+                        <publisher>[Jean Michel]</publisher>
+                        <pubPlace ref="geonames:2660646">[Genève]</pubPlace>
+                        <date cert="medium">[1539-1540]</date>
+                        <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/9746">USTC 9746</idno>
+                        <idno type="GLN" corresp="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-1406">GLN-1406</idno>
+                        
+                        <respStmt>
+                           <orgName>Genève, Musée Historique de la Réformation</orgName>
+                           <resp>Holding institution</resp>
+                        </respStmt>
+                        <availability status="free">
+                           <licence>Public Domain Mark</licence>
+                        </availability>
+                     </bibl>
+                     
+                     <!-- Liste des exemplaires similaires -->
+                     <list type="exemplaires_similaires">
+                        <item n="1">
+                           <figure>
+                              <graphic url="exist/db/apps/test-gravures/resources/images/Bilderbibel_018v.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm">295 x 215</dim>
+                                 <locus type="page">Freiburg, Universitätsbibliothek, Hs 334, f. 18v</locus>
+                                 <objectType>Enluminure</objectType>
+                                 
+                                 <bibl source="https://dl.ub.uni-freiburg.de/diglit/hs334/0033">
+                                    <title type="titre_ouvrage">Bilderbibel </title>
+                                    <author role="artiste"/>
+                                    <publisher/>
+                                    <pubPlace ref="geonames:3038033">Alsace</pubPlace>
+                                    <date cert="low">vers 1410</date>
+                                    <idno type="USTC"/>
+                                    
+                                    <respStmt>
+                                       <orgName>Freiburg, Universitätsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Deux scènes superposées: au registre supérieur, guérison du fils d'un juif, au registre inférieur, tribut de saint Pierre, avec l'inscription: "Jesus sprichet petre nim den visch und in sime munde vindestu die muntze die du dem zoller gist – der zoller" (Mt. 17, 24-27).</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="2">
+                           <figure>
+                              <graphic url="https://bibliotheque-numerique.inha.fr/i/?IIIF=/ac/f1/88/40/acf18840-7cb0-47a7-ad2c-0cd99474a624/iiif/1080_doucet_4RES833_02_000030.tif/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">B5r</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://bibliotheque-numerique.inha.fr/collection/item/60018-la-grant-vita-cristi-en-francoys">
+                                    <title type="titre_ouvrage">La Grant vita Cristi en françoys</title>
+                                    <author role="artiste"/>
+                                    <publisher>Matthias Huss et Jacques Buyer</publisher>
+                                    <pubPlace ref="geonames:2996944">Lyon</pubPlace>
+                                    <date cert="high">1487</date>
+                                    <idno type="USTC"/>
+                                    
+                                    <respStmt>
+                                       <orgName>Bibliothèque de l'Institut National d'Histoire de l'Art, collections Jacques Doucet</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>"Licence Ouverte / Open Licence" Etalab</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Saint Pierre, avec le Christ à ses côtés,  désigne la pièce que lui tend un pécheur depuis sa barque. Ce bois illustre la traduction française de la Vita Christi.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="3">
+                           <figure>
+                              <graphic url="exist/db/apps/test-gravures/resources/images/vitaChristi.png"/>
+                              <figDesc>
+                                 <dim unit="mm">98 x141</dim>
+                                 <locus type="page">gravure détachée</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://www.rijksmuseum.nl/en/collection/object/Petrus-en-de-tempelbelasting--be34b1f8aa8ecf5d17e8a5cb56f60a4e">
+                                    <title type="titre_ouvrage">Ludolphe de Saxe, Vita Christi</title>
+                                    <author role="artiste">Maître de Delft</author>
+                                    <publisher>Henrick Eckert van Homberch</publisher>
+                                    <pubPlace ref="geonames:2803138">Anvers</pubPlace>
+                                    <date cert="high">1503</date>
+                                    <idno type="USTC"/>
+                                    
+                                    <respStmt>
+                                       <orgName>Amsterdam, Rijksmuseum</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Détachée d'une édition de la Vita Christi, la gravure représente deux épisodes du tribut de saint Pierre. A gauche, l'apôtre extrait une grosse pièce de la gueule d'un poisson devant le Christ et des acolytes. A droite, il paie avec cette pièce  le percepteur.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="4">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00086460_00010/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm">118 x 96</dim>
+                                 <locus type="page">[Aiiijv]</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://www.digitale-sammlungen.de/en/details/bsb00086460">
+                                    <title type="titre_ouvrage">Passional Christi und Antichristi</title>
+                                    <author role="artiste">Lucas Cranach</author>
+                                    <publisher>[Rhau-Grunenberg]</publisher>
+                                    <pubPlace ref="geonames:7303020">[Wittenberg]</pubPlace>
+                                    <date cert="high">1521</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+L+5584">VD16 L 5584</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/683162">USTC 683162</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>München, Bayerische Staatsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">L'iconographie représentant le tribut de saint Pierre a servi de modèle direct aux Faits, qui en donnent une version inversée.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="5">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00088259_00010/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">[Aiiijv]</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://www.digitale-sammlungen.de/en/details/bsb00088259">
+                                    <title type="titre_ouvrage">Passional Christi und Antichristi</title>
+                                    <author role="artiste"/>
+                                    <publisher>[Knobloch]</publisher>
+                                    <pubPlace ref="geonames:2973783">[Strasbourg]</pubPlace>
+                                    <date cert="high">1521</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+L+5582">VD16 L 5582</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/683166">USTC 683166</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>München, Bayerische Staatsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">L'iconographie représentant le tribut de saint Pierre a servi de modèle direct aux Faits.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="6">
+                           <figure>
+                              <graphic url="https://gallica.bnf.fr/iiif/ark:/12148/bd6t53789915t/f16/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm">116 x 96</dim>
+                                 <locus type="page">[Bijv]</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://gallica.bnf.fr/ark:/12148/bd6t53789915t">
+                                    <title type="titre_ouvrage">Faictz</title>
+                                    <author role="artiste"/>
+                                    <publisher>[Pierre de Vingle]</publisher>
+                                    <pubPlace ref="geonames:2659496">[Neuchâtel]</pubPlace>
+                                    <date cert="high">[1534]</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/9471">USTC 9471</idno>
+                                    <idno type="GLN" corresp="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-4486">GLN-4486</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Paris, Société de l'histoire du protestantisme français</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Première édition des Faits.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="faits">
+                           <graphic url="https://www.e-rara.ch/i3f/v20/4518851/full/full/0/default.jpg"/>
+                        </item>
+                        
+                        <item n="7">
+                           <figure>
+                              <graphic url="https://www.e-rara.ch/i3f/v20/11282339/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">p. 21</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://www.e-rara.ch/gep_g/doi/10.3931/e-rara-6098">
+                                    <title type="titre_ouvrage">Simon du Rosier, Antithesis de praeclaris Christi et indignis Papae facinoribus</title>
+                                    <author role="artiste">Pierre Eskrich</author>
+                                    <publisher>Zacharie Durant</publisher>
+                                    <pubPlace ref="geonames:2660646">[Genève]</pubPlace>
+                                    <date cert="high">1557</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/450469">USTC 450469</idno>
+                                    <idno type="GLN" corresp="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-2028">GLN-2028</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Genève, Bibliothèque de Genève</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Adaptation et miniaturisation de la gravure des Faits. Les rééditions latines successives - 1558, Genève, Zacharie Durant, et 1578, Genève, Eustache Vignon, réutilisent les mêmes bois. Inscription: "Rex regum minium facit seipsum/ Christus Caesaribus didrachma solvens".</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="8">
+                           <figure>
+                              <graphic url="https://www.e-rara.ch/i3f/v20/11943197/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">p. 21</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://doi.org/10.3931/e-rara-33085">
+                                    <title type="titre_ouvrage">[Simon du Rosier,] tr. fr. Antithese des faicts de Jesus Christ et du pape</title>
+                                    <author role="artiste">Pierre Eskrich</author>
+                                    <publisher>[Zacharie Durant]</publisher>
+                                    <pubPlace ref="geonames:2660646">[Genève]</pubPlace>
+                                    <date cert="high">1560</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/41782">USTC 41782</idno>
+                                    <idno type="GLN" corresp="https://www.ville-ge.ch/musinfo/bd/bge/gln/notice/?no=GLN-2150">GLN-2150</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Neuchâtel, Bibliothèque des Pasteurs, BPU Neuchâtel</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Remploi de la gravure de l'Antithesis Christi et Antichristi, 1557. Les rééditions française successives - 1561, Genève, Zacharie Durant?, 1578 et 1584, Genève, Eustache Vignon, réutilisent les mêmes bois. Inscription: "Iesus Christ sans disputer rien,/ L'impos paye au roi terrien".</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="9">
+                           <figure>
+                              <graphic url="https://digi.ub.uni-heidelberg.de/diglitData/image/rosarius1560/4/00_041.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">p. 41</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://doi.org/10.11588/diglit.26480#0001">
+                                    <title type="titre_ouvrage">[Simon du Rosier,], tr. all. Antithesis. Von des Herrn Christi herrlichen thaten, vnd des schentlichen Pabsts vnd Antichrists schedlichen schanden vnd lastern (en vers)</title>
+                                    <author role="artiste"/>
+                                    <publisher>[Hans Kohl]</publisher>
+                                    <pubPlace ref="geonames:2907911">[Heidelberg]</pubPlace>
+                                    <date cert="low">[1558 ou 1560?]</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+R+3100">VD16 R 3100</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/611941">USTC 611941</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Heidelberg, Universitätsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Adaptation de la gravure de l'Antithesis Christi et Antichristi. Inscription: "Der Künig aller Künige groß/ Demütigt sich gibt Maut / Zoll / und Schoß".</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="10">
+                           <figure>
+                              <graphic url="https://luna.manchester.ac.uk/luna/servlet/iiif/Manchester~91~1~425957~192597page23/full/!1024,1024/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">[C2v]</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://luna.manchester.ac.uk/luna/servlet/s/4h4t5v">
+                                    <title type="titre_ouvrage">Faitz</title>
+                                    <author role="artiste"/>
+                                    <publisher>[Saugrain?]</publisher>
+                                    <pubPlace ref="geonames:2996944">[Lyon]</pubPlace>
+                                    <date cert="high">1562</date>
+                                    <idno type="USTC"/>
+                                    
+                                    <respStmt>
+                                       <orgName>Manchester, University of Manchester Library</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>CC BY-NC-SA 4.0 - Images provided by The John Rylands Research Institute and Library, The University of Manchester</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Troisième édition des Faits.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="11">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb00034957_00048/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">p. 31</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://mdz-nbn-resolving.de/details:bsb00034957">
+                                    <title type="titre_ouvrage">[Simon du Rosier,] tr. all. Antithesis d.i. kurtze Beschreibung</title>
+                                    <author role="artiste"/>
+                                    <publisher>Johannes Mayer</publisher>
+                                    <pubPlace ref="geonames:2907911">Heidelberg</pubPlace>
+                                    <date cert="high">1563</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+R+3101">VD16 R 3101</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/611940">USTC 611940</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>München, Bayerische Staatsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Adaptation de la gravure de l'Antithesis Christi et Antichristi. La réédition sous le titre, Abdanck des neulich in Teutschland ... angestellten Jubel- oder Gnadenjars, chez [Johann Mayer], [Heidelberg], 1576, réutilise les mêmes bois. Inscription: "Der König groß / Demütigt sich / gibt zoll und Schoß".</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="12">
+                           <figure>
+                              <graphic url="https://opendata2.uni-halle.de//iiif-imgsrv/c572e833-e002-4a63-91fd-430f451f1d77/!0!14!48!29!144829707298316735906667756914556374023/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">47v</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="http://dx.doi.org/10.25673/opendata2-4005">
+                                    <title type="titre_ouvrage">Passional Christi und Antichristi, in Der erste Theil Der Bücher, Schrifften, und Predigten des Ehrwirdigen Herrn, D. Martin Luthers</title>
+                                    <author role="artiste"/>
+                                    <publisher>Urban Gaubisch</publisher>
+                                    <pubPlace ref="geonames:7284571">Eisleben</pubPlace>
+                                    <date cert="high">1564</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+L+3357">VD16 L 3357</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/633247">USTC 633247</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Halle, Universitäts- und Landesbibliothek Sachsen-Anhalt</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Inversion de la gravure du Passional Christi und Antichristi de Wittenberg, avec ajout d'un cadre ornemental composite.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="13">
+                           <figure>
+                              <graphic url="exist/db/apps/test-gravures/resources/images/Rosier_B5v.png"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">B5v</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://uurl.kbr.be/2083029">
+                                    <title type="titre_ouvrage">[Simon du Rosier,] tr. fl. Teghenstellinghe oft Verghelyckinghe der Wercken Jesu Christi ende des paus</title>
+                                    <author role="artiste"/>
+                                    <publisher>[Gillis van den Rade]</publisher>
+                                    <pubPlace ref="geonames:2803138">[Anvers]</pubPlace>
+                                    <date cert="high">1583</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/414609">USTC 414609</idno>
+                                    
+                                    <respStmt>
+                                       <orgName/>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>????</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Adaptation de la gravure de l'Antithesis Christi et Antichristi (1557). Inscription: "Jesus en heeft niet willen falen / Schot ende lot oock te betalen."</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="14">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb10150230_00742/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">t. II, p. 722</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://mdz-nbn-resolving.de/details:bsb10150230">
+                                    <title type="titre_ouvrage">Simone Rosarius, Antitheses de praeclaris Christi et indignis antichristi, in Johannes Wolf, Lectionum memorabilium et reconditarum centenarii</title>
+                                    <author role="artiste"/>
+                                    <publisher>Leonhard Reinmichel</publisher>
+                                    <pubPlace ref="geonames:2880099">Lauingen</pubPlace>
+                                    <date cert="high">1600</date>
+                                    <idno type="VD16" corresp="https://gateway-bayern.de/VD16+W+4211">VD16 W 4211</idno>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/667979">USTC 667979</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>München, Bayerische Staatsbibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>No Copyright - Non-commercial Use Only</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Adaptation de la gravure de l'Antithesis Christi et Antichristi, dans un format allongé, avec une inversion du sens. Même inscription que dans la première édition latine (1557).</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="15">
+                           <figure>
+                              <graphic url="https://opendata2.uni-halle.de//iiif-imgsrv/b0f36ccf-4b19-4b76-8773-ad1037bdc7a5/!2!61!73!10!61731084600282436816502410036405318626/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">t. 1, p. 45</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="http://dx.doi.org/10.25673/opendata2-32556">
+                                    <title type="titre_ouvrage">Passional Christi und Antichristi, in Doct. Mart. Lutheri Schrifftenn Bücher und Predigten</title>
+                                    <author role="artiste"/>
+                                    <publisher>Jakob Gaubisch</publisher>
+                                    <pubPlace ref="geonames">Leipzig</pubPlace>
+                                    <date cert="high">1603</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/2039676">USTC 2039676</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Halle, Universitäts- und Landesbibliothek Sachsen-Anhalt</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="free">
+                                       <licence>Public Domain Mark</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Dans une édition des oeuvres de Luther, réimpression du Passional Christi und Antichristi, où toutes les gravures issues du modèle de Cranach sont dotées d'un épais cadre ornemental gravé. Remplacement de la représentation du tribut de saint Pierre par une scène de pêche sur la mer de Gallilée. Le Christ depuis sa barque prêche aux gens restés sur le rivage.</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="16">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11118482_00112/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">p. 90</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://mdz-nbn-resolving.de/details:bsb11118482">
+                                    <title type="titre_ouvrage">[Simon du Rosier], tr. all., Antithesis und Gegensatz Christi und des Antichrists, in Johann von Münster, Parallela christiana et antichristiana (en vers)</title>
+                                    <author role="artiste"/>
+                                    <publisher>Lancelot</publisher>
+                                    <pubPlace ref="geonames:2907911">Heidelberg</pubPlace>
+                                    <date cert="high">1619</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/2109152">USTC 2109152</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Regensburg, Staatliche Bibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="restricted">
+                                       <licence>No Copyright - Non-commercial Use Only</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Remploi de la gravure de l'édition Kohl. Inscription:  "Der König aller König groß / Zahlt/ als der grinst den Keisern Schoß"</note>
+                           </figure>
+                        </item>
+                        
+                        <item n="17">
+                           <figure>
+                              <graphic url="https://api.digitale-sammlungen.de/iiif/image/v2/bsb11059700_00658/full/full/0/default.jpg"/>
+                              <figDesc>
+                                 <dim unit="mm"/>
+                                 <locus type="page">602v</locus>
+                                 <objectType>Gravure sur bois</objectType>
+                                 
+                                 <bibl source="https://mdz-nbn-resolving.de/details:bsb11059700">
+                                    <title type="titre_ouvrage">Passional Christi und Antichristi, in Martin Luther, Der 1. Teil aller Deutschen Bücher und Schrifften</title>
+                                    <author role="artiste">Monogrammiste GK</author>
+                                    <publisher>Johann Michael</publisher>
+                                    <pubPlace ref="geonames:2957773">Altenburg</pubPlace>
+                                    <date cert="high">1661</date>
+                                    <idno type="USTC" corresp="https://www.ustc.ac.uk/editions/2562861">USTC 2562861</idno>
+                                    
+                                    <respStmt>
+                                       <orgName>Regensburg, Staatliche Bibliothek</orgName>
+                                       <resp>Holding institution</resp>
+                                    </respStmt>
+                                    <availability status="restricted">
+                                       <licence>No Copyright - Non-commercial Use Only</licence>
+                                    </availability>
+                                 </bibl>
+                              </figDesc>
+                              <note type="commentaire">Inversion de la gravure du Passional Christi und Antichristi parue à Eisleben (1564).</note>
+                           </figure>
+                        </item>
+                     </list>
+                  </figDesc>
+                  
+                  <note type="commentaire">Le Christ ordonne à l’apôtre Pierre d’extraire le statère de la gueule du poisson qu’il tient en main afin de payer le précepteur d’impôt placé à l’entrée d’une ville. D’autres disciples assistent à cette scène.</note>
+               </figure>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <p>Some text here.</p>
+      </body>
+  </text>
+</TEI>

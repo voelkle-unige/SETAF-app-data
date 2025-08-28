@@ -1,0 +1,39 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_lite.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="fr">Présentation du projet</title>
+            <title xml:lang="en">Project presentation</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication information</p>        
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body xml:id="static">
+         <div xml:lang="fr">
+            <head type="static_main_title">Présentation du projet</head>
+            
+            <p><graphic url="../resources/images/static/Logo_V3_Noir.png" height="200px" rend="left"/>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper, velit at efficitur malesuada, ex lorem egestas ante, at lobortis felis orci vel urna. Nunc pharetra justo enim, nec varius sapien facilisis facilisis. Morbi malesuada luctus turpis eu convallis. Praesent orci nisl, vulputate vel feugiat ac, accumsan vitae lorem. Etiam pellentesque bibendum hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin placerat neque et commodo pharetra. Integer tincidunt ex felis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque scelerisque dolor eu felis placerat fringilla.</p>
+            <p>Aenean congue aliquet libero at imperdiet. Donec ut metus enim. Aenean dignissim risus sed maximus faucibus. Proin hendrerit sapien vitae sem mattis sagittis vel nec magna. Morbi hendrerit dolor dapibus lorem laoreet pellentesque. Cras nunc nulla, porttitor tincidunt euismod et, vehicula a augue. Cras felis ipsum, egestas non pulvinar eget, fringilla a mauris. Pellentesque interdum erat non gravida lobortis. Aenean ultricies nisl urna, ac euismod metus cursus et.</p>
+            
+            <p>Nulla facilisi. In hac habitasse <bibl corresp="#ref10">[Ref 10]</bibl> platea dictumst. Quisque dictum tincidunt condimentum. Sed ultricies turpis quis sodales tincidunt. Nam cursus dui elit, sed posuere lectus pulvinar quis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Praesent ut nunc molestie tortor tincidunt imperdiet. Aliquam imperdiet porttitor enim eget molestie. Nulla sit amet hendrerit nulla. Aliquam facilisis ullamcorper elit at posuere. Quisque cursus ligula et elementum luctus. Nam velit massa, venenatis sit amet diam in, facilisis sagittis mauris.</p>
+            <p>Vivamus semper lacus bibendum nisi porta, pulvinar porttitor nibh cursus. Maecenas viverra rhoncus maximus. Nunc vitae magna tempor, aliquet tortor congue, accumsan sem. Nulla tincidunt, justo in tempor iaculis, orci leo mattis tortor, vel dignissim lorem dui eu dui. Suspendisse nec quam nibh. Suspendisse convallis id nisl nec consectetur. Donec aliquet, urna quis dignissim hendrerit, est nisi mollis nibh, a accumsan arcu ex sed ante. Aenean dignissim finibus mauris a ullamcorper. Nulla ut efficitur lorem. Suspendisse porttitor vestibulum euismod. Pellentesque semper imperdiet urna, in consectetur lacus placerat vitae.</p>
+            
+            <p><graphic url="../resources/images/static/chien.svg" height="200px" rend="left"/>Aenean molestie eros eget tincidunt bibendum. Integer velit turpis, vestibulum vel ipsum non, ornare lobortis neque. Aenean nec enim vel augue placerat hendrerit. Maecenas iaculis quam euismod odio maximus commodo. Nunc ac congue justo. Maecenas commodo, massa id elementum eleifend, leo magna scelerisque mi, scelerisque aliquam nisl lacus sed est. Vestibulum sit amet porttitor nulla.</p>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla aliquet quam a leo viverra, at placerat lorem pellentesque. In convallis felis ac lacus cursus mollis. Donec placerat augue vitae suscipit commodo. Nunc eu felis ac lorem dapibus elementum id non risus. Suspendisse tincidunt nisi vitae rutrum varius. Sed tempus odio sit amet augue lacinia sollicitudin. Vestibulum sagittis scelerisque massa, nec tristique est porttitor ac. Donec consectetur id nisi eu posuere. Cras id erat in lectus posuere tincidunt. Nulla sed ipsum volutpat, tempor ipsum sit amet, maximus quam. Integer dolor ligula, convallis id malesuada nec, rutrum in quam. Nulla laoreet tristique libero at luctus. In et felis sit amet nisi sagittis porttitor interdum ac nisl. Duis sed.</p>
+         </div>
+         
+         <div xml:lang="en">
+            <head type="static_main_title">Project presentation</head>
+            
+            <p>In progress</p>
+         </div>
+      </body>
+  </text>
+</TEI>
