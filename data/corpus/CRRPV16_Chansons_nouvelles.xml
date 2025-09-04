@@ -37,8 +37,8 @@
             </respStmt>
          </titleStmt>
          <extent>
-            <measure unit="total_images" n="48"/>
-            <measure unit="processed_images" n="16"/>
+            <measure unit="total_images" n="p. 48"/>
+            <measure unit="processed_images" n="p. 16"/>
          </extent> 
          <publicationStmt>
             <publisher>Projet SETAF</publisher>
@@ -69,7 +69,7 @@
                            <author>
                               <persName role="presumed_author" ref="isni:0000000083926271">
                                  <surname>Malingre</surname>
-                                 <forename>Mathieu</forename>
+                                 <forename>Matthieu</forename>
                               </persName>
                            </author>
                            <!-- TITRE -->
@@ -146,7 +146,8 @@
                   et la transcription issue de l'OCR a été vérifiée.</p>
             </correction>
             <normalization>
-               <p>Un guide de normalisation est en cours de publication. Concernant la normalisation intermédiaire ou semi-diplomatique, cette transcription a été normalisée.</p>
+               <p>Pour les règles de normalisation, voir l'article suivant : <ref target="https://hal.science/hal-05137564"/>. Concernant la normalisation intermédiaire ou semi-diplomatique, 
+                  cette transcription a été normalisée.</p>
             </normalization>
          </editorialDecl>
          <appInfo>
@@ -185,7 +186,7 @@
                <term type="intermediary_reg_quality">gold</term>
                <term type="advanced_reg_quality">gold</term>
                <term type="ling_annotation">oui</term>
-               <term type="ling_annotation_quality">gold</term>
+               <term type="ling_annotation_quality">silver</term>
             </keywords>
          </textClass>
       </profileDesc>
@@ -193,7 +194,7 @@
          <change when="2023-10-27" who="#SS">Création du fichier TEI P5.</change>
          <change when="2023-11-23" who="#SS">Normalisation intermédiaire ou semi-diplomatique terminée.</change>
          <change when="2024-01-09" who="#SS">Normalisation avancée terminée.</change>
-         <change when="2025-05-02" who="#SS">Révision des métadonnées.</change>
+         <change when="2025-05-15" who="#SS">Révision des métadonnées.</change>
       </revisionDesc> 
    </teiHeader>
    <sourceDoc>
