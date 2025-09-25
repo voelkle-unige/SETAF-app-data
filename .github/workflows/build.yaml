@@ -2,8 +2,11 @@ on:
   push:
     branches:
     - main
+concurrency: build
 jobs:
   build:
+    permissions:
+      actions: write
     runs-on: ubuntu-latest
     steps:
     - uses: actions/github-script@v8
